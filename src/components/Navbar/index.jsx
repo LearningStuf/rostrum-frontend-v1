@@ -12,7 +12,7 @@ const services = [
 
 const Navbar = () => {
   return (
-    <nav className='bg-white w-ful h-[80px] md:h-auto relative shadow-md md:shadow-none'>
+    <nav className='bg-white w-ful h-[80px] md:h-auto relative shadow-md md:shadow-none transition-all'>
       <div className='max-w-full md:max-w-screen-xl h-full md:h-auto flex flex-wrap items-center justify-between mx-2 md:mx-auto p-3 md:p-6'>
         <section className='w-full md:w-auto h-full md:h-auto flex items-center justify-between md:justify-start'>
           <div className='translate-y-5 md:translate-y-0'>

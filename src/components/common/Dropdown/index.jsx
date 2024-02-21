@@ -13,7 +13,7 @@ const DropDown = ({ name, items }) => {
   };
 
   useEffect(() => {
-    document.addEventListener('mousedown', handleOutsideClick);
+    window.document && document.addEventListener('mousedown', handleOutsideClick);
     return () => {
       document.removeEventListener('mousedown', handleOutsideClick);
     };

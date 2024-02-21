@@ -9,9 +9,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    backgroundSize:{
+      '100%': '100% 100%',
+    },
     colors: {
       'white':'white',
       'black':'black',
+      'bg-dark':'#001D51',
       'primary-dark': '#17234F',
       'primary-light': '#2F4EA1',
       'primary': '#294BAA',
@@ -21,6 +25,7 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+  ],
 }
 
