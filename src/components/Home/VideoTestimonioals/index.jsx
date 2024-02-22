@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const videoTestimonials = [];
 const VideoTestimonials = () => {
@@ -25,11 +26,16 @@ const VideoTestimonials = () => {
               <section
                 id={i}
                 role='button'
-                className={`w-full h-[467px] md:h-full bg-[url("/assets/testimonials/video/${
-                  i + 1
-                }.png")] bg-100% bg-no-repeat bg-center flex flex-col items-start justify-end ps-6 pb-4`}
+                className={`relative w-full h-[467px] md:h-full flex flex-col items-start justify-end ps-6 pb-4`}
               >
-                <button>
+                <Image
+                  src={`/assets/testimonials/video/${i + 1}.png`}
+                  alt='Testimonial'
+                  fill
+                  style={{ objectFit: 'contain'}}
+                  className='-z-1'
+                />
+                <button className='relative z-10'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     width='58'
@@ -62,8 +68,10 @@ const VideoTestimonials = () => {
                     </g>
                   </svg>
                 </button>
-                <p className='text-[20px] text-white font-bold mt-4'>Yukti Arora</p>
-                <p className='text-[20px] text-white font-normal'>
+                <p className='relative z-10  text-[20px] text-white font-bold mt-4'>
+                  Yukti Arora
+                </p>
+                <p className='relative z-10 text-[20px] text-white font-normal'>
                   Columbia university
                 </p>
               </section>

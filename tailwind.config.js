@@ -12,18 +12,21 @@ module.exports = {
     backgroundSize:{
       '100%': '100% 100%',
     },
-    colors: {
-      'white':'white',
-      'black':'black',
-      'bg-dark':'#001D51',
-      'primary-dark': '#17234F',
-      'primary-light': '#2F4EA1',
-      'primary': '#294BAA',
-      'secondary': '#EF375C',
-      'stone': '#E7E8E9',
-      'stone-light':'#f9f9f9'
+    extend: {
+      colors: {
+        'white':'white',
+        'black':'black',
+        'bg-dark':'#001D51',
+        'primary-dark': '#17234F',
+        'primary-light': '#2F4EA1',
+        'primary': '#294BAA',
+        'secondary': '#EF375C',
+        'stone': '#E7E8E9',
+        'stone-light':'#f9f9f9',
+        'light-gray':'#F8F8F8',
+        'light-yellow':'#FFF0D1'
+      },
     },
-    extend: {},
   },
   plugins: [
   ],
