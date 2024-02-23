@@ -13,7 +13,7 @@ const CallToAction = () => {
         alt='Univerity Sitting'
         fill
         style={{ objectFit: 'cover' }}
-        className='-z-1 bg-fixed'
+        className='-z-1'
       />
       <div className='relative z-10  max-w-full md:max-w-screen-xl h-full mx-2 md:mx-auto p-3 md:p-6 grid grid-cols-1 md:grid-cols-2 gap-4'>
         <section className='w-full h-full flex flex-col items-start justify-center'>

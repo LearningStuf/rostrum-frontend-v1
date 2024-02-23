@@ -1,8 +1,10 @@
 'use client';
 import React, { useState, useEffect, useRef } from 'react';
+import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
-const DropDown = ({ name, items }) => {
+const DropDown = ({ name, items , isLeft}) => {
+  const pathname = usePathname();
   const ref = useRef(null);
   const [open, setOpen] = useState(false);
 
@@ -20,6 +22,10 @@ const DropDown = ({ name, items }) => {
     };
   }, []);
 
+  useEffect(()=>{
+    setOpen(false)
+  },[pathname])
+  
   return (
     <div className='relative' ref={ref}>
       <p
@@ -47,7 +53,7 @@ const DropDown = ({ name, items }) => {
         </svg>
       </p>
       <div
-        className={`absolute left-0 z-10  origin-top-right  bg-white shadow-sm transition-all duration-300 ${
+        className={`absolute ${isLeft ? 'right-0':'left-0'} z-10  origin-top-right  bg-white shadow-sm transition-all duration-300 ${
           open ? 'opacity-100 scale-y-100' : 'opacity-0 scale-y-0'
         }`}
         role='menu'
@@ -59,7 +65,7 @@ const DropDown = ({ name, items }) => {
           {items.map((item, i) => (
             <Link
               key={i}
-              href='/'
+              href={item?.link ? item.link : '/'}
               className='block py-2 ps-5 pe-3 text-[16px] font-semibold text-primary-light transition-all delay-100 hover:text-secondary'
             >
               {item.title}

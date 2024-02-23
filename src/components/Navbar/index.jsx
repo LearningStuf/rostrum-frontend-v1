@@ -46,6 +46,7 @@ const services = [
 const whoWeAre = [
   {
     title: 'About Us',
+    link:'/about'
   },
   {
     title: 'Our Team',
@@ -72,13 +73,17 @@ const Navbar = () => {
     <nav className='bg-white w-ful h-[80px] md:h-auto relative shadow-md md:shadow-none transition-all'>
       <div className='max-w-full md:max-w-screen-xl h-full md:h-auto flex flex-wrap items-center justify-between mx-2 md:mx-auto p-3 md:p-6'>
         <section className='w-full md:w-auto h-full md:h-auto flex items-center justify-between md:justify-start'>
-          <div className='translate-y-5 md:translate-y-0'>
+          <div className='translate-y-5 md:translate-y-0 z-10 relative'>
+            <Link
+            href='/'
+            >
             <Image
               src='/assets/logo.svg'
               width={70}
               height={70}
               alt='Logo...'
             />
+            </Link>
           </div>
           <div className='ms-10 hidden md:block'>
             <ul className='flex flex-row'>
@@ -119,7 +124,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <DropDown name='Ind' items={services} />
+              <DropDown isLeft={true} name='Ind' items={services} />
             </li>
           </ul>
         </section>
