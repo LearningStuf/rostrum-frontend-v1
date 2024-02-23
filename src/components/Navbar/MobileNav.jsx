@@ -3,13 +3,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import DropDown from '@/components/common/Dropdown';
 
-const services = [
-  {
-    title: 'Service 1',
-  },
-];
-
-const MobileNav = () => {
+const MobileNav = ({resources, services,whoWeAre}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDrawer = () => {
@@ -58,10 +52,10 @@ const MobileNav = () => {
             <DropDown name='Services' items={services} />
           </li>
           <li className='mb-3'>
-            <DropDown name='Who we are' items={services} />
+            <DropDown name='Who we are' items={whoWeAre} />
           </li>
           <li className='mb-3'>
-            <DropDown name='Resources' items={services} />
+            <DropDown name='Resources' items={resources} />
           </li>
           <li className='mb-3'>
             <Link

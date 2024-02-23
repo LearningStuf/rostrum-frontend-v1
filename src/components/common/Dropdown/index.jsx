@@ -13,7 +13,8 @@ const DropDown = ({ name, items }) => {
   };
 
   useEffect(() => {
-    window.document && document.addEventListener('mousedown', handleOutsideClick);
+    window.document &&
+      document.addEventListener('mousedown', handleOutsideClick);
     return () => {
       document.removeEventListener('mousedown', handleOutsideClick);
     };
@@ -24,7 +25,7 @@ const DropDown = ({ name, items }) => {
       <p
         className='py-2 px-3 text-[20px] font-semibold text-primary-dark uppercase flex items-center'
         role='button'
-        onClick={() => setOpen(true)}
+        onClick={() => setOpen(!open)} // Toggle the dropdown
       >
         {name}
         <svg
@@ -34,7 +35,7 @@ const DropDown = ({ name, items }) => {
           width='13'
           height='9'
           viewBox='0 0 13 9'
-          className='ms-2'
+          className={`ms-2 ${open ? 'rotate-180' : ''}`} // Rotate arrow icon when open
         >
           <path
             id='Polygon_1'
@@ -45,27 +46,27 @@ const DropDown = ({ name, items }) => {
           />
         </svg>
       </p>
-      {open && (
-        <div
-          className='absolute left-0 z-10 w-56 origin-top-right rounded-md bg-white shadow-lg'
-          role='menu'
-          aria-orientation='vertical'
-          aria-labelledby='menu-button'
-          tabindex='-1'
-        >
-          <div className='py-1 bg-white' role='none'>
-            {items.map((item, i) => (
-              <Link
-                id={i}
-                href='/'
-                className='block py-2 ps-5 pe-3 text-[16px] font-semibold text-primary-light hover:bg-stone-light'
-              >
-                {item.title}
-              </Link>
-            ))}
-          </div>
+      <div
+        className={`absolute left-0 z-10  origin-top-right  bg-white shadow-sm transition-all duration-300 ${
+          open ? 'opacity-100 scale-y-100' : 'opacity-0 scale-y-0'
+        }`}
+        role='menu'
+        aria-orientation='vertical'
+        aria-labelledby='menu-button'
+        tabIndex='-1'
+      >
+        <div className='py-1 min-w-[400px] max-h-[300px] overflow-y-scroll bg-light-yellow rounded-md' role='none'>
+          {items.map((item, i) => (
+            <Link
+              key={i}
+              href='/'
+              className='block py-2 ps-5 pe-3 text-[16px] font-semibold text-primary-light transition-all delay-100 hover:text-secondary'
+            >
+              {item.title}
+            </Link>
+          ))}
         </div>
-      )}
+      </div>
     </div>
   );
 };

@@ -9,7 +9,7 @@ const Featured = () => {
           We have been featured at
         </h3>
       </div>
-	  <div class='max-w-full md:max-w-screen-xl h-auto mx-2 md:mx-auto p-3 md:p-6 flex flex-row flex-nowrap md:flex-wrap items-center justify-between overflow-x-auto'>
+	  <div className='max-w-full md:max-w-screen-xl h-auto mx-2 md:mx-auto p-3 md:p-6 flex flex-row flex-nowrap md:flex-wrap items-center justify-between overflow-x-auto'>
 
         {Array(6)
           .fill()

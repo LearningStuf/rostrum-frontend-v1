@@ -5,10 +5,10 @@ import Image from 'next/image';
 
 const UniList = () => {
   return (
-    <div className='w-ful h-auto relative mt-10'>
+    <div className='w-ful h-auto relative mt-10 overflow-hidden'>
       <div className='max-w-full md:max-w-screen-xl h-auto mx-2 p-3 md:p-6 md:mx-auto'>
         <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 uppercase'>
-          Colleges/Universities <br /> students have made through
+          Colleges / Universities <br className='hidden md:block' />  students have made through
         </h3>
       </div>
       <div className='w-ful h-auto relative mt-10 md:mt-auto p-0'>
@@ -17,7 +17,7 @@ const UniList = () => {
             .fill()
             .map((item, i) => (
               <section
-                id={i}
+                key={i}
                 className='relative flex flex-col items-center justify-center m-10'
               >
                 <div className='relative w-[120px] md:w-[150px] h-[120px] md:h-[150px]'>

@@ -32,10 +32,10 @@ const VideoTestimonials = () => {
                   src={`/assets/testimonials/video/${i + 1}.png`}
                   alt='Testimonial'
                   fill
-                  style={{ objectFit: 'contain'}}
+                  style={{ objectFit: 'contain' }}
                   className='-z-1'
                 />
-                <button className='relative z-10'>
+                <button className='relative z-10 transition-all  duration-300 hover:scale-105'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     width='58'
@@ -60,7 +60,7 @@ const VideoTestimonials = () => {
                         transform='translate(1347 2429)'
                         fill='none'
                         stroke='#fff'
-                        stroke-width='3'
+                        strokeWidth='3'
                       >
                         <circle cx='29' cy='29' r='29' stroke='none' />
                         <circle cx='29' cy='29' r='27.5' fill='none' />

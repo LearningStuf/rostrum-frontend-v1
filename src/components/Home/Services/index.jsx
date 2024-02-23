@@ -15,6 +15,7 @@ const servicesData = [
     title: 'Test prep',
   },
 ];
+
 const Services = () => {
   return (
     <div className='w-ful h-auto relative mt-10'>
@@ -33,6 +34,7 @@ const Services = () => {
                 width={300}
                 height={300}
                 alt='Stats Icon...'
+                className='transition delay-100 duration-500 hover:grayscale hover:scale-110'
               />
               <h4 className='text-[28px] md:text-[40px] text-primary font-bold leading-none mt-2 uppercase'>
                 {item.title}

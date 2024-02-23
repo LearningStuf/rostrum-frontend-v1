@@ -6,7 +6,64 @@ import MobileNav from './MobileNav';
 
 const services = [
   {
-    title: 'Service 1',
+    title: 'Services - admissions - boarding school',
+  },
+  {
+    title: 'Services - admissions -Business school prep',
+  },
+  {
+    title: 'Services - admissions -fashion & design school',
+  },
+  {
+    title: 'Services - admissions -IVY school',
+  },
+  {
+    title: 'Services - admissions -Med School',
+  },
+  {
+    title: 'Services - admissions -OX bridge prep',
+  },
+  {
+    title: 'Services - admissions -Psychometric test',
+  },
+  {
+    title: 'Services - admissions _ Universities',
+  },
+  {
+    title: 'Services -  tutoring - A level',
+  },
+  {
+    title: 'Services -  tutoring - AP',
+  },
+  {
+    title: 'Services -  tutoring - IB',
+  },
+  {
+    title: 'Services -  tutoring - IGCSE',
+  },
+];
+
+const whoWeAre = [
+  {
+    title: 'About Us',
+  },
+  {
+    title: 'Our Team',
+  },
+  {
+    title: 'Reviews',
+  },
+];
+
+const resources = [
+  {
+    title: 'Blogs',
+  },
+  {
+    title: 'Tutorials',
+  },
+  {
+    title: 'Videos',
   },
 ];
 
@@ -29,10 +86,10 @@ const Navbar = () => {
                 <DropDown name='Services' items={services} />
               </li>
               <li>
-                <DropDown name='Who we are' items={services} />
+                <DropDown name='Who we are' items={whoWeAre} />
               </li>
               <li>
-                <DropDown name='Resources' items={services} />
+                <DropDown name='Resources' items={resources} />
               </li>
               <li>
                 <Link
@@ -45,7 +102,11 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <MobileNav />
+          <MobileNav 
+          resources={resources}
+          services={services}
+          whoWeAre={whoWeAre}
+          />
         </section>
         <section className='hidden md:block'>
           <ul className='flex flex-row'>
