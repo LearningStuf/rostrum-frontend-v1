@@ -26,7 +26,7 @@ const Services = () => {
         <div className='relative max-w-full h-auto mt-10 grid grid-cols-1 md:grid-cols-3 gap-4'>
           {servicesData.map((item, i) => (
             <section
-              id={i}
+              key={i}
               className='w-full h-auto flex flex-col items-center md:items-start justify-start mb-6 md:mb-auto'
             >
               <Image

@@ -30,7 +30,7 @@ const Stats = () => {
       <div className='max-w-full md:max-w-screen-xl h-auto mx-2 p-4 md:p-6 md:mx-auto grid grid-cols-1 md:grid-cols-4 gap-4'>
         {statsData.map((item, i) => (
           <section
-            id={i}
+            key={i}
             className='w-full h-auto flex flex-col items-center md:items-start justify-start mb-6 md:mb-auto'
           >
             <Image src={item.icon} width={50} height={50} alt='Stats Icon...' />

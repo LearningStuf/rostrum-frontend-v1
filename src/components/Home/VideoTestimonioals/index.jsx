@@ -24,7 +24,7 @@ const VideoTestimonials = () => {
             .fill()
             .map((item, i) => (
               <section
-                id={i}
+                key={i}
                 role='button'
                 className={`relative w-full h-[467px] md:h-full flex flex-col items-start justify-end ps-6 pb-4`}
               >
