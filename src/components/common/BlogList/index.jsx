@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import AnimationProvider from '../AnimationProvider';
 
 const BlogList = () => {
   return (
@@ -9,6 +10,7 @@ const BlogList = () => {
         {Array(12)
           .fill()
           .map((item, i) => (
+            <AnimationProvider animationType='slide-up' duration={0.4} >
             <div
               key={i}
               class='max-w-sm h-autooverflow-hidden shadow-lg rounded-3xl pb-4'
@@ -40,6 +42,8 @@ const BlogList = () => {
                 </Link>
               </div>
             </div>
+
+            </AnimationProvider>
           ))}
       </div>
     </div>

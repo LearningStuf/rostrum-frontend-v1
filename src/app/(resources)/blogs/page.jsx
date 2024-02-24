@@ -7,7 +7,7 @@ const Blogs = () => {
   return (
     <main className='relative w-full h-auto'>
       <HeaderBanner title={'BLOGS'} />
-	  <BlogList/>
+      <BlogList />
       <CallToAction />
       <br />
       <br />

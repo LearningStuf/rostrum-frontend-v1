@@ -63,7 +63,6 @@ export default function Home() {
       <VideoTestimonials />
       <TestimonialCarousel testimonials={testimonials} />
       <CallToAction />
-
       <Featured />
       <UniList />
       <ComparisonChart />

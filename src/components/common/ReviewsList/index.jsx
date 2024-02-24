@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import AnimationProvider from '../AnimationProvider';
 
 const ReviewsList = () => {
   return (
@@ -8,9 +9,7 @@ const ReviewsList = () => {
         {Array(5)
           .fill()
           .map((item, i) => (
-            <div
-              key={i}
-              style={{ boxShadow: '0px 3px 10px #00000029' }}
+            <AnimationProvider
               className={`w-full md:w-[75%] h-auto py-8 md:py-10 px-4 md:px-16 flex flex-col  items-center justify-center md:justify-start rounded-3xl mb-10
               ${
                 i % 2 === 0
@@ -18,7 +17,16 @@ const ReviewsList = () => {
                   : 'self-end md:flex-row-reverse'
               }
               `}
+              key={i}
+              animationType='slide-up'
+              duration={0.4}
+              style={{ boxShadow: '0px 3px 10px #00000029' }}
             >
+              {/* <div
+                key={i}
+
+                
+              > */}
               <Image
                 src={'/assets/team.jpg'}
                 alt='Team'
@@ -42,7 +50,8 @@ const ReviewsList = () => {
                   laboris nisi ut aliquip ex ea
                 </p>
               </section>
-            </div>
+              {/* </div> */}
+            </AnimationProvider>
           ))}
       </div>
     </div>

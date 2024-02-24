@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Button from '@/components/common/Button';
-
+import AnimationProvider from '@/components/common/AnimationProvider';
 
 
 const CallToAction = () => {
@@ -17,12 +17,16 @@ const CallToAction = () => {
       />
       <div className='relative z-10  max-w-full md:max-w-screen-xl h-full mx-2 md:mx-auto p-3 md:p-6 grid grid-cols-1 md:grid-cols-2 gap-4'>
         <section className='w-full h-full flex flex-col items-start justify-center'>
+          <AnimationProvider animationType='slide-up' duration={1} >
           <h2 className='text-[45px] md:text-[70px] text-white font-bold uppercase leading-none'>
             Join <br /> the Rostrum Community
           </h2>
+          </AnimationProvider>
+          <AnimationProvider animationType='slide-up' duration={0.5} >
           <h4 className='text-[30px] md:text-[45px] text-white font-bold'>
             contact us today
           </h4>
+          </AnimationProvider>
         </section>
         <section className='w-full h-full flex flex-col items-center justify-center'>
           <Button
