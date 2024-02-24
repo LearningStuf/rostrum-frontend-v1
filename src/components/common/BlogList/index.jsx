@@ -9,7 +9,10 @@ const BlogList = () => {
         {Array(12)
           .fill()
           .map((item, i) => (
-            <div class='max-w-sm h-autooverflow-hidden shadow-lg rounded-3xl pb-4'>
+            <div
+              key={i}
+              class='max-w-sm h-autooverflow-hidden shadow-lg rounded-3xl pb-4'
+            >
               <div className='w-full h-[300px] relative'>
                 <Image
                   src='/assets/blog.jpeg'
