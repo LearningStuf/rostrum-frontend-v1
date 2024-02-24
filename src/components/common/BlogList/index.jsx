@@ -10,9 +10,9 @@ const BlogList = () => {
         {Array(12)
           .fill()
           .map((item, i) => (
-            <AnimationProvider animationType='slide-up' duration={0.4} >
+            <AnimationProvider key={i} animationType='slide-up' duration={0.4} >
             <div
-              key={i}
+              
               class='max-w-sm h-autooverflow-hidden shadow-lg rounded-3xl pb-4'
             >
               <div className='w-full h-[300px] relative'>

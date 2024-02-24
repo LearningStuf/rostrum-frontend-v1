@@ -8,9 +8,8 @@ const TeamList = () => {
         {Array(12)
           .fill()
           .map((item, i) => (
-            <AnimationProvider animationType='slide-up' duration={0.4}>
+            <AnimationProvider key={i} animationType='slide-up' duration={0.4}>
               <div
-                key={i}
                 className='w-full h-auto px-6 py-12 flex flex-col items-center justify-center shadow-lg rounded-2xl mb-36'
               >
                 <Image

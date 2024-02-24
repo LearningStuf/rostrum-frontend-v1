@@ -14,8 +14,8 @@ const Featured = () => {
         {Array(6)
           .fill()
           .map((item, i) => (
-            <AnimationProvider animationType='slide-up' duration={0.7}  >
-            <div key={i} role='button' className='min-w-[260px] md:min-w-auto w-auto md:w-[373px] h-[154px] flex items-center justify-center bg-white shadow-md rounded-lg mb-14 me-8 md:me-auto p-3 md:p-auto' >
+            <AnimationProvider key={i} animationType='slide-up' duration={0.7}  >
+            <div role='button' className='min-w-[260px] md:min-w-auto w-auto md:w-[373px] h-[154px] flex items-center justify-center bg-white shadow-md rounded-lg mb-14 me-8 md:me-auto p-3 md:p-auto' >
               <Image
                 src={'/assets/featured/featured.png'}
                 width={251}
