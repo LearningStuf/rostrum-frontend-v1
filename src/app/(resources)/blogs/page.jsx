@@ -1,15 +1,13 @@
 import React from 'react';
 import HeaderBanner from '@/components/common/HeaderBanner';
-import Mission from '@/components/About/Mission';
-import HowWeWork from '@/components/About/HowWeWork';
+import BlogList from '@/components/common/BlogList';
 import CallToAction from '@/components/common/CallToAction';
 
-const About = () => {
+const Blogs = () => {
   return (
     <main className='relative w-full h-auto'>
-      <HeaderBanner title={'About Us'} />
-      <Mission />
-      <HowWeWork />
+      <HeaderBanner title={'BLOGS'} />
+	  <BlogList/>
       <CallToAction />
       <br />
       <br />
@@ -18,4 +16,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Blogs;

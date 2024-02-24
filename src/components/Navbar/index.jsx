@@ -50,15 +50,18 @@ const whoWeAre = [
   },
   {
     title: 'Our Team',
+    link:'/team'
   },
   {
     title: 'Reviews',
+    link:'/reviews'
   },
 ];
 
 const resources = [
   {
     title: 'Blogs',
+    link:'/blogs'
   },
   {
     title: 'Tutorials',
