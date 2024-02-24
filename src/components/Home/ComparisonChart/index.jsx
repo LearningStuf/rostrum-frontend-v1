@@ -30,7 +30,7 @@ const ComparisonChart = () => {
             </thead>
             <tbody className='w-full'>
               {list.map((item, i) => (
-                <tr id={i} className='text-primary font-normal  text-left '>
+                <tr key={i} className='text-primary font-normal  text-left '>
                   <td
                     className={`ps-12 py-y ${
                       i % 2 === 0 ? 'bg-[#F7F7F7]' : 'bg-white'
