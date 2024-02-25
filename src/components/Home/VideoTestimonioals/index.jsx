@@ -32,7 +32,7 @@ const VideoTestimonials = () => {
                   src={`/assets/testimonials/video/${i + 1}.png`}
                   alt='Testimonial'
                   fill
-                  style={{ objectFit: 'contain' }}
+                  style={{ objectFit: 'cover' }}
                   className='-z-1'
                 />
                 <button className='relative z-10 transition-all  duration-300 hover:scale-105'>

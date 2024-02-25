@@ -29,7 +29,7 @@ const DropDown = ({ name, items , isLeft}) => {
   return (
     <div className='relative' ref={ref}>
       <p
-        className='py-2 px-3 text-[20px] font-semibold text-primary-dark uppercase flex items-center'
+        className='py-2 px-3 text-[20px] font-semibold text-primary-dark uppercase flex items-center transition-all duration-300 hover:text-secondary'
         role='button'
         onClick={() => setOpen(!open)} // Toggle the dropdown
       >

@@ -7,7 +7,9 @@ import CallToAction from '@/components/common/CallToAction';
 const Team = () => {
   return (
     <main className='relative w-full h-auto'>
-      <HeaderBanner title={'OUR TEAM'} />
+      <HeaderBanner 
+      align='center'
+      title={'OUR TEAM'} />
       <TeamList />
 	  <CallToAction />
       <br />

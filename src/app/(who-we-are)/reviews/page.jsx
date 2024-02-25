@@ -6,7 +6,9 @@ import CallToAction from '@/components/common/CallToAction';
 const Reviews = () => {
   return (
     <main className='relative w-full h-auto'>
-      <HeaderBanner title={'REVIEWS'} />
+      <HeaderBanner 
+      align='center'
+      title={'REVIEWS'} />
       <ReviewsList />
       <CallToAction />
       <br />

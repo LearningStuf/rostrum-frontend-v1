@@ -28,25 +28,25 @@ const Footer = () => {
               Quick links
             </h4>
             <ul className='text-gray-500 dark:text-gray-400 font-medium'>
-              <li className='mb-4 text-[20px] text-stone' role='button'>
+              <li className='mb-4 text-[20px] text-stone transition-all hover:text-secondary' role='button'>
                 Boarding Schools
               </li>
-              <li className='mb-4 text-[20px] text-stone ' role='button'>
+              <li className='mb-4 text-[20px] text-stone transition-all hover:text-secondary' role='button'>
                 Ivy League Prep
               </li>
-              <li className='mb-4 text-[20px] text-stone ' role='button'>
+              <li className='mb-4 text-[20px] text-stone transition-all hover:text-secondary' role='button'>
                 Med School
               </li>
-              <li className='mb-4 text-[20px] text-stone ' role='button'>
+              <li className='mb-4 text-[20px] text-stone transition-all hover:text-secondary' role='button'>
                 Ox-Bridge Prep
               </li>
-              <li className='mb-4 text-[20px] text-stone ' role='button'>
+              <li className='mb-4 text-[20px] text-stone transition-all hover:text-secondary' role='button'>
                 SAT TUTORING
               </li>
-              <li className='mb-4 text-[20px] text-stone ' role='button'>
+              <li className='mb-4 text-[20px] text-stone transition-all hover:text-secondary' role='button'>
                 BUSINESS SCHOOLS
               </li>
-              <li className='mb-4 text-[20px] text-stone ' role='button'>
+              <li className='mb-4 text-[20px] text-stone transition-all hover:text-secondary' role='button'>
                 PSYCHOMETRIC TEST
               </li>
             </ul>

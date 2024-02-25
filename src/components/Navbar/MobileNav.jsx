@@ -1,14 +1,20 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import DropDown from '@/components/common/Dropdown';
 
 const MobileNav = ({resources, services,whoWeAre}) => {
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDrawer = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(()=>{
+    setIsOpen(false)
+  },[pathname])
 
   return (
     <div className='block md:hidden relative'>

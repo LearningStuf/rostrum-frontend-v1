@@ -6,40 +6,50 @@ import MobileNav from './MobileNav';
 
 const services = [
   {
-    title: 'Services - admissions - boarding school',
+    title:'Admissions',
+    routes:[
+      {
+        title: 'Services - admissions - boarding school',
+      },
+      {
+        title: 'Services - admissions -Business school prep',
+      },
+      {
+        title: 'Services - admissions -fashion & design school',
+      },
+      {
+        title: 'Services - admissions -IVY school',
+      },
+      {
+        title: 'Services - admissions -Med School',
+      },
+      {
+        title: 'Services - admissions -OX bridge prep',
+      },
+      {
+        title: 'Services - admissions -Psychometric test',
+      },
+      {
+        title: 'Services - admissions _ Universities',
+      },
+    ]
   },
   {
-    title: 'Services - admissions -Business school prep',
-  },
-  {
-    title: 'Services - admissions -fashion & design school',
-  },
-  {
-    title: 'Services - admissions -IVY school',
-  },
-  {
-    title: 'Services - admissions -Med School',
-  },
-  {
-    title: 'Services - admissions -OX bridge prep',
-  },
-  {
-    title: 'Services - admissions -Psychometric test',
-  },
-  {
-    title: 'Services - admissions _ Universities',
-  },
-  {
-    title: 'Services -  tutoring - A level',
-  },
-  {
-    title: 'Services -  tutoring - AP',
-  },
-  {
-    title: 'Services -  tutoring - IB',
-  },
-  {
-    title: 'Services -  tutoring - IGCSE',
+    title: 'Tutoring',
+    routes:[
+      {
+        title: 'Services -  tutoring - A level',
+      },
+      {
+        title: 'Services -  tutoring - AP',
+      },
+      {
+        title: 'Services -  tutoring - IB',
+      },
+      {
+        title: 'Services -  tutoring - IGCSE',
+      },
+    ]
   },
 ];
 
@@ -102,7 +112,7 @@ const Navbar = () => {
               <li>
                 <Link
                   href='/'
-                  className='block py-2 px-3 text-[20px] font-semibold text-primary-dark uppercase'
+                  className='block py-2 px-3 text-[20px] font-semibold text-primary-dark uppercase transition-all duration-300 hover:text-secondary'
                 >
                   Contact us
                 </Link>
