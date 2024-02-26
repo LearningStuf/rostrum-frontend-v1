@@ -58,11 +58,11 @@ const BordingSchool = () => {
                 <div className='w-full h-auto'>
                   <div className='flex items-start justify-start'>
                     <span className='block w-[30px] h-[43px] bg-secondary rounded-full'></span>
-                    <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight ms-4 uppercase'>
-                      Cultural <br /> influences
+                    <h4 className='text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight ms-4 uppercase'>
+                      Cultural <br className='hidden md:block' /> influences
                     </h4>
                   </div>
-                  <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left ps-12'>
+                  <p className='text-[16px] md:text-[20px] text-primary font-normal text-left ps-12 mt-2 md:mt-auto'>
                     International education will help pupils develop a global
                     outlook no matter where they go to college. International
                     schools encourage students to learn about other cultures
@@ -145,7 +145,7 @@ const BordingSchool = () => {
                           </g>
                         </g>
                       </svg>
-                      <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left ms-4'>
+                      <p className='text-[16px] md:text-[20px] text-primary font-normal text-left ms-4'>
                         Examine and analyse your academic background and
                         extracurricular engagement
                       </p>
@@ -155,7 +155,7 @@ const BordingSchool = () => {
             </section>
           </div>
           {/* Section End */}
-		  <TopSchools/>
+          <TopSchools />
           {/* Section Start */}
           <h3 className='text-center text-[40px] md:text-[50px] text-primary font-bold leading-tight mt-14 mb-8 md:mb-auto uppercase'>
             What are the benefits of attending a boarding school in the United
