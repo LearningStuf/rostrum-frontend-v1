@@ -82,6 +82,20 @@ const TopUni = () => {
       <HeaderBanner align='center' title={'TOP UK & USA UNIVERSITIES'} />
       <div className='w-ful h-full relative mt-10 mb-10'>
         <div className='max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto'>
+          <div className='relative w-full md:w-2/3 mx-auto flex items-start'>
+            <span className='text-secondary text-[128px]  -translate-y-12'>
+              “
+            </span>
+            <h6 className=' text-[22px] md:text-[28px] text-primary text-center font-bold leading-tight'>
+              Our aim is to prepare you so well for after high school that all
+              you need to worry about is packing for your Dream Uni. Our
+              presence at every step of your application and research will help
+              you with the best and desired results.
+            </h6>
+            <span className='text-secondary text-[128px] translate-y-16 translate-x-4 self-end'>
+              “
+            </span>
+          </div>
           {/* SECTION START */}
           <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
             <section className='mt-auto md:mt-18'>
@@ -203,8 +217,8 @@ const TopUni = () => {
                     {item.title}
                     {/* <Image
                     src={item.image}
-					width={440}
-					height={440}
+					          width={440}
+					          height={440}
                     alt='Process'
                   /> */}
                   </h6>
