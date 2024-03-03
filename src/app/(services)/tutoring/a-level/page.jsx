@@ -57,11 +57,11 @@ const Alevel = () => {
       <HeaderBanner align='left' title={'CAMBRIDGE A LEVEL PROGRAM'} />
       <div className='w-ful h-full relative mt-10 mb-10'>
         <div className='max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto'>
-          <div className='relative w-full md:w-4/5 mx-auto flex items-start'>
+          <div className='relative w-full  mx-auto flex items-start'>
             <span className='text-secondary text-[128px]  -translate-y-12'>
               “
             </span>
-            <h6 className=' text-[22px] md:text-[28px] text-primary text-center font-bold leading-tight'>
+            <h6 className=' text-[22px] md:text-[28px] text-primary text-center font-semibold leading-tight'>
               90% of rostrum students score an A* or A in the Cambridge
               International Examination. Our highly qualified tutors know and
               provide the cues and tips to score better. We have students from

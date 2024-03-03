@@ -1,4 +1,3 @@
-import styles from "./page.module.scss";
 import HeroHeader from '@/components/Home/HeroHeader';
 import Stats from '@/components/Home/Stats';
 import Services from '@/components/Home/Services';
