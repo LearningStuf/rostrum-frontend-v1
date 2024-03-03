@@ -26,7 +26,7 @@ const CountUp = ({ start, end }) => {
     return () => {
       observer.disconnect();
     };
-  }, []);
+  }, [controls]);
 
   const startCounting = () => {
     if (count < end) {

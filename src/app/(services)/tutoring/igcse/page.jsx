@@ -141,7 +141,7 @@ const IGCSE = () => {
                 src='/assets/igcse/banner-2.png'
                 width={400}
                 height={400}
-                alt='What exactly is IGSCE?'
+                alt='Who can pursue IGSCE?'
               />
             </section>
           </div>
@@ -242,7 +242,7 @@ const IGCSE = () => {
           <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-8 mt-4'>
             {data.map((item, i) => {
               return (
-                <div className='flex flex-col items-center justify-center'>
+                <div key={i} className='flex flex-col items-center justify-center'>
                   <Image
                     src={item.image}
                     width={300}

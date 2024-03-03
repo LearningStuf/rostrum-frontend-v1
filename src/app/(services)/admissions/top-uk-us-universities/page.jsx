@@ -211,18 +211,19 @@ const TopUni = () => {
           {/* SECTION START */}
           <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-14'>
             {data.map((item, i) => (
-              <section className='w-full relative'>
+              <section key={i} className='w-full relative'>
                 <div className='flex items-center justify-start'>
                   <h6 className='relative w-full text-[22px] md:text-[28px] text-primary text-left font-bold leading-tight flex self-end'>
                     {item.title}
-                    {/* <Image
-                    src={item.image}
-					          width={440}
-					          height={440}
-                    alt='Process'
-                  /> */}
                   </h6>
-                  <img src={item.image} className='w-[220px]' />
+                  {item.image && (
+                    <Image
+                      src={item.image}
+                      width={220}
+                      height={220}
+                      alt={item.title}
+                    />
+                  )}
                 </div>
                 <p className='text-[20px] text-primary font-normal mt-3 text-left'>
                   {item.description}

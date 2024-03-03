@@ -282,8 +282,7 @@ const AP = () => {
                 src='/assets/ap/banner-2.png'
                 width={429.11}
                 height={579.57}
-                alt='WHAT IS THE AP TEST?'
-                // objectFit='containe'
+                alt='EXAM FORMATS FOR AP EXAMS IN 2022'
               />
             </section>
           </div>
@@ -320,7 +319,7 @@ const AP = () => {
             <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-8 mt-4'>
               {data.slice(0, 3).map((item, i) => {
                 return (
-                  <div className='flex flex-col items-center justify-center'>
+                  <div key={i} className='flex flex-col items-center justify-center'>
                     <Image
                       src={item.image}
                       width={300}
@@ -345,7 +344,7 @@ const AP = () => {
             <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-8 mt-4'>
               {data.slice(3,).map((item, i) => {
                 return (
-                  <div className='flex flex-col items-center justify-center'>
+                  <div  key={i} className='flex flex-col items-center justify-center'>
                     <Image
                       src={item.image}
                       width={300}

@@ -208,13 +208,12 @@ const FasionSchool = () => {
             </h6>
             <div className='w-full h-auto flex flex-wrap items-center justify-center'>
               {data.map((item, i) => (
-                <div className='w-full md:w-1/4 flex flex-col items-center justify-center mx-4 my-4'>
+                <div key={i} className='w-full md:w-1/4 flex flex-col items-center justify-center mx-4 my-4'>
                   <Image
                     src={item.logo}
                     width={item.width}
                     height={item.height}
-                    alt='University'
-                    objectFit='containe'
+                    alt={item.description}
                   />
                   <p className='text-[20px] text-primary font-normal mt-3 text-center'>
                     {item.description}
@@ -232,18 +231,12 @@ const FasionSchool = () => {
             </h3>
             <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-10'>
               {process.map((item, i) => (
-                <section className='w-full relative'>
+                <section key={i} className='w-full relative'>
                   <div className='flex items-center justify-start'>
                     <h6 className='relative w-full text-[22px] md:text-[28px] text-primary text-left font-bold leading-tight flex self-end'>
                       {item.title}
-                      {/* <Image
-                    src={item.image}
-					width={440}
-					height={440}
-                    alt='Process'
-                  /> */}
                     </h6>
-                    <img src={item.image} className='w-[220px]' />
+                    <Image src={item.image} width={200} height={200} alt={item.title} />
                   </div>
                   <p className='text-[20px] text-primary font-normal mt-3 text-left'>
                     {item.description}

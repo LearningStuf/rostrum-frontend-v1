@@ -55,7 +55,7 @@ const BordingSchool = () => {
             {Array(8)
               .fill()
               .map((item, i) => (
-                <div className='w-full h-auto'>
+                <div key={i} className='w-full h-auto'>
                   <div className='flex items-start justify-start'>
                     <span className='block w-[30px] h-[43px] bg-secondary rounded-full'></span>
                     <h4 className='text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight ms-4 uppercase'>

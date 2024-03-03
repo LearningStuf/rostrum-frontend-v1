@@ -11,13 +11,10 @@ const TopSchools = () => {
         {Array(13)
           .fill()
           .map((item, i) => (
-            <div className='flex flex-col items-center justify-center mx-4 my-8'>
+            <div key={i} className='flex flex-col items-center justify-center mx-4 my-8'>
               <div className='relative w-[120px] md:w-[150px] h-[120px] md:h-[150px]'>
                 <Image
                   src={`/assets/college/1.png`}
-                  //   width={150}
-                  //   height={150}
-                  //   style={{ maxWidth: '100%', height: 'auto' }}
                   alt='University'
                   fill={true}
                   objectFit='containe'

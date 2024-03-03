@@ -25,7 +25,7 @@ const TypingTextAnimation = ({ sentence }) => {
 
     // Clean up on unmount or if the component rerenders
     return () => clearTimeout(timer);
-  }, []);
+  }, [sentence]);
 
   return (
     <div>
