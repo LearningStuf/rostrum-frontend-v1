@@ -25,7 +25,8 @@ module.exports = {
         'stone-light':'#f9f9f9',
         'light-gray':'#F8F8F8',
         'semi-gray':'#E6E6E6',
-        'light-yellow':'#FFF0D1'
+        'light-yellow':'#FFF0D1',
+        'danger':'#FF335A'
       },
     },
   },
