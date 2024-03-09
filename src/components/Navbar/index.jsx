@@ -10,27 +10,35 @@ const services = [
     routes:[
       {
         title: 'Services - admissions - boarding school',
+        link:'/admissions/bording-school'
       },
       {
         title: 'Services - admissions -Business school prep',
+        link:'/admissions/business-school'
       },
       {
         title: 'Services - admissions -fashion & design school',
+        link:'/admissions/fasion-school'
       },
       {
         title: 'Services - admissions -IVY school',
+        link:'/admissions/ivy-school'
       },
       {
         title: 'Services - admissions -Med School',
+        link:'/admissions/medical-school'
       },
       {
         title: 'Services - admissions -OX bridge prep',
+        link:'/admissions/oxbridge-prep'
       },
       {
         title: 'Services - admissions -Psychometric test',
+        link:'/admissions/psychometric'
       },
       {
         title: 'Services - admissions _ Universities',
+        link:'/admissions/top-uk-us-universities'
       },
     ]
   },
@@ -39,18 +47,59 @@ const services = [
     routes:[
       {
         title: 'Services -  tutoring - A level',
+        link:'/tutoring/a-level'
       },
       {
         title: 'Services -  tutoring - AP',
+        link:'/tutoring/ap'
       },
       {
         title: 'Services -  tutoring - IB',
+        link:'/tutoring/ib'
       },
       {
         title: 'Services -  tutoring - IGCSE',
+        link:'/tutoring/igcse'
       },
     ]
   },
+  {
+    title:'Test Prep',
+    routes:[
+      {
+        title: 'Test Prep - LNAT',
+        link:'/testprep/lnat'
+      },
+      {
+        title: 'Test Prep - Oxford University Entrance Exam',
+        link:'/testprep/oxford-uni-exam'
+      },
+      {
+        title: 'Test Prep - GMAT',
+        link:'/testprep/gmat'
+      },
+      {
+        title: 'Test Prep - UCAT',
+        link:'/testprep/ucat'
+      },
+      {
+        title: 'Test Prep - GRE',
+        link:'/testprep/gre'
+      },
+      {
+        title: 'Test Prep - ACT',
+        link:'/testprep/act'
+      },
+      {
+        title: 'Test Prep - SAT',
+        link:'/testprep/sat'
+      },
+      {
+        title: 'Test Prep - BMAT',
+        link:'/testprep/bmat'
+      },
+    ]
+  }
 ];
 
 const whoWeAre = [

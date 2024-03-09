@@ -9,6 +9,7 @@ const MedicalSchool = () => {
       <HeaderBanner
         align='left'
         title={'PURSUING MEDICINE FROM THE UK- HOW TO GO ABOUT IT?'}
+        image={'/assets/header-banner/medical.png'}
       />
       <div className='w-ful h-full relative mt-10 mb-10'>
         <div className='max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto'>
@@ -31,10 +32,10 @@ const MedicalSchool = () => {
           {/* SECTION START */}
           <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
             <section>
-              <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-4'>
+              <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-4'>
                 Why study in the UK?
               </h3>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-auto md:mt-4'>
                 The UK is a top destination for higher education, especially for
                 international students, owing to the high quality of education
                 and research opportunities.
@@ -166,7 +167,9 @@ const MedicalSchool = () => {
           {/* SECTION END */}
         </div>
       </div>
-      <CallToAction />
+      <CallToAction 
+              image={'/assets/call-action/home.png'}
+      />
       <div className='max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto'>
         {/* SECTION START */}
         <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
@@ -264,7 +267,7 @@ const MedicalSchool = () => {
           </section>
           <section>
             <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
-              MED SCHOOL ADMISSIONS
+              MED School Admissions
             </h4>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
               As for interviews, most medical schools follow the ‘Multiple
@@ -284,7 +287,7 @@ const MedicalSchool = () => {
         {/* SECTION START */}
 
         <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
-          <section>
+          <section className='order-2 md:order-1' >
             <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-4'>
               How can Rostrum Education help?
             </h3>
@@ -307,7 +310,7 @@ const MedicalSchool = () => {
               with us today.
             </p>
           </section>
-          <section>
+          <section className='order-1 md:order-2' >
             <Image
               src='/assets/medical-school/banner-3.png'
               width={873}

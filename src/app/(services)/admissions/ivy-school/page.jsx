@@ -1,89 +1,125 @@
-import React from 'react';
-import Image from 'next/image';
-import HeaderBanner from '@/components/common/HeaderBanner';
-import CallToAction from '@/components/common/CallToAction';
+import React from "react";
+import Image from "next/image";
+import HeaderBanner from "@/components/common/HeaderBanner";
+import CallToAction from "@/components/common/CallToAction";
 
 const IVY = () => {
   const ivySchools = [
     {
       name: `Penn`,
-      logo: '/assets/ivy-schools/1.png',
+      logo: "/assets/ivy-schools/1.png",
       width: 231,
       height: 200,
     },
     {
       name: `Columbia`,
-      logo: '/assets/ivy-schools/2.png',
+      logo: "/assets/ivy-schools/2.png",
       width: 200,
       height: 200,
     },
     {
       name: `Harvard`,
-      logo: '/assets/ivy-schools/3.png',
+      logo: "/assets/ivy-schools/3.png",
       width: 182.13,
       height: 176.97,
     },
     {
       name: `Dartmouth`,
-      logo: '/assets/ivy-schools/4.png',
+      logo: "/assets/ivy-schools/4.png",
       width: 203,
       height: 217,
     },
     {
       name: `Yale`,
-      logo: '/assets/ivy-schools/5.png',
+      logo: "/assets/ivy-schools/5.png",
       width: 168.57,
       height: 177,
     },
     {
       name: `Cornell`,
-      logo: '/assets/ivy-schools/6.png',
+      logo: "/assets/ivy-schools/6.png",
       width: 181,
       height: 181,
     },
     {
       name: `Brown`,
-      logo: '/assets/ivy-schools/7.png',
+      logo: "/assets/ivy-schools/7.png",
       width: 169.13,
       height: 238.63,
     },
     {
       name: `Princeton`,
-      logo: '/assets/ivy-schools/8.png',
+      logo: "/assets/ivy-schools/8.png",
       width: 169.87,
       height: 216.44,
     },
   ];
+
+  const data = [
+    {
+      title: "Goal Alignment",
+      description: `If you’re applying to an Ivy it is imperative to be target oriented. Our team at Rostrum helps you align your work to  application deadlines, and helps you set goals. You never have to worry about deadlines again.`,
+    },
+    {
+      title: "Shortlisting Colleges/ Universities",
+      description: `We assist students in shortlisting the colleges/universities and provide you with the top picks unique to you, keeping in mind your field of study and country of choice.`,
+    },
+    {
+      title: "Profile Building",
+      description: `Our team of highly experienced former admissions personnel help you find the internships that can elevate your profile, and competitions that complement your academic interests.`,
+    },
+    {
+      title: "Essays and LOR",
+      description: `A remarkably written essay helps you with scholarships and to be a stand out applicant. Our team helps you brainstorm the best topic and works with you closely to make sure the content is perfect.`,
+    },
+    {
+      title: "Scholarships and Financial Aid",
+      description: `Applying for scholarships and financial aid is an overwhelming task. We make sure that every required document is submitted within the deadline. We also do extensive research to find you all available scholarships available for the course that you’ve applied for and your eligibility for it.`,
+    },
+    {
+      title: "Applications",
+      description: `Rostrum guarantees holistic support throughout your application process. Deadlines, content, planning and more is all very meticulously taken care of.`,
+    },
+    {
+      title: "Research Project",
+      description: `We link you with research experts who help you right from the brainstorming stage to writing your final report.`,
+    },
+    {
+      title: "SAT/ACT Preparation",
+      description: `Rostrum Students are intensely prepared to score highly in standardized examinations.`,
+    },
+  ];
   return (
-    <main className='relative w-full h-auto'>
+    <main className="relative w-full h-auto">
       <HeaderBanner
-        align='left'
-        title={'PREPARE FOR IVY LEAGUE SCHOOLS & COLLEGES'}
+        align="left"
+        title={"PREPARE FOR IVY LEAGUE SCHOOLS & COLLEGES"}
+        image={"/assets/header-banner/ivy.png"}
       />
-      <div className='w-ful h-full relative mt-10 mb-10'>
-        <div className='max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto'>
+      <div className="w-ful h-full relative mt-10 mb-10">
+        <div className="max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto">
           {/* SECTION START */}
-          <div className='w-full h-auto relative'>
-            <h3 className='text-center text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-auto uppercase'>
+          <div className="w-full h-auto relative">
+            <h3 className="text-center text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-auto uppercase">
               Top IVY League Schools
             </h3>
-            <div className='w-full h-auto grid grid-cols-2 md:grid-cols-4 gap-8 mt-14'>
+            <div className="w-full h-auto grid grid-cols-2 md:grid-cols-4 gap-8 mt-14">
               {ivySchools.map((item, i) => (
-                <div key={i} className='w-full h-[250px] md:h-auto'>
-                  <div className='w-full h-auto md:h-[240px] flex items-center justify-end mx-auto'>
+                <div key={i} className="w-full h-[250px] md:h-auto">
+                  <div className="w-full h-auto md:h-[240px] flex items-center justify-end mx-auto">
                     <Image
                       src={item.logo}
                       width={item.width - 40}
                       height={item.height}
-                      alt='University'
+                      alt="University"
                       // objectFit='containe'
-                      className='mx-auto self-end'
+                      className="mx-auto self-end"
                     />
                   </div>
-                  <h6 className='text-[22px] md:text-[28px] text-primary text-center font-bold leading-tight mt-4 md:mt-2'>
+                  <h6 className="text-[22px] md:text-[28px] text-primary text-center font-bold leading-tight mt-4 md:mt-2">
                     {item.name}
                   </h6>
-                  <h6 className='text-[22px] md:text-[28px] text-primary text-center font-bold leading-tight'>
+                  <h6 className="text-[22px] md:text-[28px] text-primary text-center font-bold leading-tight">
                     University
                   </h6>
                 </div>
@@ -92,21 +128,21 @@ const IVY = () => {
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
-          <div class='w-full h-auto grid grid-cols-12 gap-4 mt-14'>
-            <section class='col-span-12 md:col-span-5'>
-              <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-auto'>
+          <div class="w-full h-auto grid grid-cols-12 gap-4 mt-14">
+            <section class="col-span-12 md:col-span-5">
+              <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-auto">
                 What is the Ivy League?
               </h3>
             </section>
-            <section class='col-span-12 md:col-span-7'>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left'>
+            <section class="col-span-12 md:col-span-7">
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
                 Ivy Leagues are amongst the most prestigious universities in the
                 United States and across the world. These eight elite
                 Northeastern private schools are noted for their highly
                 selective admissions procedure, academic brilliance, and
                 promising job prospects for enrolled students.
               </p>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left'>
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
                 Ivy League schools, which were first grouped together as a
                 sports conference, have a history of nurturing the world’s best
                 athletic talent, future presidents, Nobel laureates, and other
@@ -118,14 +154,14 @@ const IVY = () => {
               </p>
             </section>
           </div>
-          <div class='w-full h-auto grid grid-cols-12 gap-4 mt-14'>
-            <section class='col-span-12 md:col-span-5'>
-              <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-auto'>
+          <div class="w-full h-auto grid grid-cols-12 gap-4 mt-14">
+            <section class="col-span-12 md:col-span-5">
+              <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-auto">
                 How to get into an Ivy League school?
               </h3>
             </section>
-            <section class='col-span-12 md:col-span-7'>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left'>
+            <section class="col-span-12 md:col-span-7">
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
                 It doesn’t come as a surprise that Ivy League colleges are on
                 the lookout for individuals who can contribute to their rich and
                 diverse student communities. While there is no one-size-fits-all
@@ -141,12 +177,12 @@ const IVY = () => {
               </p>
             </section>
           </div>
-          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
+          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section>
-              <h4 className='text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
+              <h4 className="text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
                 Make sensible course selections in high school:
               </h4>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
                 Ivy league universities seek out students that have the
                 potential to specialise in their careers. Choosing
                 intellectually challenging classes that align with your
@@ -161,10 +197,10 @@ const IVY = () => {
               </p>
             </section>
             <section>
-              <h4 className='text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
+              <h4 className="text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
                 Make meaningful connections.
               </h4>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
                 No two Ivy League students are the same. Ivy Leagues want to see
                 your passion, devotion, and interest in your future efforts
                 based on all of the options you have access to. It’s critical
@@ -179,22 +215,22 @@ const IVY = () => {
             </section>
           </div>
           {/* SECTION END */}
-          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
-            <section className='relative w-full md:w-[90%] h-[300px] md:h-full mx-auto'>
+          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
+            <section className="relative w-full md:w-[90%] h-[300px] md:h-full mx-auto">
               <Image
-                src='/assets/ivy-schools/left.png'
+                src="/assets/ivy-schools/left.png"
                 // width={item.width}
                 // height={item.height}
-                alt='Goals and Character Qualities'
+                alt="Goals and Character Qualities"
                 fill={true}
-                objectFit='containe'
+                objectFit="containe"
               />
             </section>
             <section>
-              <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
+              <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
                 Goals and Character Qualities
               </h4>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                 No two Ivy League students are the same. Ivy Leagues want to see
                 your passion, devotion, and interest in your future efforts
                 based on all of the options you have access to. It’s critical
@@ -208,12 +244,12 @@ const IVY = () => {
               </p>
             </section>
           </div>
-          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
-            <section className='order-2 md:order-1'>
-              <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
+          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
+            <section className="order-2 md:order-1">
+              <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
                 Extracurricular activities and interests
               </h4>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                 Ivy league institutions are as curious about your work and
                 interests outside of the classroom. They want to see commitment
                 to a cause and leadership responsibilities you’ve held, your
@@ -228,28 +264,28 @@ const IVY = () => {
                 experience affected your life.
               </p>
             </section>
-            <section className='order-1 md:order-2 relative w-full h-[300px] md:h-full mx-auto'>
+            <section className="order-1 md:order-2 relative w-full h-[300px] md:h-full mx-auto">
               <Image
-                src='/assets/ivy-schools/right.png'
+                src="/assets/ivy-schools/right.png"
                 // width={item.width}
                 // height={item.height}
-                alt='Goals and Character Qualities'
+                alt="Goals and Character Qualities"
                 fill={true}
-                objectFit='containe'
+                objectFit="containe"
               />
             </section>
           </div>
           {/* SECTION END */}
         </div>
       </div>
-      <CallToAction />
-      <div className='max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto'>
+      <CallToAction image={"/assets/call-action/about.png"} />
+      <div className="max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto">
         {/* SECTION START */}
-        <div className='w-full h-auto relative mt-14'>
-          <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
+        <div className="w-full h-auto relative mt-14">
+          <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
             How will Rostrum Education help you?
           </h4>
-          <p className='w-full md:w-[85%] text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-2'>
+          <p className="w-full md:w-[85%] text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-2">
             Rostrum Students work closely with ex-admission officers and mentors
             from the most exclusive US universities, such as Harvard, Stanford,
             Tufts et cetera. Our organizational structure with centers in India
@@ -257,41 +293,37 @@ const IVY = () => {
             Here’s everything Rostrum helps students with during their
             application process:
           </p>
-          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-10'>
-            {Array(8)
-              .fill()
+          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+            {data
               .map((item, i) => (
                 <section key={i}>
-                  <h6 className='text-[20px] md:text-[24px] text-primary text-left font-bold leading-tight mt-4 md:mt-2 flex items-start'>
+                  <h6 className="text-[20px] md:text-[24px] text-primary text-left font-bold leading-tight mt-4 md:mt-2 flex items-start">
                     <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      width='27.538'
-                      height='26.358'
-                      viewBox='0 0 27.538 26.358'
-                      className='me-2'
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="27.538"
+                      height="26.358"
+                      viewBox="0 0 27.538 26.358"
+                      className="me-2"
                     >
                       <g
-                        id='Group_110'
-                        data-name='Group 110'
-                        transform='translate(-26.404 -138.505)'
+                        id="Group_110"
+                        data-name="Group 110"
+                        transform="translate(-26.404 -138.505)"
                       >
-                        <g id='Group_109' data-name='Group 109'>
+                        <g id="Group_109" data-name="Group 109">
                           <path
-                            id='Path_276'
-                            data-name='Path 276'
-                            d='M41.793,139.683l2.082,6.408a1.705,1.705,0,0,0,1.621,1.178h6.738a1.7,1.7,0,0,1,1,3.082l-5.451,3.961a1.7,1.7,0,0,0-.619,1.9l2.082,6.408a1.7,1.7,0,0,1-2.622,1.9l-5.451-3.96a1.7,1.7,0,0,0-2,0l-5.451,3.96a1.7,1.7,0,0,1-2.623-1.9l2.082-6.408a1.7,1.7,0,0,0-.619-1.9l-5.451-3.961a1.7,1.7,0,0,1,1-3.082h6.738a1.706,1.706,0,0,0,1.621-1.178l2.082-6.408a1.7,1.7,0,0,1,3.241,0'
-                            fill='#ff335a'
+                            id="Path_276"
+                            data-name="Path 276"
+                            d="M41.793,139.683l2.082,6.408a1.705,1.705,0,0,0,1.621,1.178h6.738a1.7,1.7,0,0,1,1,3.082l-5.451,3.961a1.7,1.7,0,0,0-.619,1.9l2.082,6.408a1.7,1.7,0,0,1-2.622,1.9l-5.451-3.96a1.7,1.7,0,0,0-2,0l-5.451,3.96a1.7,1.7,0,0,1-2.623-1.9l2.082-6.408a1.7,1.7,0,0,0-.619-1.9l-5.451-3.961a1.7,1.7,0,0,1,1-3.082h6.738a1.706,1.706,0,0,0,1.621-1.178l2.082-6.408a1.7,1.7,0,0,1,3.241,0"
+                            fill="#ff335a"
                           />
                         </g>
                       </g>
                     </svg>
-                    Goal Alignment
+                    {item.title}
                   </h6>
-                  <p className='text-[16px] md:text-[20px] text-primary font-normal text-left mt-2'>
-                    If you’re applying to an Ivy it is imperative to be target
-                    oriented. Our team at Rostrum helps you align your work to
-                    application deadlines, and helps you set goals. You never
-                    have to worry about deadlines again.
+                  <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-2">
+                    {item.description}
                   </p>
                 </section>
               ))}

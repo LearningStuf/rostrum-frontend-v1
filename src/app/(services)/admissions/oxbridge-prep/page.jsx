@@ -36,7 +36,10 @@ const OxbridgePrep = () => {
   ];
   return (
     <main className='relative w-full h-auto'>
-      <HeaderBanner align='center' title={'OXBRIDGE PREPARATION'} />
+      <HeaderBanner align='center' title={'OXBRIDGE PREPARATION'} 
+            image={'/assets/header-banner/ox.png'}
+
+      />
       <div className='w-ful h-full relative mt-10 mb-10'>
         <div className='max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto'>
           {/* SECTION START */}
@@ -76,7 +79,21 @@ const OxbridgePrep = () => {
                 The core material for this can never be pre-defined, but it can
                 be delivered in the following ways:
               </p>
-              <div className='mt-10'>
+            </section>
+            <section>
+              <Image
+                src='/assets/oxbridge/banner-1.png'
+                width={486}
+                height={486}
+                alt='Begin preparing ahead of time'
+                className='mx-auto'
+              />
+            
+            </section>
+          </div>
+          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-4'>
+            <section>
+            <div className='mt-10'>
                 <h6 className='text-[20px] md:text-[24px] text-primary text-left font-bold leading-tight mt-4 md:mt-2 flex items-start'>
                   Dealing with unseen subject specific material
                 </h6>
@@ -120,14 +137,7 @@ const OxbridgePrep = () => {
               </div>
             </section>
             <section>
-              <Image
-                src='/assets/oxbridge/banner-1.png'
-                width={486}
-                height={486}
-                alt='Begin preparing ahead of time'
-                // objectFit='containe'
-              />
-              <div className='mt-10'>
+            <div className='mt-10'>
                 <h6 className='text-[20px] md:text-[24px] text-primary text-left font-bold leading-tight mt-4 md:mt-2 flex items-start'>
                   Structuring answers
                 </h6>
@@ -235,14 +245,22 @@ const OxbridgePrep = () => {
             </h3>
 
             <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-10'>
-              {Array(8)
-                .fill()
+              {[
+                `Our tutors are all current students or graduates at Oxford or Cambridge University`,
+                `We familiarize our students with the style of Admissions Test Questions`,
+                `With our Oxbridge test expert, students go through multiple mock admission tests`,
+                `We ensure that candidates answer in accordance with the mark scheme specification`,
+                `We provide services for students all over the world including India and UAE`,
+                `We investigate previous years’ exam papers annually`,
+                `We teach how to approach questions and write model answers`
+              ]
                 .map((item, i) => (
                   <section key={i} className='flex items-start justify-start'>
+                    <span>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
-                      width='27.538'
-                      height='26.358'
+                      width='22.538'
+                      height='20.358'
                       viewBox='0 0 27.538 26.358'
                       className='me-2'
                     >
@@ -261,9 +279,9 @@ const OxbridgePrep = () => {
                         </g>
                       </g>
                     </svg>
+                    </span>
                     <p className='text-[16px] md:text-[20px] text-primary font-normal text-left'>
-                      Our tutors are all current students or graduates at Oxford
-                      or Cambridge University
+                      {item}
                     </p>
                   </section>
                 ))}

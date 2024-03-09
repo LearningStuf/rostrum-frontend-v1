@@ -2,11 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import Button from '@/components/common/Button';
 
-const HeaderBanner = ({ title, align }) => {
+const HeaderBanner = ({ title, align , image}) => {
   return (
     <div className='w-ful h-[350px] md:h-[537px] relative'>
       <Image
-        src={'/assets/banner.png'}
+        src={image}
         alt='Univerity Sitting'
         fill
         style={{ objectFit: 'cover' }}
@@ -14,7 +14,7 @@ const HeaderBanner = ({ title, align }) => {
       />
       <div className='relative z-8  md:max-w-screen-xl mx-auto h-full flex items-center justify-center'>
         <h1
-          className={`transition-all text-[45px] md:text-[90px] text-white text-center md:text-${align} font-bold leading-tight`}
+          className={`p-2 md:p-auto transition-all text-[40px] md:text-[90px] text-white text-center md:text-${align} font-bold leading-tight`}
         >
           {title}
         </h1>

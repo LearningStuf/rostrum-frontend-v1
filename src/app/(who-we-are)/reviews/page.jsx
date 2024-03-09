@@ -8,9 +8,11 @@ const Reviews = () => {
     <main className='relative w-full h-auto'>
       <HeaderBanner 
       align='center'
-      title={'REVIEWS'} />
+      title={'REVIEWS'} 
+      image={"/assets/header-banner/about.png"}
+      />
       <ReviewsList />
-      <CallToAction />
+      <CallToAction image={"/assets/call-action/home.png"} />
       <br />
       <br />
       <br />

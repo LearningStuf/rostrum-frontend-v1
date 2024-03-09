@@ -7,12 +7,17 @@ import CallToAction from '@/components/common/CallToAction';
 const About = () => {
   return (
     <main className='relative w-full h-auto'>
-      <HeaderBanner 
+      <HeaderBanner
       align='center'
-      title={'About Us'} />
+      title={'About Us'}
+      image={'/assets/header-banner/about.png'}
+      
+      />
       <Mission />
       <HowWeWork />
-      <CallToAction />
+      <CallToAction 
+        image={'/assets/call-action/about.png'}
+      />
       <br />
       <br />
       <br />

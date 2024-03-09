@@ -5,11 +5,11 @@ import Button from '@/components/common/Button';
 import AnimationProvider from '@/components/common/AnimationProvider';
 
 
-const CallToAction = () => {
+const CallToAction = ({image}) => {
   return (
     <div className='w-ful h-full md:h-[467px] relative mt-10 md:mt-auto py-8  md:p-0'>
       <Image
-        src={'/assets/call-action.png'}
+        src={image}
         alt='Univerity Sitting'
         fill
         style={{ objectFit: 'cover' }}

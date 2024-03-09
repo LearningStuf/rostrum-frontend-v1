@@ -7,7 +7,10 @@ import AnimationProvider from '@/components/common/AnimationProvider';
 const Psychometric = () => {
   return (
     <main className='relative w-full h-auto'>
-      <HeaderBanner align='left' title={'PSYCHOMETRIC TEST & ASSESSMENT'} />
+      <HeaderBanner align='left' title={'PSYCHOMETRIC TEST & ASSESSMENT'} 
+            image={'/assets/header-banner/psycho.png'}
+
+      />
       <div className='w-ful h-full relative mt-10 mb-10'>
         <div className='max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto'>
           {/* SECTION START */}
@@ -201,7 +204,7 @@ const Psychometric = () => {
               TO TAKE PSYCHOMETRIC TESTS?
             </h3>
             <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
-              <section className='mt-auto md:mt-18'>
+              <section className='mt-auto md:mt-18 order-2 md:order-1'>
                 <h6 className='text-[20px] md:text-[24px] text-primary text-center md:text-left font-bold leading-tight mt-4 md:mt-2'>
                   WHAT IS A PSYCHOMETRIC TEST, AND HOW CAN IT HELP YOU?
                 </h6>
@@ -241,7 +244,7 @@ const Psychometric = () => {
                   reliable and accurate.
                 </p>
               </section>
-              <section className='flex flex-col items-center justify-center'>
+              <section className='flex flex-col items-center justify-center order-1 md:order-2'>
                 <Image
                   src='/assets/psycho/banner-2.png'
                   width={568}
@@ -254,17 +257,17 @@ const Psychometric = () => {
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
-          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
-            <section className='flex flex-col items-center justify-center'>
+          <div className='w-full h-auto grid grid-cols-12 gap-6 mt-14'>
+            <section className='col-span-12 md:col-span-5'>
               <Image
                 src='/assets/psycho/banner-3.png'
                 width={568}
                 height={568}
-                alt='WHAT IS A PSYCHOMETRIC TEST, AND HOW CAN IT HELP YOU?'
-                // objectFit='containe'
+                alt='How can Psychometric tests help you choose a career?'
+                className='mx-auto'
               />
             </section>
-            <section className='mt-auto md:mt-18'>
+            <section className='col-span-12 md:col-span-7'>
               <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight  mb-2'>
                 How can Psychometric tests help you choose a career?
               </h3>
@@ -279,8 +282,8 @@ const Psychometric = () => {
               </p>
             </section>
           </div>
-          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
-            <section className='mt-auto md:mt-18'>
+          <div className='w-full h-auto grid grid-cols-12 gap-6 mt-14'>
+          <section className='col-span-12 md:col-span-7  mt-auto md:mt-10'>
               <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight  mb-2'>
                 When is the right time to take a Psychometric test?
               </h3>
@@ -292,13 +295,13 @@ const Psychometric = () => {
                 developed adult-like behavioural habits.
               </p>
             </section>
-            <section className='flex flex-col items-center justify-center'>
+            <section className='col-span-12 md:col-span-5'>
               <Image
                 src='/assets/psycho/banner-4.png'
                 width={468}
                 height={468}
-                alt='WHAT IS A PSYCHOMETRIC TEST, AND HOW CAN IT HELP YOU?'
-                // objectFit='containe'
+                alt='When is the right time to take a Psychometric test?'
+                className='mx-auto'
               />
             </section>
           </div>
