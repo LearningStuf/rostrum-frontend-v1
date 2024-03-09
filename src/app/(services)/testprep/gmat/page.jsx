@@ -608,7 +608,7 @@ const GMAT = () => {
             </section>
             <section className='w-full col-span-12 md:col-span-8'>
               {data.map((item, i) => (
-                <section className='border-b-2 border-[#F5B646] pb-4 mb-4'>
+                <section key={i} className='border-b-2 border-[#F5B646] pb-4 mb-4'>
                   <p
                     key={i}
                     className='text-[16px] md:text-[20px] text-primary font-normal text-left'

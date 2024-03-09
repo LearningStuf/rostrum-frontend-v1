@@ -370,7 +370,7 @@ const GRE = () => {
           {/* SECTION START */}
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-14">
             {data.map((item, i) => (
-              <section className="">
+              <section key={i} className="">
                 <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mb-4">
                   {item.title}
                 </h6>

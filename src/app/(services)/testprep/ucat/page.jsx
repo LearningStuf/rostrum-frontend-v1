@@ -470,7 +470,7 @@ const UCAT = () => {
             <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-6'>
               <section>
                 {data.slice(0,3).map((item, i) => (
-                  <div className='mb-6'>
+                  <div key={i} className='mb-6'>
                     <h6 className='text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight '>
                       {item.title}
                     </h6>
@@ -485,7 +485,7 @@ const UCAT = () => {
               </section>
               <section>
                 {data.slice(3,).map((item, i) => (
-                  <div className='mb-6'>
+                  <div key={i} className='mb-6'>
                     <h6 className='text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight '>
                       {item.title}
                     </h6>

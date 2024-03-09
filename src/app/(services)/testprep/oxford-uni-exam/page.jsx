@@ -416,7 +416,7 @@ const OxfordUniExam = () => {
             </div>
             <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-8'>
               {data.map((item, i) => (
-                <section>
+                <section key={i} >
                   <h6 className='text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight'>
                     {item.title}
                   </h6>
