@@ -46,7 +46,11 @@ const ACT = () => {
   ];
   return (
     <main className="relative w-full h-auto">
-      <HeaderBanner align="left" title={"AMERICAN COLLEGE TESTING "} />
+      <HeaderBanner
+        align="left"
+        title={"AMERICAN COLLEGE TESTING "}
+        image={"/assets/header-banner/act.png"}
+      />
       <div className="w-ful h-full relative mt-10 mb-10">
         <div className="max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto">
           {/* SECTION START */}
@@ -64,9 +68,9 @@ const ACT = () => {
               </p>
             </section>
             <section>
-              <br />
-              <br />
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+              <br className='hidden md:block' />
+              <br className='hidden md:block' />
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-0 md:mt-4">
                 Admissions Officers at colleges evaluate your test scores
                 alongside your high school GPA, the classes you took in high
                 school, experiences outside of school, letters of recommendation
@@ -107,7 +111,7 @@ const ACT = () => {
 
           {/* SECTION START */}
           <div className="w-full h-auto relative mt-14">
-            <h4 className="text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
+            <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
               Sections of the ACT test overview
             </h4>
             <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
@@ -181,7 +185,7 @@ const ACT = () => {
           {/* SECTION START */}
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="mt-auto md:mt-14">
-              <h4 className="text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
+              <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
                 How to make an ACT registration?
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
@@ -223,7 +227,7 @@ const ACT = () => {
 
           {/* SECTION START */}
           <div className="w-full h-auto mt-14">
-            <h4 className="text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
+            <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
               Tips for ACT preparation
             </h4>
             <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
@@ -312,7 +316,7 @@ const ACT = () => {
           {/* SECTION END */}
         </div>
       </div>
-      <CallToAction />
+      <CallToAction image={"/assets/call-action/home.png"} />
     </main>
   );
 };

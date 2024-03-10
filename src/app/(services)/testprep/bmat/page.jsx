@@ -7,7 +7,11 @@ import AnimationProvider from "@/components/common/AnimationProvider";
 const BMAT = () => {
   return (
     <main className="relative w-full h-auto">
-      <HeaderBanner align="left" title={"BMAT"} />
+      <HeaderBanner
+        align="left"
+        title={"BMAT"}
+        image={"/assets/header-banner/bmat.png"}
+      />
       <div className="w-ful h-full relative mt-10 mb-10">
         <div className="max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto">
           {/* SECTION START */}
@@ -219,7 +223,7 @@ const BMAT = () => {
           </div>
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-14">
             <section>
-              <section>
+              <section className='mb-6 md:mb-auto' >
                 <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
                   1. Prioritise
                 </h6>
@@ -239,8 +243,8 @@ const BMAT = () => {
                   you’re already familiar with.
                 </p>
               </section>
-              <section>
-                <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
+              <section className='mb-6 md:mb-auto' >                
+              <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
                   2. Previous years’ papers
                 </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
@@ -256,8 +260,8 @@ const BMAT = () => {
                   familiarising you with the test’s structure.
                 </p>
               </section>
-              <section>
-                <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
+              <section className='mb-6 md:mb-auto' >               
+               <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
                   3. Complex problems vs. Time
                 </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
@@ -277,8 +281,8 @@ const BMAT = () => {
               </section>
             </section>
             <section>
-              <section>
-                <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
+            <section className='mb-6 md:mb-auto' >                
+            <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
                   4. Treat Section 1 as if it were the UCAT
                 </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
@@ -295,7 +299,7 @@ const BMAT = () => {
                   inferences that aren’t explicitly stated in the passage.
                 </p>
               </section>
-              <section>
+              <section className='mb-6 md:mb-auto' >
                 <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
                   5. Maintain your confidence in Section 2
                 </h6>
@@ -431,7 +435,10 @@ const BMAT = () => {
           {/* SECTION END */}
         </div>
       </div>
-      <CallToAction/>
+      <CallToAction 
+              image={'/assets/call-action/about.png'}
+
+      />
     </main>
   );
 };

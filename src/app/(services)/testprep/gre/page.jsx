@@ -77,27 +77,28 @@ const GRE = () => {
 
   return (
     <main className="relative w-full h-auto">
-      <HeaderBanner align="left" title={"GRE"} />
+      <HeaderBanner
+        align="left"
+        title={"GRE"}
+        image={"/assets/header-banner/gre.png"}
+      />
       <div className="w-ful h-full relative mt-10 mb-10">
         <div className="max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto">
           {/* SECTION START */}
-          <div className="relative w-full md:w-11/12  mx-auto flex items-start">
-            <span className="text-secondary text-[128px] font-semibold -translate-y-12 ">
+          <div className='relative w-full md:w-10/12 mx-auto flex items-start'>
+            <span className='text-secondary text-[128px]  -translate-y-12'>
               “
             </span>
-            <h6 className=" text-[22px] md:text-[28px] text-primary text-center font-semibold leading-tight">
-              Over 600,000 applicants take the test every year, be best placed
-              with us! We espouse a 90% entrance rate of students giving the
-              test with our GRE prep from all over the world including India and
-              UAE.
-              <span className="text-secondary text-[128px] -translate-y-2 translate-x-6 self-end leading-none absolute">
-                “
-              </span>
+            <h6 className=' text-[22px] md:text-[28px] text-primary text-center font-bold leading-tight'>
+            Over 600,000 applicants take the test every year, be best placed with us! We espouse a 90% entrance rate of students giving the test with our GRE prep from all over the world including India and UAE.
             </h6>
+            <span className='text-secondary text-[128px] translate-y-16 md:translate-y-0 translate-x-0 md:translate-x-0 self-end rotate-180'>
+              “
+            </span>
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
-          <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-14 md:mt-0">
             <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
               The Graduate Reform Examination General Test has the kind of
               questions that closely reflect the process of thinking you’ll do —
@@ -120,7 +121,7 @@ const GRE = () => {
           {/* SECTION END */}
           {/* SECTION START */}
           <div className="w-full h-auto mt-14">
-            <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
+            <h3 className="text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-4">
               THE GRE GENERAL TEST COMPUTES YOUR:
             </h3>
             <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -286,7 +287,7 @@ const GRE = () => {
           {/* SECTION START */}
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="mt-auto md:mt-14">
-              <h4 className="text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
+              <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
                 What is the best way to prepare for the GRE?
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
@@ -423,7 +424,7 @@ const GRE = () => {
           {/* SECTION END */}
         </div>
       </div>
-      <CallToAction />
+      <CallToAction image={"/assets/call-action/about.png"} />
     </main>
   );
 };

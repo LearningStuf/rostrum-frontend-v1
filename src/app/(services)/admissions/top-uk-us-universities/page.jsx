@@ -79,7 +79,10 @@ const TopUni = () => {
   ];
   return (
     <main className='relative w-full h-auto'>
-      <HeaderBanner align='center' title={'TOP UK & USA UNIVERSITIES'} />
+      <HeaderBanner align='center' title={'TOP UK & USA UNIVERSITIES'} 
+            image={'/assets/header-banner/top-uk.png'}
+
+      />
       <div className='w-ful h-full relative mt-10 mb-10'>
         <div className='max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto'>
           <div className='relative w-full md:w-2/3 mx-auto flex items-start'>
@@ -92,14 +95,14 @@ const TopUni = () => {
               presence at every step of your application and research will help
               you with the best and desired results.
             </h6>
-            <span className='text-secondary text-[128px] translate-y-16 translate-x-4 self-end'>
+            <span className='text-secondary text-[128px] translate-y-16 translate-x-0 md:translate-x-4 self-end rotate-180'>
               “
             </span>
           </div>
           {/* SECTION START */}
           <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
             <section className='mt-auto md:mt-18'>
-              <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-4'>
+              <h3 className='text-center md:text-left text-[35px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-4'>
                 UNDERGRADUATE
               </h3>
               <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
@@ -151,9 +154,9 @@ const TopUni = () => {
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
-          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
+          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6'>
             <section className='mt-auto md:mt-18'>
-              <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-4'>
+              <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-4'>
                 MASTERS
               </h3>
               <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>

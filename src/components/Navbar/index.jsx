@@ -160,7 +160,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href='/'
+                  href='/contact'
                   className='block py-2 px-3 text-[20px] font-semibold text-primary-dark uppercase transition-all duration-300 hover:text-secondary'
                 >
                   Contact us

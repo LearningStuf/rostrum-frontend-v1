@@ -61,23 +61,25 @@ const AP = () => {
       <HeaderBanner
         align='left'
         title={'ADVANCED PLACEMENT EXAMS 2022 (AP EXAMS)'}
+        image={'/assets/header-banner/ap.png'}
+
       />
       <div className='w-ful h-full relative mt-10 mb-10'>
         <div className='max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto'>
-          <div className='relative w-full md:w-11/12  mx-auto flex items-start'>
-            <span className='text-secondary text-[128px] font-semibold -translate-y-12 '>
+          <div className='relative w-full md:w-10/12  mx-auto flex items-start'>
+            <span className='text-secondary text-[128px] font-semibold -translate-y-20 absolute'>
               “
             </span>
-            <h6 className=' text-[22px] md:text-[28px] text-primary text-center font-semibold leading-tight'>
+            <h6 className='text-[22px] md:text-[28px] text-primary text-center font-semibold leading-tight mt-4 md:mt-auto'>
               75% of our students score a 5/5 on their AP’s. Practise questions
               handed out on a daily basis for thorough readiness.
-              <span className='text-secondary text-[128px] -translate-y-2 translate-x-6 self-end leading-none absolute'>
+              <span className='text-secondary text-[128px] -translate-y-10 md:-translate-y-16 translate-x-0 md:translate-x-6 self-end leading-none absolute rotate-180'>
                 “
               </span>
             </h6>
           </div>
           {/* SECTION START */}
-          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6'>
+          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
             <section className='mt-auto md:mt-18'>
               <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4'>
                 WHAT IS THE AP TEST?
@@ -311,12 +313,13 @@ const AP = () => {
             <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2'>
               HOW TO PREPARE FOR AP AN EXAM?
             </h3>
-            <p className='text-[16px] md:text-[20px] text-primary leading-tight font-normal text-left'>
+            <p className='text-[16px] md:text-[20px] text-primary leading-tight font-normal text-center md:text-left mt-2'>
               The three elements listed below can help you figure out how much
               <br className='hidden md:block' />
               studying you’ll need to accomplish before your AP exam (s).
             </p>
-            <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-8 mt-4'>
+
+            <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-8 mt-8'>
               {data.slice(0, 3).map((item, i) => {
                 return (
                   <div key={i} className='flex flex-col items-center justify-center'>
@@ -326,7 +329,7 @@ const AP = () => {
                       height={300}
                       alt={item.title}
                     />
-                    <h6 className='text-[22px] md:text-[28px] text-primary text-center font-bold leading-tight'>
+                    <h6 className='text-[22px] md:text-[28px] text-primary text-center font-bold leading-tight mt-4'>
                       {item.title}
                     </h6>
                     <p className='text-[16px] md:text-[20px] text-primary leading-tight font-normal text-center mt-2'>
@@ -351,7 +354,7 @@ const AP = () => {
                       height={300}
                       alt={item.title}
                     />
-                    <h6 className='text-[22px] md:text-[28px] text-primary text-center font-bold leading-tight'>
+                    <h6 className='text-[22px] md:text-[28px] text-primary text-center font-bold leading-tight mt-4'>
                       {item.title}
                     </h6>
                     <p className='text-[16px] md:text-[20px] text-primary leading-tight font-normal text-center mt-2'>

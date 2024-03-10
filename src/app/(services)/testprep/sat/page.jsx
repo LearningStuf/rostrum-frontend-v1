@@ -7,7 +7,10 @@ import AnimationProvider from "@/components/common/AnimationProvider";
 const SAT = () => {
   return (
     <main className="relative w-full h-auto">
-      <HeaderBanner align="left" title={"SAT"} />
+      <HeaderBanner align="center" title={"SAT"} 
+            image={'/assets/header-banner/sat.png'}
+
+      />
       <div className="w-ful h-full relative mt-10 mb-10">
         <div className="max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto">
           {/* SECTION START */}
@@ -75,8 +78,7 @@ const SAT = () => {
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
                 SAT hacks from Rostrum experts
               </h3>
-              <br />
-              <section className="w-full relative my-auto md:my-8">
+              <section className="w-full relative my-4 md:my-8">
                 <span className="absolute top-1 w-4 h-4 rounded-full bg-secondary block"></span>
                 <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-left ps-6">
                   Candidates who do well on the SAT are likely to be skilled
@@ -85,14 +87,14 @@ const SAT = () => {
                   since the test has many portions.
                 </p>
               </section>
-              <section className="w-full relative my-auto md:my-8">
+              <section className="w-full relative my-4 md:my-8">
                 <span className="absolute top-1 w-4 h-4 rounded-full bg-secondary block"></span>
                 <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-left ps-6">
                   To stay on track with your self-study program, you’ll need
                   drive and self-discipline.
                 </p>
               </section>
-              <section className="w-full relative my-auto md:my-8">
+              <section className="w-full relative my-0 md:my-8">
                 <span className="absolute top-1 w-4 h-4 rounded-full bg-secondary block"></span>
                 <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-left ps-6">
                   Attending coaching classes, is not a bad idea if you believe
@@ -100,7 +102,7 @@ const SAT = () => {
                 </p>
               </section>
             </section>
-            <section className="relative">
+            <section className="relative flex flex-col-reverse md:flex-col">
               <Image
                 src="/assets/sat/banner-2.png"
                 width={370}
@@ -108,7 +110,7 @@ const SAT = () => {
                 alt="What is the SAT?"
                 className="mx-auto"
               />
-              <section className="w-full relative my-auto md:my-8">
+              <section className="w-full relative my-0 md:my-8">
                 <span className="absolute top-1 w-4 h-4 rounded-full bg-secondary block"></span>
                 <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-left ps-6">
                   Rostrum has a great team of tutors who can help you excel in
@@ -387,7 +389,10 @@ const SAT = () => {
           {/* SECTION END */}
         </div>
       </div>
-      <CallToAction/>
+      <CallToAction
+              image={'/assets/call-action/about.png'}
+
+      />
     </main>
   );
 };
