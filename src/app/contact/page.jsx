@@ -1,6 +1,24 @@
 import React from "react";
+import { CONTACT_PAGE } from "@/quries";
+import { URL } from "@/utils/SERVER_URL";
+import { getAssetUrl } from "@/utils/getAssetUrl";
 
-const Contact = () => {
+const Contact = async () => {
+  const response = await fetch(URL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      query: CONTACT_PAGE,
+    }),
+    next: { revalidate: 86400 },
+  });
+  const { data } = await response.json();
+  console.log(JSON.stringify(data));
+  const { address, timing, contact, description } =
+    data?.contactPage?.data?.attributes;
+
   return (
     <div class="max-w-screen-lg mx-auto p-5">
       <div class="grid grid-cols-1 md:grid-cols-12 border">
@@ -9,22 +27,16 @@ const Contact = () => {
           <h3 class="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight">
             Get In <span class="text-secondary">Touch</span>
           </h3>
-          <p class="mt-4 leading-7 text-gray-200">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s.
-          </p>
+          <p class="mt-4 leading-7 text-gray-200">{description}</p>
 
           <div class="flex items-center mt-5">
-            <span class="text-sm">
-              House #14, Street #12, Darulaman Road, Kabul, Afghanistan.
-            </span>
+            <span class="text-sm">{address}</span>
           </div>
           <div class="flex items-center mt-5">
-            <span class="text-sm">+93 749 99 65 50</span>
+            <span class="text-sm">{contact}</span>
           </div>
           <div class="flex items-center mt-5">
-            <span class="text-sm">24/7</span>
+            <span class="text-sm">{timing}</span>
           </div>
         </div>
         <form class="md:col-span-8 p-10">

@@ -371,3 +371,18 @@ query Blogs {
     }
   }
 `;
+
+export const CONTACT_PAGE = `
+query ContactPage {
+  contactPage {
+    data {
+      attributes {
+        address
+        contact
+        description
+        timing
+      }
+    }
+  }
+}
+`;
