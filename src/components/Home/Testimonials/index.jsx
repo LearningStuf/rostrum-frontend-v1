@@ -2,8 +2,11 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
+import { getAssetUrl } from '@/utils/getAssetUrl';
 
 const TestimonialCarousel = ({ testimonials }) => {
+
+  
   const [selectedTestimonialIndex, setSelectedTestimonialIndex] = useState(0);
 
   const handleSlideClick = (index) => {
@@ -31,12 +34,12 @@ const TestimonialCarousel = ({ testimonials }) => {
                 onClick={() => handleSlideClick(index)}
               >
                 <Image
-                  src={testimonial.image}
+                  src={getAssetUrl(testimonial?.attributes?.image)}
                   alt='Testimonial'
                   className='w-full h-full object-cover'
                   fill={true}
                   placeholder='blur'
-                  blurDataURL={testimonial.image}
+                  blurDataURL={getAssetUrl(testimonial?.attributes?.image)}
                 />
               </div>
             ))}
@@ -54,23 +57,23 @@ const TestimonialCarousel = ({ testimonials }) => {
                   exit={{ opacity: 0 }}
                 >
                   <Image
-                    src={testimonials[selectedTestimonialIndex].image}
+                    src={getAssetUrl(testimonials[selectedTestimonialIndex]?.attributes?.image)}
                     alt='Testimonial'
                     className='w-full h-full object-cover'
                     fill={true}
                     placeholder='blur'
-                    blurDataURL={testimonials[selectedTestimonialIndex].image}
+                    blurDataURL={getAssetUrl(testimonials[selectedTestimonialIndex]?.attributes?.image)}
                   />
                 </motion.div>
               )}
               <p className='text-[14px] text-primary font-normal text-center px-4'>
-                {testimonials[selectedTestimonialIndex].text}
+                {testimonials[selectedTestimonialIndex]?.attributes?.description}
               </p>
               <p className='text-[18px] text-primary font-bold text-center mt-4'>
-                {testimonials[selectedTestimonialIndex].name}
+              {testimonials[selectedTestimonialIndex]?.attributes?.name}
               </p>
               <p className='text-[14px] text-primary font-normal text-center'>
-                {testimonials[selectedTestimonialIndex]?.university}
+              {testimonials[selectedTestimonialIndex]?.attributes?.university}
               </p>
               {/* Pagination Dots */}
               <div className='flex justify-center mt-6'>
@@ -100,12 +103,12 @@ const TestimonialCarousel = ({ testimonials }) => {
                 onClick={() => handleSlideClick(index + 3)}
               >
                 <Image
-                  src={testimonial.image}
+                  src={getAssetUrl(testimonial?.attributes?.image)}
                   alt='Testimonial'
                   className='w-full h-full object-cover'
                   fill={true}
                   placeholder='blur'
-                  blurDataURL={testimonial.image}
+                  blurDataURL={getAssetUrl(testimonial?.attributes?.image)}
                 />
               </div>
             ))}
