@@ -43,9 +43,10 @@ const Footer = async () => {
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
               {data?.footer?.data?.attributes?.website_routes?.data?.map(
                 (route, i) => (
-                  <Link  href={route?.attributes?.url}>
+                  <Link  
+                  key={i}
+                  href={route?.attributes?.url}>
                   <li
-                    key={i}
                     className="mb-4 text-[20px] text-stone transition-all hover:text-secondary"
                     role="button"
                   >
