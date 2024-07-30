@@ -15,7 +15,7 @@ const ComparisonChart = async () => {
   });
 
   const { data } = await response.json();
-  const list = data?.comparisonTables.data;
+  const list = data?.comparisonTables?.data;
 
   return (
     <div className="w-ful h-auto relative mt-10 mb-10">

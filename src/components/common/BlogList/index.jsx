@@ -27,7 +27,7 @@ const BlogList = async () => {
       <div className="max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
         {blogs?.map((item, i) => (
           <AnimationProvider key={i} animationType="slide-up" duration={0.4}>
-            <div class="max-w-sm h-autooverflow-hidden shadow-lg rounded-3xl pb-4">
+            <div className="max-w-sm h-autooverflow-hidden shadow-lg rounded-3xl pb-4">
               <div className="w-full h-[300px] relative">
                 <Image
                   src={getAssetUrl(item?.attributes?.image)}
@@ -37,7 +37,7 @@ const BlogList = async () => {
                   className="rounded-tr-3xl rounded-tl-3xl"
                 />
               </div>
-              <div class="px-6 py-4">
+              <div className="px-6 py-4">
                 <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-none mt-4">
                   {item?.attributes?.title}
                 </h6>
