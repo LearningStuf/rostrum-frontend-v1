@@ -17,7 +17,7 @@ const Team = async () => {
       body: JSON.stringify({
         query: TEAM_PAGE,
       }),
-      next: { revalidate: 86400 },
+      next: { revalidate: 60 },
     });
 
     if (!response.ok) {

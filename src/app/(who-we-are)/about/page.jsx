@@ -18,7 +18,7 @@ const About = async () => {
       body: JSON.stringify({
         query: ABOUT_PAGE,
       }),
-      next: { revalidate: 86400 },
+      next: { revalidate: 60 },
     });
 
     if (!response.ok) {

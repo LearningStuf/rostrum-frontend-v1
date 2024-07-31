@@ -11,7 +11,7 @@ const ComparisonChart = async () => {
     body: JSON.stringify({
       query: COMPARISON_TABLE,
     }),
-    next: { revalidate: 86400 },
+    next: { revalidate: 60 },
   });
 
   const { data } = await response.json();

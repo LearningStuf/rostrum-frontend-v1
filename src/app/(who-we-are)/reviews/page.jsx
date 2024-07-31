@@ -17,7 +17,7 @@ const Reviews = async () => {
       body: JSON.stringify({
         query: REVIEW_PAGE,
       }),
-      next: { revalidate: 86400 },
+      next: { revalidate: 60 },
     });
 
     if (!response.ok) {

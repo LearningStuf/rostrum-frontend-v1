@@ -18,7 +18,7 @@ const Blogs = async () => {
       body: JSON.stringify({
         query: BLOG_PAGE,
       }),
-      next: { revalidate: 86400 },
+      next: { revalidate: 60 },
     });
 
     if (!response.ok) {

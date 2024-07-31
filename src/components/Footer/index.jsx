@@ -13,7 +13,7 @@ const Footer = async () => {
     body: JSON.stringify({
       query: FOOTER,
     }),
-    next: { revalidate: 86400 },
+    next: { revalidate: 60 },
   });
 
   const { data } = await response.json();

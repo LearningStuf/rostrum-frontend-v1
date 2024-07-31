@@ -16,7 +16,7 @@ const BlogList = async () => {
     body: JSON.stringify({
       query: ALL_BLOGS,
     }),
-    next: { revalidate: 86400 },
+    next: { revalidate: 60 },
   });
   const { data } = await response.json();
   const blogs = data?.blogs?.data;

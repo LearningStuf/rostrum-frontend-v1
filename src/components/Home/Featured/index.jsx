@@ -14,7 +14,7 @@ const Featured = async () => {
     body: JSON.stringify({
       query: HOME_FEATURED,
     }),
-    next: { revalidate: 86400 },
+    next: { revalidate: 60 },
   });
   const { data } = await response.json();
 

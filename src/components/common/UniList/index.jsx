@@ -12,7 +12,7 @@ const UniList = async () => {
     body: JSON.stringify({
       query: HOME_UNIVERSITIES,
     }),
-    next: { revalidate: 86400 },
+    next: { revalidate: 60 },
   });
   const { data } = await response.json();
 
