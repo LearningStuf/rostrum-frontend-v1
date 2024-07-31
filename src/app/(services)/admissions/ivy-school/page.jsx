@@ -128,13 +128,13 @@ const IVY = () => {
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
-          <div class="w-full h-auto grid grid-cols-12 gap-4 mt-14">
-            <section class="col-span-12 md:col-span-5">
+          <div className="w-full h-auto grid grid-cols-12 gap-4 mt-14">
+            <section className="col-span-12 md:col-span-5">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-auto">
                 What is the Ivy League?
               </h3>
             </section>
-            <section class="col-span-12 md:col-span-7">
+            <section className="col-span-12 md:col-span-7">
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
                 Ivy Leagues are amongst the most prestigious universities in the
                 United States and across the world. These eight elite
@@ -154,13 +154,13 @@ const IVY = () => {
               </p>
             </section>
           </div>
-          <div class="w-full h-auto grid grid-cols-12 gap-4 mt-14">
-            <section class="col-span-12 md:col-span-5">
+          <div className="w-full h-auto grid grid-cols-12 gap-4 mt-14">
+            <section className="col-span-12 md:col-span-5">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-auto">
                 How to get into an Ivy League school?
               </h3>
             </section>
-            <section class="col-span-12 md:col-span-7">
+            <section className="col-span-12 md:col-span-7">
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
                 It doesn’t come as a surprise that Ivy League colleges are on
                 the lookout for individuals who can contribute to their rich and

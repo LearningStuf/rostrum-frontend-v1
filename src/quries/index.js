@@ -1,52 +1,61 @@
 export const HOME_PAGE = `
 query HomePage {
-    homePage {
-      data {
-        id
-        attributes {
-          headerSection {
-            id
-            image {
-              data {
-                attributes {
-                  url
-                }
+  homePage {
+    data {
+      attributes {
+        headerSection {
+          id
+          image {
+            data {
+              attributes {
+                url
               }
             }
-            text
           }
-          serviceSection {
-            description
-            id
-            title
-          }
-          statsSection {
-            id
-            number1
-            number2
-            number3
-            number4
-            text1
-            text3
-            text2
-            text4
-          }
-          callToAction {
-            headline
-            id
-            title
-            image {
-              data {
-                attributes {
-                  url
-                }
+          text
+        }
+        serviceSection {
+          description
+          id
+          title
+        }
+        statsSection {
+          id
+          number1
+          number2
+          number3
+          number4
+          text1
+          text3
+          text2
+          text4
+        }
+        callToAction {
+          headline
+          id
+          title
+          image {
+            data {
+              attributes {
+                url
               }
             }
           }
         }
+        services {
+          image {
+            data {
+              attributes {
+                url
+              }
+            }
+          }
+          title
+        }
       }
     }
   }
+}
 `;
 
 export const HOME_SERVICES = `
@@ -112,6 +121,7 @@ query Testimonials {
             }
           }
         }
+        id
       }
     }
   }
@@ -360,4 +370,19 @@ query Blogs {
       }
     }
   }
+`;
+
+export const CONTACT_PAGE = `
+query ContactPage {
+  contactPage {
+    data {
+      attributes {
+        address
+        contact
+        description
+        timing
+      }
+    }
+  }
+}
 `;

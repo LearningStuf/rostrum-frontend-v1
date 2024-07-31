@@ -2,20 +2,22 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FOOTER } from "@/quries";
+import { URL } from "@/utils/SERVER_URL";
 
 const Footer = async () => {
-  // const response = await fetch("http://localhost:1337/graphql", {
-  //   method: "POST",
-  //   headers: {
-  //     "Content-Type": "application/json",
-  //   },
-  //   body: JSON.stringify({
-  //     query: FOOTER,
-  //   }),
-  // });
+  const response = await fetch(URL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      query: FOOTER,
+    }),
+    next: { revalidate: 86400 },
+  });
 
-  // const {data:{footer}} = await response.json()
-  // console.log(JSON.stringify(footer) , 'SERVER DATA........')
+  const { data } = await response.json();
+
   return (
     <footer className="bg-primary-light">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -31,9 +33,7 @@ const Footer = async () => {
               />
             </Link>
             <p className="text-[20px] text-stone -mt-6">
-              Rostrum provides unparalleled services towards supporting students
-              academically through the course along with assistance for
-              admissions into students’ dream universities.
+              {data?.footer?.data?.attributes?.description}
             </p>
           </div>
           <div>
@@ -41,48 +41,20 @@ const Footer = async () => {
               Quick links
             </h4>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
-              <li
-                className="mb-4 text-[20px] text-stone transition-all hover:text-secondary"
-                role="button"
-              >
-                Boarding Schools
-              </li>
-              <li
-                className="mb-4 text-[20px] text-stone transition-all hover:text-secondary"
-                role="button"
-              >
-                Ivy League Prep
-              </li>
-              <li
-                className="mb-4 text-[20px] text-stone transition-all hover:text-secondary"
-                role="button"
-              >
-                Med School
-              </li>
-              <li
-                className="mb-4 text-[20px] text-stone transition-all hover:text-secondary"
-                role="button"
-              >
-                Ox-Bridge Prep
-              </li>
-              <li
-                className="mb-4 text-[20px] text-stone transition-all hover:text-secondary"
-                role="button"
-              >
-                SAT TUTORING
-              </li>
-              <li
-                className="mb-4 text-[20px] text-stone transition-all hover:text-secondary"
-                role="button"
-              >
-                BUSINESS SCHOOLS
-              </li>
-              <li
-                className="mb-4 text-[20px] text-stone transition-all hover:text-secondary"
-                role="button"
-              >
-                PSYCHOMETRIC TEST
-              </li>
+              {data?.footer?.data?.attributes?.website_routes?.data?.map(
+                (route, i) => (
+                  <Link  
+                  key={i}
+                  href={route?.attributes?.url}>
+                  <li
+                    className="mb-4 text-[20px] text-stone transition-all hover:text-secondary"
+                    role="button"
+                  >
+                    {route?.attributes?.name}
+                  </li>
+                  </Link>
+                )
+              )}
             </ul>
           </div>
           <div>
@@ -91,12 +63,11 @@ const Footer = async () => {
             </h4>
             <h4 className="mb-1 text-[24px] font-semibold text-stone">Dubai</h4>
             <p className="mb-6 text-[20px] text-stone">
-              902, Citadel Tower, Business Bay, Dubai
+              {data?.footer?.data?.attributes?.addressDubai}
             </p>
             <h4 className="mb-1 text-[24px] font-semibold text-stone">Delhi</h4>
             <p className="text-[20px] text-stone">
-              K-317, Mehrauli - Badarpur Rd, Nai Basti, Lado Sarai, New Delhi,
-              Delhi 110030
+              {data?.footer?.data?.attributes?.addressDelhi}
             </p>
           </div>
           <div>
@@ -106,22 +77,24 @@ const Footer = async () => {
             <h4 className="mb-1 text-[24px] font-semibold text-stone">Phone</h4>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
               <li className="mb-1 text-[20px] text-stone" role="button">
-                UAE : +971 50 939 5354
+                {data?.footer?.data?.attributes?.phone1}
               </li>
               <li className="mb-1 text-[20px] text-stone " role="button">
-                IND : +91 93100 79937
+                {data?.footer?.data?.attributes?.phone2}
               </li>
               <li className="mb-1 text-[20px] text-stone " role="button">
-                IND : +91 124 426 2020
+                {data?.footer?.data?.attributes?.phone3}
               </li>
               <li className="mb-1 text-[20px] text-stone " role="button">
-                IND : +91 11 4019 9312
+                {data?.footer?.data?.attributes?.phone4}
               </li>
             </ul>
             <h4 className="mb-1 mt-6 text-[24px] font-semibold text-stone">
               Email address
             </h4>
-            <p className="mb-6 text-[20px] text-stone">info@rostrumedu.com</p>
+            <p className="mb-6 text-[20px] text-stone">
+              {data?.footer?.data?.attributes?.email}
+            </p>
           </div>
         </div>
       </div>
