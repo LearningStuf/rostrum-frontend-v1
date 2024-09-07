@@ -60,30 +60,34 @@ const ACT = () => {
                 What is the ACT?
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The ACT is another entrance test used by a lot of colleges and
-                universities to make admission-based decisions. The purpose of
-                the ACT test prep is to calculate a student’s preparedness for
-                college, and provide colleges with one standard source that can
-                be used by all applicants.
+              Your dream of going to an Ivy League college will come true. How? By getting the best score on ACT with Rostrum’s help.
+              <br/>
+              <br/>
+              The ACT (American College Testing) is an entrance exam American universities use to select the best students. It checks the applicant’s aptitude and skills required for an undergraduate degree.
+
               </p>
             </section>
             <section>
-              <br className='hidden md:block' />
-              <br className='hidden md:block' />
+            <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
+            Why Give ACT?
+
+              </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-0 md:mt-4">
-                Admissions Officers at colleges evaluate your test scores
-                alongside your high school GPA, the classes you took in high
-                school, experiences outside of school, letters of recommendation
-                from teachers and mentors, extracurricular activities, awards
-                and commendation received, admissions interviews, and personal
-                essays.
+              When applying to universities, you can submit your ACT scores with your other documents,
+              <br/>
+              <br/>
+              The ACT commonly measures a student’s overall readiness in all subject areas, but its importance varies for every course.
+              <br/>
+              <br/>
+              However, securing a high score on the ACT can open up your possibilities. You will be more likely to get admission into your dream university! 
+
               </p>
             </section>
           </div>
           {/* SECTION END */}
 
           {/* SECTION START */}
-          <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+          {/* <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
             <section className="">
               <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mb-4">
                 How is it graded?
@@ -106,77 +110,69 @@ const ACT = () => {
                 ACT. The ACT test has a total of 215 multiple-choice questions.
               </p>
             </section>
-          </div>
+          </div> */}
           {/* SECTION END */}
 
           {/* SECTION START */}
           <div className="w-full h-auto relative mt-14">
             <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
-              Sections of the ACT test overview
+            What Is The Structure Of ACT?
+
             </h4>
+            <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+            You will be tested in four main subjects: English, Reading, Math, and Science. There is also an optional writing test. 
+            <br/>
+            <br/>
+           <b> Pro Tip: </b>Check your college’s requirements to see if you should opt for the writing test. If you are confused about the requirements, you should take the writing test to be safe.
+           <br/>
+           <br/>
+           The sections are divided as follows:
+
+            </p>
+
             <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
               <section>
                 <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mb-4">
-                  ENGLISH
+                English
+
                 </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  75 multiple-choice questions
-                  <br />
-                  Time: 45 minutes
-                  <br />
-                  Topics Covered: grammar, punctuation, sentence structure, and
-                  rhetorical skills are also assessed
+                This section has 75 questions. It lasts for 45 minutes. It tests your ability to improve and edit short texts and essays in different styles)
+
                 </p>
               </section>
               <section>
                 <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mb-4">
-                  MATHS
+                Mathematics
                 </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  60 multiple-choice questions
-                  <br />
-                  Time limit: 60 minutes
-                  <br />
-                  Subjects covered: algebra I and II, geometry, and trigonometry
-                  are some of the subjects covered
+                This section has 60 questions. It lasts for 60 minutes. It tests the math skills you learn by the start of grade 12.
                 </p>
               </section>
               <section>
                 <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mb-4">
-                  READING
+                Reading
                 </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  40 multiple-choice questions
-                  <br />
-                  Time: 35 minutes
-                  <br />
-                  There are four sections with ten questions each: prose
-                  fiction, social studies, humanities, and natural sciences
+                This section has 40 questions. It lasts for 35 minutes. It tests how well you understand, think, and use information from different sources
+
                 </p>
               </section>
               <section>
                 <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mb-4">
-                  WRITING
+                Science
                 </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  Optional writing test * 1 paper
-                  <br />
-                  Time: 40 minutes
-                  <br />
-                  Because certain schools demand it, we recommend taking the ACT
-                  writing test
+                This section has 40 questions. It lasts for 35 minutes. It tests how well you solve problems in biology, chemistry, Earth/space sciences, and physics.
                 </p>
               </section>
               <section>
                 <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mb-4">
-                  SCIENCE
+                Writing (Optional)
                 </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  40 multiple-choice questions
-                  <br />
-                  Time: 35 minutes
-                  <br />
-                  Questions include graphs, charts, tables, and study summaries
+                This section has 1 prompt. It lasts for 30 minutes. It tests writing skills that you learned in high school English.
+
                 </p>
               </section>
             </div>
@@ -186,22 +182,32 @@ const ACT = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="mt-auto md:mt-14">
               <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
-                How to make an ACT registration?
+              Scoring
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The ACT is not given at a specific time. Because the exam topic
-                includes academic materials up to that time, students normally
-                take it in the second half of 11th grade. When it comes to the
-                application process, most students find having their ACT results
-                handy. Furthermore, taking the exam in 11th grade gives you
-                plenty of time to prepare and retake the exam if your initial
-                score isn’t good.
+              In each section, you will get a mark between 1 to 36. Your total score will be the average of the four sections, from 1 to 36. The writing test has a separate marking.
+              <br/>
+              <br/>
+Anything above 30 is a good score that can guarantee your acceptance into a top Ivy League school. In 2020, over 5,579 applicants (out of 1.67 million) got a full 36 on the ACT.
+<br/>
+<br/>
+
+Eligibility criteria 
+<br/>
+<br/>
+The ACT is mostly given by high school graduates worldwide. However, grades 6 to 9 students can also sit for the exam. 
+<br/>
+<br/>
+The student must be at least 13 years old at the time of registration and get consent from their parents. There is no maximum age limit. 
+<br/>
+<br/>
+There are no specific academic criteria, and students with low GPAs can also take the exam.
+<br/>
+<br/>
+The applicant must have a valid international passport to register. 
+
               </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                If you haven’t already done so, you can register for the exam on
-                the ACT website. If you haven’t previously done so, you’ll need
-                to create an account on the ACT website to register for the exam
-              </p>
+
             </section>
             <section className="">
               <Image
@@ -211,16 +217,7 @@ const ACT = () => {
                 alt="Significance of the GMAT exam"
                 className="mx-auto"
               />
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                We recommend you choose a location close to you to avoid any
-                exam day chaos while you’re on way to the exam in the morning.
-              </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Make sure you allow yourself enough time to prepare before you
-                choose a date. If you’re completely unfamiliar with the test,
-                schedule it at least three months in advance to allow yourself
-                enough time to study.
-              </p>
+
             </section>
           </div>
           {/* SECTION END */}
@@ -228,10 +225,10 @@ const ACT = () => {
           {/* SECTION START */}
           <div className="w-full h-auto mt-14">
             <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
-              Tips for ACT preparation
+            EXAM PREPARATION TIPS
             </h4>
             <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
-              {process.map((item, i) => (
+              {/* {process.map((item, i) => (
                 <section key={i} className="w-full relative">
                   <div className="flex items-center justify-start">
                     <h6 className="relative w-full text-[22px] md:text-[28px] text-primary text-left font-bold leading-tight flex self-end">
@@ -253,7 +250,90 @@ const ACT = () => {
                     {item.description_2}
                   </p>
                 </section>
-              ))}
+              ))} */}
+              <section>
+              <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4"
+              >
+                English
+              </p>
+              <ul className="list-outside list-disc text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4" >
+                <li>
+                Concisely write your answer.
+                </li>
+                <li>
+                Read the passage thoroughly and mark important information. 
+                </li>
+                <li>
+                Choose the “No Change” answers carefully - they can be tricky!
+
+                </li>
+              </ul>
+              </section>
+              <section>
+              <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4"
+              >
+                Math
+              </p>
+              <ul className="list-outside list-disc text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4" >
+                <li>
+                Analyze diagrams carefully.
+
+                </li>
+                <li>
+                To solve with ‘x,’ put an answer choice into the original equation to check it
+                </li>
+              </ul>
+              </section>
+              <section>
+              <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4"
+              >
+                Reading
+
+              </p>
+              <ul className="list-outside list-disc text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4" >
+                <li>
+                Skim the excerpts - read each paragraph's introduction, conclusion, and first sentence.
+
+                </li>
+                <li>
+                Start the passages which are of interest. This may include humanities, literary narrative, social science, or natural science
+
+                </li>
+              </ul>
+              </section>
+              <section>
+              <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4"
+              >
+                Science
+
+              </p>
+              <ul className="list-outside list-disc text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4" >
+                <li>
+                Leave the conflicting viewpoints part for the end
+
+                </li>
+                <li>
+                Pay attention to the visual aids (graphs)
+                </li>
+              </ul>
+              </section>
+              <section>
+              <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4"
+              >
+                Essay
+
+              </p>
+              <ul className="list-outside list-disc text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4" >
+                <li>
+                Write solid examples based on facts. 
+
+                </li>
+                <li>
+                Focus on a compelling intro and a good conclusion.
+
+                </li>
+              </ul>
+              </section>
             </div>
           </div>
           {/* SECTION END */}
@@ -261,9 +341,8 @@ const ACT = () => {
           {/* SECTION START */}
           <div className="w-full h-auto mt-14">
             <h4 className="text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
-              What makes Rostrum’s
-              <br className="hidden md:block" />
-              instructors unique?
+            Rostrum Tutoring For The Perfect ACT Score
+
             </h4>
             <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
               <section className="">
@@ -274,41 +353,21 @@ const ACT = () => {
                   alt="Significance of the GMAT exam"
                   className="mx-auto"
                 />
-                <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mb-4">
-                  Regular Monitoring
-                </h6>
-                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  To test your understanding of the concepts and measure your
-                  progress, we conduct week-end tests, subject tests, full
-                  length mocks and essay practice sessions. We check your pace
-                  and performance and concentrate on key improvement areas so
-                  that you may achieve a good balanced score in your final ACT
-                  exam.
-                </p>
+
               </section>
               <section className="">
-                <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mb-4">
-                  Adequate practice
+              <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mb-4">
+                Expert Advice
                 </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  You receive hands-on experience with tactics and learn which
-                  ones work best for you. This gives you a sense of which types
-                  of questions work best with certain approaches.
+                Our team of expert tutors and advisors will simplify the ACT process for you. We will provide you with a customized study plan based on your initial aptitude scores. If you need help in a particular subject or component, we will first fix your basic concepts. Our tutoring is comprehensive, up-to-date, and catered to every student’s academic needs. Rostrum will be the perfect companion throughout the journey to get the best score on the ACT. Over 80% of our students get higher than 32 marks, making them one of the top applicants for Ivy League colleges! 
                 </p>
+                <br/>
+                <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mb-4">
+                Become A Part Of Our Community 
+                </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  Perfect Foundation: We help you construct a good foundation of
-                  concepts by equipping you with resources and tutoring
-                  systematically for ACT coaching. We provide coaching to the
-                  students all over the world including India and UAE. We also
-                  undertake classroom exercises and employ various techniques to
-                  aid you in formulating a unique test taking strategy for math,
-                  English and science sections in ACT.
-                </p>
-                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  Essay Skills: If you are taking the ACT with Essay then you
-                  need to develop necessary language, writing, critical thinking
-                  and analytical skills to attempt the essay. Our tutors help
-                  you build essay skills using comprehensive methods.
+                You can also join the Rostrum Community- a network of students from all over the world. Connect with students going through the same exam stress, seek advice from alumni, or find students from your country! 
                 </p>
               </section>
             </div>

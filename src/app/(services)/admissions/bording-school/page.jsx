@@ -6,85 +6,51 @@ import TopSchools from "@/components/common/TopSchools";
 const BordingSchool = () => {
   const benefits = [
     {
-      title: "Cultural influences",
-      description: `International education will help pupils develop a global outlook no matter where they go to college. International schools encourage students to learn about other cultures throughout the world by teaching them about various countries and their people. Students learn more about other cultures and the globe outside of the classroom by taking courses like the IB Diploma or Cambridge International Examinations.`,
-      description_2: `Regardless of whether or not they attend an international school in their hometown, students are heavily impacted by the culture in which they grew up, especially in countries like India and UAE.`,
+      title: "Cultural Influences",
+      description: `International education helps students develop a global outlook. It doesn't matter where they go to college. International schools foster cultural awareness by teaching about various countries and their people. Courses like the IB Diploma or Cambridge International Examinations enrich students' worldviews. Students' local culture shapes them even if they attend international schools. It should be celebrated! Students from India and the UAE are learning to take pride in their culture too.`,
+      description_2: ``,
     },
     {
-      title: "Opportunities for growth",
-      description: `Being autonomous isn’t as important, and the experience 
-      is fairly comparable to attending a regular high school in 
-      the region. In spite of this, living abroad offers students 
-      a unique opportunity to learn and broaden their 
-      perspectives. High school students can also learn about 
-      the university process and job prospects in the nation 
-      they’ve temporarily immigrated too. This is especially useful 
-      for individuals who wish to continue their studies in a 
-      foreign nation. Overall, studying abroad broadens students’ 
-      horizons and awareness of how the world operates outside 
-      of their own culture and neighbourhood.
+      title: "Opportunities For Growth",
+      description: `Studying abroad offers unique opportunities beyond attending a local high school. It provides students with new perspectives. You can gain insights into the admission processes. It can also bring exposure to job prospects in another country. Such experiences benefits those considering further studies abroad. It can broaden their horizons and enhance their global awareness.
       `,
       description_2: ``,
     },
     {
       title: "Self Sustenance",
-      description: `Boarding Schools are really helpful in making students self-
-      reliant and independent. Throughout the day, every activity 
-      is done by them without the involvement of any outside 
-      body. It teaches them how to manage time better, perform 
-      domestic chores, be in charge of their possessions, and learn 
-      how to maturely handle situations on their own since they 
-      don’t always have access tohome. Their cognitive reasoning 
-      and analytical functioning become stronger.
-      `,
-      description_2: ``,
+      description: `Boarding schools play a crucial role in fostering students' self-reliance and independence. `,
+      description_2: `Students can learn valuable life skills. You will be in charge of daily activities, problem-solving, personal responsibilities, and more. Taking them head independently on can develop your cognitive and analytical abilities. `,
     },
     {
       title: "Small Classroom Sizes",
-      description: `There are usually fewer students at a boarding school 
-      which helps mentors to pay attention more acutely. This 
-      helps in giving more attention to individual learning and 
-      the teachers are able to provide more material to the 
-      students. Detailed attention allows students to 
-      comprehend the concepts better. The students are able to 
-      interact among themselves which caters to healthy 
-      discussions as well.
+      description: `
+      Boarding schools often have smaller class sizes. This allows mentors to focus closely on each student. This personalized attention enhances learning and ensures students grasp concepts thoroughly. It also fosters healthy peer interactions and discussions, boosting their academic performance. As a result, students excel in their exams. It can increase their chances of getting into top universities.
       `,
       description_2: ``,
     },
     {
-      title: "Enhances sense of personal accountability",
-      description: `Students who go to boarding school are more responsible than those who go to a traditional school. The curriculum in boarding schools is extremely strict, and students are expected to work hard to maintain the school’s excellent reputation unlike India and the UAE.
-      `,
+      title: "Enhances Sense Of Personal Accountability",
+      description: `Top boarding school students are more responsible than their peers in traditional schools. The rigorous curriculum demands hard work to uphold the school's high standards. It can set them apart from schools in places like India and the UAE.`,
       description_2: ``,
     },
     {
       title: "Academically Centred",
-      description: `
-      One of the primary reasons to select a Boarding School is 
-the environment it provides, which allows a student to 
-centre their minds solely around studies. This helps the 
-student to be organised and teaches them time allocation. 
-They also offer a wider range of subject choices.
-      `,
+      description: `Choosing a boarding school provides a focused environment for students. You can concentrate on studies without hassle. The structured weekly schedule teaches time management and organization, especially during exams. The best boarding schools also offer diverse subjects and easy access to teachers. It supports students with academic queries; it is particularly beneficial during exam periods.`,
       description_2: ``,
     },
     {
       title: "Qualified Teachers",
       description: `
-      Boarding schools have some of the best and most competent 
-teachers. These teachers do not approach what they do as a 
-job but as something that they are passionate about, given 
-the number of hours that they put in with their students even 
-after class hours. Their ultimate goal is to help students be 
-well-prepared for college and act on their boards.
+      Boarding schools have some of the best and most dedicated teachers. They view teaching as a passion, often spending extra hours with students beyond the classroom. Their goal is to prepare students for college and exams. They want to help them reach their full potential through immersive study sessions.
+
       `,
       description_2: ``,
     },
     {
-      title: "FEWER Distractions",
+      title: "Fewer Distractions",
       description: `
-      Boarding school students can focus more effectively because they are free of conventional distractions like television, video games and phones. This helps them focus more on school and helps them do better academically
+      Boarding school students can focus better without the usual distractions, such as TV, video games, and phones. This enables them to concentrate on their studies and excel academically.
+
       `,
       description_2: ``,
     },
@@ -93,7 +59,7 @@ well-prepared for college and act on their boards.
     <main className="relative w-full h-auto">
       <HeaderBanner
         align="left"
-        title={"PREPARE FOR TOP BOARDING SCHOOLS IN THE WORLD"}
+        title={"Your Guide To Top Global Boarding Schools"}
         image={"/assets/header-banner/boarding.png"}
       />
       <div className="w-ful h-full relative mt-10 mb-10">
@@ -101,32 +67,20 @@ well-prepared for college and act on their boards.
           {/* Section Start */}
 
           <h3 className="text-center md:text-left text-[40px] md:text-[50px] text-primary font-bold leading-tight mt-2 mb-8 md:mb-auto uppercase">
-            To start off, the question that pops is why choose a boarding
-            school?
+            Curious About Boarding Schools? Here’s Why They’re Worth It!
           </h3>
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
             <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
-              Parents prefer to send their children to study at a boarding
-              school when they require their child to be more study-oriented and
-              face challenging academics. A boarding school helps a student’s
-              mind to be centred around studies. Boarding schools have a record
-              of having an excellent education model and Rostrum helps students
-              from all over the world, including but not limited to, India and
-              UAEIt highly depends on the student’s preference of the country,
-              but there are a lot of options that can be considered around the
-              world. It’s reasonable to say that boarding schools are safer than
-              day schools since they have fewer pupils who use public transit.
+              Many parents opt for boarding schools for many reasons! They can
+              provide their children with a focused, academically-rigorous
+              environment. These schools excel in education and emphasize
+              academic dedication.
             </p>
             <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
-              Despite COVID-19, several residential schools remained operational
-              in 2020. These universities are like little bubbles, with almost
-              all of the students and faculty remaining on campus. As the
-              COVID-19 epidemic continues to spread, youngsters face an uphill
-              battle in developing the social skills they’ll need later in life.
-              Zoom or Microsoft Teams can only imitate in-class teaching and
-              learning to a certain amount, therefore parents all around the
-              world increasingly think that boarding schools are good for their
-              children’s social-emotional development.
+              Rostrum Education helps students worldwide. We have offices in
+              India and the UAE where we work from to find suitable boarding
+              schools. Safety is also a key benefit, with fewer students relying
+              on public transit than day schools.
             </p>
           </div>
           {/* Section End */}
@@ -138,76 +92,79 @@ well-prepared for college and act on their boards.
             Benefits Of Going To A Boarding School
           </h3>
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
-            {benefits
-              .map((item, i) => (
-                <div key={i} className="w-full h-auto">
-                  <div className="flex items-start justify-start relative">
-                    <span className="block w-[30px] h-[43px] bg-secondary rounded-full absolute top-0 left-0"></span>
-                    <h4 className="text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight ms-4 uppercase ps-6">
-                      {item.title}
-                    </h4>
-                  </div>
-                  <p className="text-[16px] md:text-[20px] text-primary font-normal text-left ps-auto md:ps-12 mt-2 md:mt-auto">
-                    {item.description}
-                  </p>
-                  <p className="text-[16px] md:text-[20px] text-primary font-normal text-left ps-auto md:ps-12 mt-2 md:mt-auto">
-                    {item.description_2}
-                  </p>
+            {benefits.map((item, i) => (
+              <div key={i} className="w-full h-auto">
+                <div className="flex items-start justify-start relative">
+                  <span className="block w-[30px] h-[43px] bg-secondary rounded-full absolute top-0 left-0"></span>
+                  <h4 className="text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight ms-4 uppercase ps-6">
+                    {item.title}
+                  </h4>
                 </div>
-              ))}
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-left ps-auto md:ps-12 mt-2 md:mt-auto">
+                  {item.description}
+                </p>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-left ps-auto md:ps-12 mt-2 md:mt-auto">
+                  {item.description_2}
+                </p>
+              </div>
+            ))}
           </div>
           {/* Section End */}
           {/* Section Start */}
           <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight mt-14 mb-auto uppercase">
-            How Does The Rostrum Help?
+            How Does Rostrum Help?
           </h3>
           <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight  mt-4">
-            We make sure that students stand out from the crowd:{" "}
+            At Rostrum, we ensure students stand out from the crowd by:
           </h6>
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8">
             <section className="mt-6">
-              <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mt-4">
+              {/* <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mt-4">
                 Application Assistance
-              </h6>
+              </h6> */}
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                For parents and kids who want to locate the best-fitting
-                schools. Our team has decades of experience working with
-                boarding schools. When it comes to finding the right school for
-                a student, we take into account all of their abilities,
-                interests, personality traits, and natural abilities.
+                Assisting with the application process for boarding schools. We
+                increase understanding the admissions standards and procedures
+                for competitive institutions.
               </p>
-              <br />
-              <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mt-4">
+              {/* <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mt-4">
                 Tailored assistance in preparation for admissions interviews{" "}
-              </h6>
+              </h6> */}
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Boarding/day schools and universities across the United States
-                are requiring overseas students to prepare for third-party
-                interviews. For Vericant or in-person interviews, we provide
-                mock sessions. Due to the overwhelming number of overseas
-                students applying to US boarding schools, admissions staff place
-                an increasing emphasis on the student interview as a way to
-                verify English proficiency and determine a student’s fit.
+                Helping parents and kids find the best-fitting schools. We offer
+                choices based on their abilities, interests, personality traits,
+                and natural talents.
+              </p>
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+                Offering comprehensive support for students' academic and career
+                development.
+              </p>
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+                Our team has extensive experience in boarding schools. Hence, we
+                can guide you through every stage of the application process. We
+                focus on meeting your specific needs and boost your chances of
+                admission to top private boarding schools.
               </p>
             </section>
             <section className="mt-4">
               <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mt-4">
-                What’s Included? Our education experts…{" "}
+                What's Included?
               </h6>
+              <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight  mt-4">
+                Our education experts will:
+              </h6>
+              <p></p>
               {[
-                `Examine and analyse your academic background and extracurricular engagement`,
-                `Track and evaluate your academic and extracurricular development`,
-                `Propose schools based on your preferences, aspirations and successes`,
-                `Give advice on how to ask for references and letters of recommendation`,
-                `Help you craft an outstanding `
-              ]
-                .map((item, i) => {
-                  return (
-                    <div
-                      className="flex items-start justify-start my-8"
-                      key={i}
-                    >
-                      <span>
+                `Review your academic background and extracurricular activities.`,
+                `Monitor and assess your progress.`,
+                `Recommend schools that match your preferences and goals.`,
+                `Help you create a standout application.`,
+                `Boost your self-confidence, professionalism, and interview skills.`,
+                `Advise on requesting references and recommendation letters.`,
+              ].map((item, i) => {
+                return (
+                  <div className="flex items-start justify-start my-8" key={i}>
+                    <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="20.538"
@@ -229,48 +186,60 @@ well-prepared for college and act on their boards.
                           </g>
                         </g>
                       </svg>
-                      </span>
-                      <p className="text-[16px] md:text-[20px] text-primary font-normal text-left ms-4">
-                        {item}
-                      </p>
-                    </div>
-                  );
-                })}
+                    </span>
+                    <p className="text-[16px] md:text-[20px] text-primary font-normal text-left ms-4">
+                      {item}
+                    </p>
+                  </div>
+                );
+              })}
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-left ms-4">
+                And we'll support you with anything else that comes up
+                throughout!
+              </p>
             </section>
           </div>
           {/* Section End */}
           <TopSchools />
           {/* Section Start */}
           <h3 className="text-center text-[40px] md:text-[50px] text-primary font-bold leading-tight mt-14 mb-8 md:mb-auto">
-            What are the benefits of attending a boarding school in the United
-            Kingdom?
+            Benefits of Attending a Boarding School in the UK
           </h3>
-          <h4 className="w-full md:w-[70%] mx-auto text-center text-[22px] md:text-[28px] text-primary font-bold leading-tight mt-4">
+          {/* <h4 className="w-full md:w-[70%] mx-auto text-center text-[22px] md:text-[28px] text-primary font-bold leading-tight mt-4">
             Book a free session with us and start the journey for the betterment
             of your child!
-          </h4>
+          </h4> */}
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
             <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
-              Boarding schools in the United Kingdom provide students with a
-              world-class education, enabling them to further their careers and
-              attend college. All boarding schools in the United Kingdom are
-              required by law to fulfil high government requirements for the
-              quality of their teaching, facilities, and student care.
+              UK boarding schools offer a world-class education. They can
+              prepare students for successful careers and college admissions.
+              They must meet high government standards for teaching quality,
+              facilities, and student care.
+              <br />
+              <br/>
+              Many UK boarding schools feature beautiful, historic buildings
+              alongside modern classrooms. These exceptional facilities enhance
+              students' English proficiency and make learning enjoyable.
             </p>
+
             <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
-              Many boarding schools in the United Kingdom blend gorgeous,
-              century-old structures with a mix of contemporary and traditional
-              classrooms. Students’ English proficiency increases as a result of
-              the outstanding facilities, which combine to make living and
-              learning an enjoyable experience
+              Switching from Conventional Schools to Boarding Schools
+              <br />
+              <br/>
+              If you want your child fully immersed in an educational
+              environment or have a busy career, boarding schools are worth
+              considering. They provide unique benefits and experiences that
+              conventional day schools can't match.
+              <br />
+              <br/>
+              Sign up for a complimentary session and start your child's journey
+              to success!
             </p>
           </div>
           {/* Section End */}
         </div>
       </div>
-      <CallToAction 
-        image={'/assets/call-action/about.png'}
-      />
+      <CallToAction image={"/assets/call-action/about.png"} />
 
       <br />
       <br />

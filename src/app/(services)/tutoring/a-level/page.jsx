@@ -56,7 +56,7 @@ const Alevel = () => {
     <main className="relative w-full h-auto">
       <HeaderBanner
         align="left"
-        title={"CAMBRIDGE A LEVEL PROGRAM"}
+        title={"Cambridge A Level Program"}
         image={"/assets/header-banner/a-level.png"}
       />
       <div className="w-ful h-full relative mt-10 mb-10">
@@ -66,10 +66,7 @@ const Alevel = () => {
               “
             </span>
             <h6 className=" text-[22px] md:text-[28px] text-primary text-center font-semibold leading-tight">
-              90% of rostrum students score an A* or A in the Cambridge
-              International Examination. Our highly qualified tutors know and
-              provide the cues and tips to score better. We have students from
-              all over the world including India and the UAE.
+            Rostrum's success is evident: 90% of our students achieve A* or A grades in the Cambridge Assessment International Education. Our expert tutors offer insider tips for mastering these tests. We can attract and assist a diverse student body from countries like India and the UAE.
             </h6>
             <span className="text-secondary text-[128px] translate-y-0 translate-x-0 md:translate-x-4 self-end rotate-180">
               “
@@ -79,31 +76,17 @@ const Alevel = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="mt-auto md:mt-18">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
-                What is the Cambridge A- level program?
+              What Is The Cambridge A-Level Program?
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Cambridge is the world’s leading authority on teaching,
-                learning, and evaluation of the English language. Since 1863,
-                the University of Cambridge has provided worldwide standardised
-                educational assessment. CIE (University of Cambridge
-                International Examinations) is the world’s largest provider of
-                international credentials for students aged 14 to 19. Every
-                year, thousands of applicants take the Cambridge exams in over
-                150 countries.
+              Cambridge has been a leader in education since 1863. CAIEs (Cambridge International Exams) exams are globally respected. Thousands of students take them annually across 150+ countries. The Advanced Level program (A-Level) is designed for 16 to 19-year-olds. It improves subject understanding and life skills.
+
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The Cambridge Advanced Level A Level program is an international
-                curriculum developed by the Cambridge International
-                Examinations. It is an advanced two-year pre-university program
-                designed for 16 to 19 year olds. It helps students understand
-                subjects better. It encourages students to develop the necessary
-                life skills.
+              Doing well in high school significantly increases your chances of getting into a good university. Some university programs need specific advanced subjects called 'facilitating topics'. The subjects strengthen your foundations. It also expands your options for which programs you can apply for.
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Cambridge A level offers students over 50 subjects to choose
-                from.
-                <br />
-                These subjects can be broadly classified into:
+              Cambridge A-level offers a diverse range of over 50 subjects, which are classified into different categories, such as:
               </p>
             </section>
             <section className="flex flex-col items-center">
@@ -115,18 +98,6 @@ const Alevel = () => {
                 // objectFit='containe'
                 className="my-auto md:my-12"
               />
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                If you studied a certain topic in high school and want to pursue
-                it at university, you have a strong chance of being accepted.
-                Assume you have high grades in the topic, and presto! That’s a
-                bonus!
-              </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Certain degree programs may need ‘facilitating topics,’ which
-                are higher level studies. When you choose two such enabling
-                topics in high school, you have a wide range of university
-                options.
-              </p>
             </section>
           </div>
           {/* SECTION END */}
@@ -159,13 +130,12 @@ const Alevel = () => {
               </div>
             ))}
           </div>
-          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-3 gap-12 mb-14">
+          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-1 gap-12 mb-14">
             <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-0 md:mt-4">
-              Students may specialize in the subject they prefer or may choose
-              different subjects. The grades awarded to students range from A*
-              to E, with A* being the highest
+            Students focus on their favorite subjects or try new ones. Grades range from A* to E, with A* being the best. A-level exams happen at the end of two years and cover all subjects. Getting a Cambridge A-level lets you apply to universities globally. It gives you a strong foundation to begin the next phase of your education.
+
             </p>
-            <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left  mt-0 md:mt-4">
+            {/* <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left  mt-0 md:mt-4">
               Students pursuing A levels are assessed at the end of the two-year
               course. They take all the subject papers in one examination
               series.
@@ -174,33 +144,18 @@ const Alevel = () => {
               A Cambridge A level qualification opens doors to universities
               around the world. The course is deemed to be an excellent
               preparation for rigorous university life.
-            </p>
+            </p> */}
           </div>
           <h4 className="uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-            Cambridge International Examinations
+          Cambridge Assessment International Education
           </h4>
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-12 mb-14">
             <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-              Cambridge International Examinations helps students develop an
-              educated curiosity and a lifelong enthusiasm for studying,
-              preparing them for life. The Cambridge learning network includes
-              almost 10,000 schools. North America, Latin America, the United
-              Kingdom and Ireland, Europe, the Middle East and North Africa,
-              Sub-Saharan Africa, Northeast Asia, South Asia, and Southeast Asia
-              & Pacific are the nine regions it operates in. Cambridge has
-              representation in every area, and it is a valued education partner
-              to governments in over 30 nations.
+            Cambridge Assessment International Education partners with schools in over 30 countries. It intends to promote comprehensive, globally recognized education. The network includes 10,000 schools across all seven continents. 
+
             </p>
             <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-              Cambridge’s foreign education program and certificates include all
-              levels of education, including elementary, secondary, and
-              pre-university. They have a proven track record of offering
-              excellent education, employment, and life preparation.{" "}
-              <b>
-                Cambridge IGCSE, Cambridge O Level, Cambridge International AS
-                and A Level, and Cambridge Pre-U are internationally recognized
-                qualifications that open doors for Cambridge students.
-              </b>
+            With international recognition, students can prepare for lifelong success. Cambridge IGCSE, O Level, AS and A Level, and Pre-U all need CAIEs. 
             </p>
           </div>
 
@@ -210,18 +165,11 @@ const Alevel = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="mt-auto md:mt-18 order-2 md:order-1">
               <h4 className="uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-                When are the examinations going to be held?
+              When Do The Examinations Take Place?
+
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                In most cases, exams are held twice a year, in June and
-                November. Those who take the June exam may receive their results
-                in August, while those who take the November exam may receive
-                their results in January. Students pursuing A levels are
-                assessed at the end of the two-year course. They take all the
-                subject papers in one examination series. A Cambridge A level
-                qualification opens doors to universities around the world. The
-                course is deemed to be an excellent preparation for rigorous
-                university life.
+              Cambridge exams happen twice yearly, in June and November, with results out in August and January, respectively. A-level students sit their exams at the end of their two-year course. A Cambridge A-level qualification opens doors to global universities. It prepares students well for university life.
               </p>
             </section>
             <section className="h-full flex flex-col items-center justify-center order-1 md:order-2">
@@ -251,33 +199,20 @@ const Alevel = () => {
             </section>
             <section className="col-span-1 md:col-span-7">
               <h4 className="uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-                Significance of Cambridge level program
+              Significance Of Cambridge Level Program 
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Cambridge International AS and A Levels are recognized by
-                institutions in the United Kingdom and throughout the world,
-                opening up a world of opportunities for you. You will have the
-                finest opportunities to gain admission to reputable worldwide
-                educational institutes.
-                <br />
-                Course credits and grants are available to students with A Level
-                credentials. Brighter students may be eligible for full
-                scholarships.
+              Cambridge International AS and A Levels have global recognition. It provides ample opportunities for admission to prestigious educational institutions. Students with A Level qualifications receive course credits, grants, and potentially full scholarships.
+
               </p>
               <br />
               <br />
               <h4 className="uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-                Worldwide recognition of the Cambridge A level program
+              Worldwide Recognition Of The Cambridge A-Level Program
+
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                A Level is accepted as an admission qualification by
-                universities all around the world, including those in the United
-                Kingdom, the United States, Canada, Singapore, Australia, and
-                New Zealand.
-                <b className="font-bold">
-                  You can skip a year at universities in the UK, the US, and
-                  Canada if you get three fair passes at A level.
-                </b>
+              A Level is an admission qualification by universities worldwide. It includes prestigious colleges in the UK, US, Canada, Singapore, Australia, and New Zealand. Achieving three fair passes at A level enables you to skip a year at universities in the UK, US, and Canada.
               </p>
             </section>
           </div>
@@ -286,32 +221,19 @@ const Alevel = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-12 mt-6 md:mt-20">
             <section>
               <h4 className="uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-                Advanced placement exams 2022
+              Advanced Placement Exams 2022
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The Advanced Placement Tests in 2022 will be given in schools as
-                paper-and-pencil exams over the course of two weeks in May: May
-                2–6 and May 9–13.
-                <br />
-                AP Chinese and AP Japanese exams will be given in class on
-                computers, as usual. The AP coordinators are in charge of
-                informing students about when and where they should report for
-                their tests. Under no circumstances is early testing or testing
-                at times other than those set by College Board authorized. If
-                students are unable to test within the first two weeks of May,
-                late testing dates are available.
+              The Advanced Placement Tests in 2022 will take place in schools over two weeks in May: May 2–6 and May 9–13. AP Chinese and AP Japanese exams will be done on computers in class. Students should follow instructions from AP coordinators for test scheduling. Testing outside the designated May dates is not permitted, but late testing options are available if needed.
+
               </p>
             </section>
             <section>
               <h4 className="uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-                Late-stage testing{" "}
+              Late-Stage Testing
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Students may be required to take tests late due to unforeseen
-                situations. Late testing uses various formats to protect the
-                security of AP Exams. All students who take part in late testing
-                at a particular school must take these other tests on the
-                planned late-testing days and hours.
+              In cases of unforeseen circumstances, students might need to take tests later. Late testing employs different formats to ensure AP Exam security. Students participating in late testing at a school must take these exams on the designated late-testing days and times.
               </p>
             </section>
           </div>
@@ -319,45 +241,36 @@ const Alevel = () => {
           {/* SECTION START */}
           <div className="w-full h-auto mt-14">
             <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
-              How will Rostrum help you?
+            How Will Rostrum Help You? 
             </h3>
             <div className="w-full h-auto grid grid-cols-1 md:grid-cols-12 gap-10 mt-8">
               <section className="h-full col-span-1 md:col-span-7 order-2 md:order-1">
                 <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight">
-                  Coursework Assistance
+                Coursework Assistant
+
                 </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  The key to getting good grades in the A level is to balance
-                  your performance in both, written examinations and coursework.
-                  The form or type of coursework is different for every subject.
-                  Our team of A Level tutors based all over the world, including
-                  India and the UAE, assist students in planning and conducting
-                  coursework in all subjects such as A Level Math, A Level
-                  Physics, A Level Chemistry and more.
+                For top A-level grades, doing well in exams and coursework is important. Each subject has its coursework style. Our team of tutors is located worldwide, including India and the UAE. They support students in completing coursework for subjects like Math, Physics, Chemistry, and more.
                 </p>
                 <br />
                 <br />
                 <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight">
-                  Strategic Learning
+                Strategic Learning
+
                 </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  We offer tutoring services for all the course subjects of the
-                  Cambridge A level and AS Level. Our A Level tutors help you
-                  outline your areas of strengths and improvement in a subject.
-                  Our personalized care ensures that you overcome your
-                  difficulties and achieve progressive results.
+                We provide tutoring for all Cambridge A-level and AS Level subjects. Our tutors help you identify strengths and areas for improvement. With personalized attention, we help you overcome difficulties and achieve better results.
+
                 </p>
                 <br />
                 <br />
                 <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight">
-                  Achieve Targets
+                Achieve Targets
+
                 </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  The first step to gain entry into your dream university is to
-                  achieve the ‘target score!’ Our A Level tutors make certain
-                  that you achieve the ‘target score’ by channelizing your
-                  efforts in the right way. We help students get an A* in A
-                  Levels. They use innovative approaches to develop exam skills.
+                Achieving the 'target score' is essential to enter your dream university. Rostrum’s A Level tutors ensure you reach this goal by guiding your efforts effectively. We specialize in helping students attain an A* in A Levels through innovative exam skill development.
+
                 </p>
               </section>
               <section className="h-full col-span-1 md:col-span-5 order-1 md:order-2">

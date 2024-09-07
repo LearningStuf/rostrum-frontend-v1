@@ -98,23 +98,21 @@ const UCAT = () => {
           <div className="w-full h-auto grid grid-cols-12 gap-8 mt-14">
             <section className="col-span-12 md:col-span-5">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-0 md:mb-4">
-                What exactly is the UCAT?
+              WHAT IS THE UCAT?
+
               </h3>
             </section>
             <section className="col-span-12 md:col-span-7">
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                UCAT is an acronym for University Clinical Aptitude Test. Most
-                institutions in the UK, Australia and New Zealand utilise UCAT
-                as one of three key criteria to choose students for high-demand
-                health-related professions such as medicine and dentistry (the
-                other two criteria being performance in final high school exams
-                and interviews).
+              Want to get into the best medical school? Rostrum Education will help you achieve that goal by preparing you for the ultimate medical entrance exam. 
+
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The UCAT is a two-hour computer-based test that evaluates a
-                variety of mental talents that institutions consider vital for
-                practising medicine and dentistry. It is divided into five timed
-                subtests, each of which has a set of multiple-choice questions.
+              The world's best medical universities use the University Clinical Aptitude Test (UCAT) to select students.
+<br/>
+<br/>
+The UCAT helps medical schools decide who to invite to interview and sometimes who gets the final offer. Getting a good score will increase your chances of getting accepted.
+
               </p>
             </section>
           </div>
@@ -132,26 +130,19 @@ const UCAT = () => {
 
             <section className="col-span-12 md:col-span-7">
               <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
-                Why should you take the UCAT?
+              WHY DO I NEED TO GIVE UCAT?
+
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Because of the strong demand for medicine, dentistry, and other
-                health science courses, the Year 12 score required to get into
-                these programmes has risen dramatically. As a result,
-                universities required a new approach for selecting students for
-                medical school.
+              If you’re applying to dental or medical degree programs in the UK, Australia, New Zealand, or Singapore, you will have to sit for the UCAT. This computer-based exam is a part of the admission criteria. 
+
                 <br />
-                UCAT was created with the objective of evaluating desired
-                attributes in the health professions, such as problem-solving,
-                empathy, and abstract reasoning abilities. An interview is also
-                used by several colleges to select students for medicine and
-                dental programmes.
+                Securing admission to medicine and dentistry programs is highly challenging. For example, in 2020, only 3,250 of the 15,925 applicants were offered a place in dentistry programs. 
+
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Whether or not you believe UCAT accurately analyses the traits
-                needed to be a successful medical student and doctor, the fact
-                remains that UCAT is necessary for admission to many health
-                science courses.
+              In 2021, around 28,690 students applied for undergrad med programs in the UK alone. Only 9,500 were accepted. 
+
               </p>
             </section>
           </div>
@@ -187,12 +178,12 @@ const UCAT = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="mt-auto md:mt-16">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
-                What is the UCAT format like?
+              WHAT IS THE UCAT FORMAT?
+
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The computer-based test is divided into five portions, each with
-                a point value ranging from 300 to 900. The sections of the UCAT
-                exam must be completed in the following order:
+              The UCAT is a 2-hour exam divided into five components. There are 228 questions in total. Here is a complete breakdown of the sections:
+
               </p>
               <div className="flex items-start justify-start my-6">
                 <span className="block w-[25px] h-[38px] bg-secondary rounded-full"></span>
@@ -201,7 +192,8 @@ const UCAT = () => {
                     Verbal Reasoning
                   </p>
                   <p className="text-[16px] md:text-[20px] text-primary font-normal text-left">
-                    (44 questions; 21 minutes + 1 minute of reading)
+                  (21 minutes, 44 questions, Reading and comprehension)
+
                   </p>
                 </section>
               </div>
@@ -212,7 +204,8 @@ const UCAT = () => {
                     Decision Making
                   </p>
                   <p className="text-[16px] md:text-[20px] text-primary font-normal text-left">
-                    (29 questions; 31 minutes + 1 minute of reading)
+                  (31 minutes, 29 questions, Visual data and text-related problems)
+
                   </p>
                 </section>
               </div>
@@ -223,7 +216,8 @@ const UCAT = () => {
                     Quantitative Reasoning
                   </p>
                   <p className="text-[16px] md:text-[20px] text-primary font-normal text-left">
-                    (36 questions; 24 minutes + 1 minute of reading)
+                  (25 minutes, 36 questions, mathematical aptitude)
+
                   </p>
                 </section>
               </div>
@@ -234,7 +228,8 @@ const UCAT = () => {
                     Abstract Reasoning
                   </p>
                   <p className="text-[16px] md:text-[20px] text-primary font-normal text-left">
-                    (55 questions; 13 minutes + 1 minute of reading)
+                  (12 minutes, 50 questions, identify patterns and ability to recognize important information)
+
                   </p>
                 </section>
               </div>
@@ -245,7 +240,7 @@ const UCAT = () => {
                     Situational Judgement
                   </p>
                   <p className="text-[16px] md:text-[20px] text-primary font-normal text-left">
-                    (69 questions; 26 minutes + 1 minute of reading)
+                  (26 minutes, 69 questions, ability to perceive real-life scenarios and act accordingly) 
                   </p>
                 </section>
               </div>
@@ -259,24 +254,19 @@ const UCAT = () => {
                 className="mx-auto"
               />
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                There are no negative marks for incorrect responses because all
-                of the questions are multiple choice. Integrity, teamwork,
-                problem solving, communication, spatial awareness, and empathy
-                are among the characteristics that doctors must possess.
+                
+The candidate receives a score between 300 and 900 for each of the first four sections. These sections are Verbal Reasoning, Decision Making, Quantitative Reasoning, Abstract Reasoning.
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The UCAT is graded on a scale of 3,600 points. Your performance
-                in four areas - verbal reasoning, decision making, quantitative
-                reasoning, and abstract reasoning - is scaled to a number
-                between 300 and 900 and then totaled up to reach your overall
-                UCAT score. Scores for situational judgement are assigned to one
-                to four bands.
+              
+The result will be the cumulative score of these components. For the fifth section (Situational Judgment), the candidate will receive a band from 1 to 4. Band 1 is the highest. 
+Pro tip: An average score of over 650 in all sections is considered good. 
               </p>
             </section>
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
-          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 md:mt-auto">
+          {/* <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 md:mt-auto">
             <section className="mt-auto md:mt-18">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
                 Why did UCAT take the position of UMAT?
@@ -422,27 +412,28 @@ const UCAT = () => {
                 </div>
               </div>
             </section>
-          </div>
+          </div> */}
           {/* SECTION END */}
 
           {/* SECTION START */}
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
             <section className="mt-auto md:mt-14">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
-                What constitutes a high UCAT score?
+              WHO IS ELIGIBLE TO SIT FOR THE EXAM? 
+
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                You will receive an email from Pearson VUE within a few hours of
-                taking UCAT advising you that your UCAT score report is ready to
-                view via your Pearson VUE online account. To view your UCAT
-                score report, you must first log into your Pearson VUE account.
+              Those who have completed their secondary schooling or higher education can sit for the exam. If a person is affiliated with a UCAT coaching centre, for example, a tutor or a marketer, they are ineligible. 
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Each subtest will have a scaled score ranging from 300 to 900,
-                as well as a total score for the cognitive subtests ranging from
-                1200 to 3600 on your Score Report. Subtest scores are calculated
-                (scaled) from your raw score (the number of questions you
-                answered correctly) using proprietary statistical algorithms.
+              Candidates should check the eligibility requirements of the course they are applying to. The UCAT is a compulsory test, and there are no general exemptions. 
+<br/>
+<br/>
+The test is conducted in person at designated centres in 130+ countries. Sometimes, students have to travel to another country or city to take the test.
+<br/>
+<br/>
+Note: You can only sit for the exam once every year. There are no penalties or restrictions for resitting in the following years.
+
               </p>
             </section>
             <section className="">
@@ -453,7 +444,7 @@ const UCAT = () => {
                 alt="What constitutes a high UCAT score?"
                 className="mx-auto"
               />
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+              {/* <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                 The data reveals that, with the exception of a few graduate
                 entry programs, a UCAT score of more than 2800 (700) is
                 considered an excellent UCAT score. A score of more than 700 has
@@ -462,16 +453,53 @@ const UCAT = () => {
                 distribution curve or percentiles. This has worked well for
                 undergraduate candidates, graduate candidates, and international
                 candidates.
-              </p>
+              </p> */}
             </section>
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
           <div className="w-full h-auto mt-14">
             <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
-              UCAT Preparation Tips
+            HOW TO ACE YOUR TEST PREP
             </h3>
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
+            <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+            Start early. If you have just completed your final year of high school, start planning as soon as possible. It is advisable to take the test in the summer to apply to colleges on time. 
+            <br/>
+            <br/>
+            Research the universities and programs you are interested in. Check when you will need to start your application process and provide the UCAT results. 
+            <br/>
+            <br/>
+            Check the test centre where you will take the exam and its costs. Be mindful of deadlines, registration schedules, and other requirements. 
+
+            </p>
+            <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
+            More exam tips:
+            </p>
+            <ul className="list-inside list-disc text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4" >
+              <li>
+              Make sure you are familiar with each of the sections.
+              </li>
+              <li>
+              Come up with responses to the available questions.
+              </li>
+              <li>
+              Give yourself time to rectify mistakes and allot more time to weaker parts.
+              </li>
+              <li>
+              Create a detailed study plan - test your abilities and score yourself.
+              </li>
+              <li>
+              Practice a little every day for the exam, and avoid cramming at the last minute. 
+              </li>
+              <li>
+              The top candidates prepared for over six weeks with a minimum of 1 hour daily.
+              </li>
+              <li>
+              Polish your math skills - it will help with quantitative reasoning parts 
+              </li>
+            </ul>
+            
+            {/* <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
               <section>
                 {data.slice(0, 3).map((item, i) => (
                   <div key={i} className="mb-6">
@@ -502,32 +530,26 @@ const UCAT = () => {
                   </div>
                 ))}
               </section>
-            </div>
+            </div> */}
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
             <section className="mt-auto md:mt-14">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
-                Why rostrum?
+              PRACTICE FOR UCAT WITH ROSTRUM
+
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Rostrum offers a comprehensive UCAT educational course. Our
-                instructors have graduated from top medical schools in the UK.
-                Our top UCAT topic specialists have effectively created the
-                broad course curriculum. The course is designed to thoroughly
-                prepare and instil the confidence required to pass the UCAT
-                exam, with small batch sizes and one-on-one classes for
-                personalised coaching.
+              At Rostrum, our team will develop a plan unique to you to help you score high on the UCAT. We will assess your aptitude and discuss the plan for your study needs. 
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                You get complete control over the format of your sessions. Our
-                individual course will allow you to create your own fully
-                personalised study schedule with your assigned UCAT tutors. If
-                you want flexibility without compromising your UCAT performance,
-                our one-on-one sessions are for you.
+              Together, we will practice the various sections of the tests to understand your strengths and weaknesses. Do not worry about exam stress; once you get the right support, everything will seem effortless. 
               </p>
-              <section className="my-6">
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+              To understand the process more thoroughly, you can connect with peers who are familiar with the process. The Rostrum community is a vast network of students and alumni who will act as your support system. You can ask them questions, get their advice, or just talk!
+              </p>
+              {/* <section className="my-6">
                 <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left ">
                   Brilliant Mentors
                 </p>
@@ -553,7 +575,7 @@ const UCAT = () => {
                   Our training content is based on official exam prep resources
                   to ensure excellent results.
                 </p>
-              </section>
+              </section> */}
             </section>
             <section className="flex flex-col items-start justify-end">
               <Image
@@ -563,7 +585,7 @@ const UCAT = () => {
                 alt="Why rostrum?"
                 className="mx-auto"
               />
-              <section className="my-6">
+              {/* <section className="my-6">
                 <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left ">
                   Collaborative Classes
                 </p>
@@ -580,7 +602,7 @@ const UCAT = () => {
                   We conduct mock tests to familiarise students with sitting
                   full-length practice exams under timed conditions.
                 </p>
-              </section>
+              </section> */}
             </section>
           </div>
           {/* SECTION END */}

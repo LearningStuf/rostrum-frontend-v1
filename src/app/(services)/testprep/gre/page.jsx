@@ -30,47 +30,41 @@ const GRE = () => {
 
   const data = [
     {
-      title: "Versatile and adaptable",
-      description: `Since the majority of those taking the GRE test are either working or studying, time is the most significant barrier when it comes to studying. Attending a time-consuming GRE classroom course is out of the question for you. If you choose these lessons, you will have to sacrifice two or three hours of your everyday routine to attend GRE classes. You also won’t be able to make up any lessons if you miss a few. Because you won’t be able to miss courses, you’ll have no choice but to go regardless of your time or energy.`,
-      description_2: `GRE online coaching, on the other hand, allows you to choose your own schedule and intensity, study from the comfort of your own home, and miss lessons on days when you don’t have time.`,
-    },
-    {
-      title: "Evaluation",
-      description: `It might be tough for the tutor to find out your skills and limitations in a group of 30 pupils. Because the tutor must concentrate on the entire class, you will never be their first priority. Technology restructures the process for you with online GRE prep. Algorithms and adaptive technologies are used in online courses to adjust to your performance and assist you with your weak areas. As a result, you’ll receive a course that adjusts to your abilities.`,
+      title: "Flexibility in Learning:",
+      description: `With online coaching, you can make your schedule according to your convenience. You can postpone lessons whenever needed. Our students also find that it's less stressful to study from home and not have to spend extra time, money, and fuel on transport arrangements. if you want to go through the same class again, just hit replay!`,
       description_2: ``,
     },
     {
-      title: "The most recent information",
-      description: `The content at most coaching institutes is not updated every year. For many years, their lectures and sample papers remained the same. Content quality may not remain constant in online prep courses. It is powered by constantly updated software that incorporates the most up-to-date data and gives you the most up-to-date information.`,
+      title: "Personalized Study Plans:",
+      description: `Online coaching gives you the luxury of selecting a personalized study plan according to the test you are taking, the syllabus you want to focus on, and areas you find most challenging. Communicate with online tutors and experts to make most of your time and money investments.`,
       description_2: ``,
     },
     {
-      title: "Keep track of your progress",
-      description: `After taking a practice exam, the online GRE online coaching provides you with an instant result as well as an analysis. This allows you to track your progress and your mentor to assess your strengths and shortcomings.`,
+      title: "Real-time Progress Tracking:",
+      description: `You can immediately access your practice test results and gain insight into your progress and improvement. You and your online mentors can then use these results to improve your further coaching.`,
       description_2: ``,
     },
   ];
 
   const instructors = [
     {
-      title: "Perfect Foundation",
-      description: ` We help you construct a good foundation of concepts by equipping you with resources and tutoring systematically. 
-      We also undertake classroom exercises and employ various techniques during our GRE coaching to aid you in formulating a unique test taking strategy.`,
+      title: "Access to Expert Instructors",
+      description: `At Rostrum Education, we have a team of expert coaches who are not only experts in their fields but are also trained educationists.`,
       description_2: ``,
     },
     {
-      title: "Analytical Writing Skills",
-      description: `If you are taking the GRE then you need to develop necessary language, writing, critical thinking and analytical skills to attempt both the sections in Analytical Writing. We understand that you can’t develop them overnight. Our tutors help you improve your analytical and writing skills using comprehensive methods and also by taking GRE mock tests.`,
+      title: "Interactive Learning Tools and Resources",
+      description: `Rostrum Education offers coaching resources for all 6 GRE subject tests to help improve your skills. These include smart classes, interactive whiteboards, and exclusive course materials.`,
       description_2: ``,
     },
     {
-      title: "Subject Test Guidance",
-      description: `GRE Subject Tests give your application an advantage over the others. Rostrum offers you coaching for all the 6 GRE Subject Tests, no matter from where you belong as we provide tutoring services all over the world including India and UAE. We assist you in choosing the right subjects which will help you showcase your strengths. We also provide additional support to improve your understanding of a subject. Personalised Subject Test Guidance is provided to all students during GRE preparation.`,
+      title: "GRE Practice Test Series:",
+      description: `Our GRE Test Series includes GMAT mock tests and practice papers with previous years’ GRE questions to boost your abilities. Our feedback system includes histograms with a complete analysis of your performance vs other top scorers.`,
       description_2: ``,
     },
     {
-      title: "GRE practise test series",
-      description: `Ever wished you could obtain a complete drill-down analysis, from a histogram displaying your marks, time taken, and attempts vs. the top scorers to a line graph showing marks vs. percentile? Not only that, but we also take a lot of GMAT mock tests and practice previous years’ GRE question papers to help you improve your abilities with each try so you can give it your all on the big day. To start the journey with us, click on the button below.`,
+      title: "Supportive Online Community:",
+      description: `Rostrum Education connects you to a community of mentors, peers, and alumni who share your goals and are on their way to achieving them. `,
       description_2: ``,
     },
   ];
@@ -85,20 +79,23 @@ const GRE = () => {
       <div className="w-ful h-full relative mt-10 mb-10">
         <div className="max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto">
           {/* SECTION START */}
-          <div className='relative w-full md:w-10/12 mx-auto flex items-start'>
-            <span className='text-secondary text-[128px]  -translate-y-12'>
+          <div className="relative w-full md:w-10/12 mx-auto flex items-start">
+            <span className="text-secondary text-[128px]  -translate-y-12">
               “
             </span>
-            <h6 className=' text-[22px] md:text-[28px] text-primary text-center font-bold leading-tight'>
-            Over 600,000 applicants take the test every year, be best placed with us! We espouse a 90% entrance rate of students giving the test with our GRE prep from all over the world including India and UAE.
+            <h6 className=" text-[22px] md:text-[28px] text-primary text-center font-bold leading-tight">
+              Over 600,000 applicants take the test every year, be best placed
+              with us! We espouse a 90% entrance rate of students giving the
+              test with our GRE prep from all over the world including India and
+              UAE.
             </h6>
-            <span className='text-secondary text-[128px] translate-y-16 md:translate-y-0 translate-x-0 md:translate-x-0 self-end rotate-180'>
+            <span className="text-secondary text-[128px] translate-y-16 md:translate-y-0 translate-x-0 md:translate-x-0 self-end rotate-180">
               “
             </span>
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
-          <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-14 md:mt-0">
+          {/* <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-14 md:mt-0">
             <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
               The Graduate Reform Examination General Test has the kind of
               questions that closely reflect the process of thinking you’ll do —
@@ -117,12 +114,12 @@ const GRE = () => {
               Test, which evaluates technical knowledge in a specific area such
               as physics, psychology, or mathematics.
             </p>
-          </div>
+          </div> */}
           {/* SECTION END */}
           {/* SECTION START */}
           <div className="w-full h-auto mt-14">
             <h3 className="text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-4">
-              THE GRE GENERAL TEST COMPUTES YOUR:
+              The GRE measures an applicant’s
             </h3>
             <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
               <section>
@@ -141,21 +138,17 @@ const GRE = () => {
               </section>
               <section>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
-                  Skills that have been developed over a long period of time and
-                  are not related to a specific field of study.
-                </p>
-                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  The test may include questions that are modified versions of
-                  already published questions or of questions you may have
-                  already seen on the test. Some modifications are considerable;
-                  others are less evident.
+                  The GRE focuses on testing skills that show how an applicant
+                  has developed their academic skills over time. This contrasts
+                  knowledge-based tests for an applicant’s scientific knowledge
+                  in a specific field of study.
                 </p>
               </section>
             </div>
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
-          <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-8 mt-14">
+          {/* <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-8 mt-14">
             {features.map((item, i) => (
               <div
                 key={i}
@@ -177,21 +170,40 @@ const GRE = () => {
                 </section>
               </div>
             ))}
-          </div>
+          </div> */}
           {/* SECTION END */}
           {/* SECTION START */}
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="">
               <h4 className="text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
-                What is the duration of the GRE?
+                The GRE consists of the following sections:
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                You should plan to sit for the exam for around four hours on GRE
-                Test Day, including test-taking time and short breaks. This time
-                does not include the time you check in at the testing center. It
-                is critical to arrive on time and prepared. You should arrive at
-                the testing center at least 30 minutes before your scheduled
-                test time, according to ETS.
+                <b> Analytical Writing Section (Time Duration: 30 minutes)</b>
+                <br />
+                This section consists of 2 tasks. For the “Analyse an Issue”
+                task, candidates are asked to take a position on a given
+                statement and then defend their position. They should do this
+                concisely and effectively through logical arguments and
+                evidence.
+                <br />
+                <br />
+                The other task is to “Analyse an argument”. Candidates are
+                presented with an argument and you must analyze and critique it.
+              </p>
+
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+                <b>Verbal Reasoning Section (Time Duration: 60 minutes)</b>
+                <br />
+                This section tests a candidate's hold on the English language.
+                The questions include comprehension paragraphs, sentence
+                completion, grammar, sentence equivalence, etc.
+              </p>
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+                <b>Quantitative Reasoning (Time Duration: 70 minutes)</b>
+                <br />
+                This section includes the basics of math such as algebra,
+                arithmetic, geometry, problem-solving, and data analysis.
               </p>
             </section>
             <section className="">
@@ -204,7 +216,7 @@ const GRE = () => {
               />
             </section>
           </div>
-          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+          {/* <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
             <h6 className="text-[22px] md:text-[28px] text-primary text-center md:text-left font-bold leading-tight mt-4">
               If you’re wondering what the appropriate time is to take the GRE,
               here’s everything you need to know.
@@ -226,7 +238,7 @@ const GRE = () => {
               all across the world, including the United States, the United
               Kingdom, New Zealand, and Canada.
             </p>
-          </div>
+          </div> */}
           {/* SECTION END */}
           {/* SECTION START */}
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
@@ -288,39 +300,30 @@ const GRE = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="mt-auto md:mt-14">
               <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
-                What is the best way to prepare for the GRE?
+                GRE DURATION AND APPLICATION PROCESS
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                A strong GRE score will have a significant influence on your
-                career; consequently, you should prepare well. An excellent
-                technique is to use a range of study resources and assess your
-                preparation for the test by taking GRE practice tests. The ideal
-                method would be to use a combination of GRE online coaching, GRE
-                practice exams, and looking through previous year’s GRE question
-                paper. You must have methods and practices to follow in order to
-                get a good GRE score. Set a goal for yourself and start
-                preparing for the GRE following the advice below:
+                The GRE lasts around 4 hours. We advise candidates to arrive 30
+                minutes earlier to help them settle in, relax a bit, and avoid
+                any last-minute stress caused by rushing to the test center.
+              </p>
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+                What is an appropriate time to take the GRE?
+                <br />
+                <br />
+                You may be tempted to take the GRE close to when your
+                application submissions are due. However, it's best to take the
+                GRE with enough breathing time in case you are not satisfied
+                with your score and want to retake it.
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-                1. On a daily, weekly, and monthly basis, build core vocabulary.
+                Things you will need on hand before you begin the application
+                process:
               </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-                2. For Verbal Reasoning, Quantitative Reasoning, and Analytical
-                Writing Assessment, see the official ETS guide books.
-              </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-                3. Practice reading passages to learn how to interpret and form
-                conclusions from them.
-              </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-                4. Keep an eye on what’s going on in the world.
-              </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-                5. Analyze sample GRE topics and come up with arguments.
-              </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-                6. Analyze mathematical difficulties and plan your response.
-              </p>
+              <ul className="list-inside list-disc text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
+                <li>Your passport</li>
+                <li>Your credit/debit card</li>
+              </ul>
             </section>
             <section className="">
               <Image
@@ -331,21 +334,26 @@ const GRE = () => {
                 className="mx-auto"
               />
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-                7. Experiment with different types of arithmetic problems.
+                Follow these steps for your GRE registration:
               </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-                8. Logic should always be applied before getting into
-                sophisticated mathematical processes.
-              </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-                9. Practice, practice, practice with GRE practice tests!
-              </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-                10. Take GRE mock tests.
-              </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-                11. Examine and practice GRE question papers from past years.
-              </p>
+              <ul className="list-inside list-decimal text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
+                <li>
+                  Visit the ETS official website to create an ETS account and
+                  log in.{" "}
+                </li>
+                <li>
+                  Select the GRE you want to take and choose your preferred
+                  location, date, and time.{" "}
+                </li>
+                <li>
+                  Review your application thoroughly before making the payment
+                  using a debit or credit card.
+                </li>
+                <li>
+                  Ensure that you have received the confirmation email for your
+                  registration.
+                </li>
+              </ul>
             </section>
           </div>
           {/* SECTION END */}
@@ -353,18 +361,12 @@ const GRE = () => {
           {/* SECTION START */}
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
             <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase">
-              GRE online
+              ADVANTAGE OF GRE ONLINE COACHING
             </h3>
             <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-              One of the most common concerns among GRE students is where to
-              begin their preparation. Some students choose traditional private
-              tuition, coaching sessions, or self-study, but online prep courses
-              have recently become a popular choice among students. If you’re
-              unsure whether to attend coaching courses or prepare online, here
-              are a few reasons why online exam prep is becoming increasingly
-              popular among test takers across the world. Here are some
-              advantages of GRE online coaching versus classroom instruction to
-              assist you make an informed decision.
+              Many coaching centers offer test preparation courses. However,
+              specialized online services offer many benefits to students
+              preparing for the GRE:
             </p>
           </div>
           {/* SECTION END */}
@@ -389,11 +391,14 @@ const GRE = () => {
           <div className="w-full grid grid-cols-12 gap-8 mt-14">
             <section className="w-full col-span-12 md:col-span-7  mt-auto md:mt-14 ">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase :mb-4">
-                What makes Rostrum’s instructors unique
+                WHY CHOOSE ROSTRUM EDUCATION FOR YOUR GRE COACHING?
               </h3>
               <br />
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
-                Here’s how you’d find us to be different
+                Our wealth of educational resources and trained coaches are with
+                you at every step of the way. They make sure that you have the
+                perfect foundation to do well in entrance exams. Following are
+                the benefits of trusting us with your GRE journey:
               </p>
             </section>
             <section className="w-full col-span-12 md:col-span-5">

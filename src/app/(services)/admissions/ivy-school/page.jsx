@@ -58,42 +58,40 @@ const IVY = () => {
   const data = [
     {
       title: "Goal Alignment",
-      description: `If you’re applying to an Ivy it is imperative to be target oriented. Our team at Rostrum helps you align your work to  application deadlines, and helps you set goals. You never have to worry about deadlines again.`,
-    },
+      description: `At Rostrum, we ensure you stay on track with application deadlines and goal setting, which is essential for Ivy League applications. Rostrum ensures no more deadline stress!` },
     {
-      title: "Shortlisting Colleges/ Universities",
-      description: `We assist students in shortlisting the colleges/universities and provide you with the top picks unique to you, keeping in mind your field of study and country of choice.`,
-    },
+      title: "SAT/ACT Preparation",
+      description: ` Rostrum students are well-prepared to excel in standardized tests.`},
     {
       title: "Profile Building",
-      description: `Our team of highly experienced former admissions personnel help you find the internships that can elevate your profile, and competitions that complement your academic interests.`,
-    },
-    {
-      title: "Essays and LOR",
-      description: `A remarkably written essay helps you with scholarships and to be a stand out applicant. Our team helps you brainstorm the best topic and works with you closely to make sure the content is perfect.`,
-    },
-    {
-      title: "Scholarships and Financial Aid",
-      description: `Applying for scholarships and financial aid is an overwhelming task. We make sure that every required document is submitted within the deadline. We also do extensive research to find you all available scholarships available for the course that you’ve applied for and your eligibility for it.`,
-    },
-    {
-      title: "Applications",
-      description: `Rostrum guarantees holistic support throughout your application process. Deadlines, content, planning and more is all very meticulously taken care of.`,
+      description: `Our team of seasoned admissions officers helps you discover internships and competitions that enhance your profile and academic interests.`,
     },
     {
       title: "Research Project",
-      description: `We link you with research experts who help you right from the brainstorming stage to writing your final report.`,
+      description: `We connect you with research experts to guide you from brainstorming to the final report.`,
     },
     {
-      title: "SAT/ACT Preparation",
-      description: `Rostrum Students are intensely prepared to score highly in standardized examinations.`,
+      title: "Applications",
+      description: `Rostrum provides comprehensive support throughout your application journey, covering deadlines, content, and planning with careful attention.`,
+    },
+    {
+      title: "Shortlisting Colleges/ Universities",
+      description: `We help students narrow their college choices by offering personalized recommendations based on their field of study and preferred country.`,
+    },
+    {
+      title: "Essays and LOR",
+      description: `A well-written essay is vital for scholarships and standing out from others. Our team helps you brainstorm the best topic and works closely with you to ensure perfection.`,
+    },
+    {
+      title: "Scholarships and Financial Aid",
+      description: `We handle scholarship applications efficiently, ensuring timely document submission and thorough research to find available scholarships for your course and eligibility.`,
     },
   ];
   return (
     <main className="relative w-full h-auto">
       <HeaderBanner
         align="left"
-        title={"PREPARE FOR IVY LEAGUE SCHOOLS & COLLEGES"}
+        title={"Ivy League Schools & Colleges Consultant"}
         image={"/assets/header-banner/ivy.png"}
       />
       <div className="w-ful h-full relative mt-10 mb-10">
@@ -136,81 +134,40 @@ const IVY = () => {
             </section>
             <section className="col-span-12 md:col-span-7">
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
-                Ivy Leagues are amongst the most prestigious universities in the
-                United States and across the world. These eight elite
-                Northeastern private schools are noted for their highly
-                selective admissions procedure, academic brilliance, and
-                promising job prospects for enrolled students.
+              Ivy League colleges are the most prestigious schools, noted for their selectivity, academic excellence, and career opportunities. Their alumni include people who later became presidents and Nobel Prize winners. These universities provide many students with renowned education, research grants, and financial assistance. 
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
-                Ivy League schools, which were first grouped together as a
-                sports conference, have a history of nurturing the world’s best
-                athletic talent, future presidents, Nobel laureates, and other
-                high-achieving graduates. Some of the oldest educational
-                institutions with well-respected academics, significant research
-                funds, and extensive financial assistance resources make up the
-                Ivy League. Prospective students’ applications must be
-                exceptional in order to get admitted.
+              Join a group of high achievers and start your journey to success at an Ivy League school.
               </p>
             </section>
           </div>
           <div className="w-full h-auto grid grid-cols-12 gap-4 mt-14">
             <section className="col-span-12 md:col-span-5">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-auto">
-                How to get into an Ivy League school?
+              Focus On These Specific Areas To Stand Out
               </h3>
             </section>
             <section className="col-span-12 md:col-span-7">
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
-                It doesn’t come as a surprise that Ivy League colleges are on
-                the lookout for individuals who can contribute to their rich and
-                diverse student communities. While there is no one-size-fits-all
-                formula for getting into your dream Ivy League school, there are
-                specific actions you take during your high school experience, to
-                improve your chances. Ivy Leagues want to know about your
-                ability to make a difference through the admissions process.
-                Examining your past achievements and involvements is a common
-                approach for admission officers to forecast your future
-                achievements. In order to prepare for admissions for such
-                prestigious universities, there are four primary areas to
-                concentrate on in high school:
+              The Ivy League universities look for students who are well-rounded and capable of bringing with them other skill sets. Although there is no foolproof technique, what you do in high school might help your chances of admission. Admissions officers assess your ability to impact and review your past achievements to gauge your potential. Concentrate on these four critical areas in high school to prepare for admission to these prestigious universities:
               </p>
             </section>
           </div>
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section>
               <h4 className="text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-                Make sensible course selections in high school:
+              Choose Your High School Courses Wisely
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-                Ivy league universities seek out students that have the
-                potential to specialise in their careers. Choosing
-                intellectually challenging classes that align with your
-                interests is a great way to showcase your dedication. Plan your
-                curriculum for academic possibilities early on in your high
-                school experience. Admissions to Ivy League colleges is not
-                based on a set of specified courses. Most experts believe that
-                students who thrive in advanced placement courses and tough
-                curricula across a wide range of subjects and disciplines are
-                best prepared for the rigorous demands of an Ivy League
-                education.
+              Ivy League universities look for students who take challenging classes aligned with their interests to demonstrate dedication. Plan your high school curriculum for academic opportunities. Admission isn't based on specific courses, but excelling in advanced placement and rigorous subjects prepares you for Ivy League education.
               </p>
             </section>
             <section>
               <h4 className="text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-                Make meaningful connections.
+              Make Meaningful Connections
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-                No two Ivy League students are the same. Ivy Leagues want to see
-                your passion, devotion, and interest in your future efforts
-                based on all of the options you have access to. It’s critical
-                that you take initiative and seek out possibilities that broaden
-                your horizons. Ivy league universities need students that are
-                energetic and enthusiastic. High school is an excellent
-                opportunity to learn about new things and get active in fields
-                that interest you. What piques your interest? What distinguishes
-                you from others? What will you do to make yourself stand out in
-                a significant way?
+              Ivy League applications require two reference letters from teachers, counselors, coaches, or mentors. These letters provide insight into your academic success and demonstrate your potential role on campus. Develop strong relationships with your teachers and advisors in your senior year. Letters of recommendation reveal your intellectual vibrancy, personality, and life story, showcasing personal qualities beyond test scores and grades.
               </p>
             </section>
           </div>
@@ -228,40 +185,21 @@ const IVY = () => {
             </section>
             <section>
               <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-                Goals and Character Qualities
+              Goals And Character Qualities
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                No two Ivy League students are the same. Ivy Leagues want to see
-                your passion, devotion, and interest in your future efforts
-                based on all of the options you have access to. It’s critical
-                that you take initiative and seek out possibilities that broaden
-                your horizons. Ivy league universities need students that are
-                energetic and enthusiastic. High school is an excellent
-                opportunity to learn about new things and get active in fields
-                that interest you. What piques your interest? What distinguishes
-                you from others? What will you do to make yourself stand out in
-                a significant way?
+              Ivy League universities value individuality and initiative. Explore options by showing passion, dedication, and interest in your future pursuits. Take initiative to broaden your horizons and demonstrate energy and enthusiasm. High school is a chance to discover new interests and get involved in areas that intrigue you. What interests you? What sets you apart? How will you make a significant impact?
+
               </p>
             </section>
           </div>
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="order-2 md:order-1">
               <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-                Extracurricular activities and interests
+              Extracurricular Activities And Interests
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Ivy league institutions are as curious about your work and
-                interests outside of the classroom. They want to see commitment
-                to a cause and leadership responsibilities you’ve held, your
-                successes and failures. Most importantly, they want to know how
-                you’ve grown from those experiences. That isn’t to imply you
-                should participate in every sport or volunteer for every
-                charity. Maintaining a focus on topics that provide significant
-                value to your life or you are genuinely passionate about is
-                crucial. The importance of quality above quantity cannot be
-                overstated. Ivy Leagues are interested in learning about your
-                effect on a cause, team, or community, as well as how the
-                experience affected your life.
+              Ivy League institutions value your extracurricular involvement. Show commitment, leadership, and growth from your experiences. Focus on meaningful activities rather than spreading yourself too thin—quality over quantity matters. Share how your involvement impacted a cause, team, or community and how it shaped your life.
               </p>
             </section>
             <section className="order-1 md:order-2 relative w-full h-[300px] md:h-full mx-auto">
@@ -283,50 +221,45 @@ const IVY = () => {
         {/* SECTION START */}
         <div className="w-full h-auto relative mt-14">
           <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-            How will Rostrum Education help you?
+          How Will Rostrum Education Help You?
           </h4>
           <p className="w-full md:w-[85%] text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-2">
-            Rostrum Students work closely with ex-admission officers and mentors
-            from the most exclusive US universities, such as Harvard, Stanford,
-            Tufts et cetera. Our organizational structure with centers in India
-            and the UAE is highly effective at cracking the admissions process.
-            Here’s everything Rostrum helps students with during their
-            application process:
+          Rostrum Education connects students with ex-admission officers and mentors from top US universities like Harvard and Stanford. With centers in India and the UAE, our structure effectively guides you through the admissions process; we provide comprehensive support throughout the application process.
+
           </p>
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
-            {data
-              .map((item, i) => (
-                <section key={i}>
-                  <h6 className="text-[20px] md:text-[24px] text-primary text-left font-bold leading-tight mt-4 md:mt-2 flex items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="27.538"
-                      height="26.358"
-                      viewBox="0 0 27.538 26.358"
-                      className="me-2"
+            {data.map((item, i) => (
+              <section key={i}>
+                <h6 className="text-[20px] md:text-[24px] text-primary text-left font-bold leading-tight mt-4 md:mt-2 flex items-start">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="27.538"
+                    height="26.358"
+                    viewBox="0 0 27.538 26.358"
+                    className="me-2"
+                  >
+                    <g
+                      id="Group_110"
+                      data-name="Group 110"
+                      transform="translate(-26.404 -138.505)"
                     >
-                      <g
-                        id="Group_110"
-                        data-name="Group 110"
-                        transform="translate(-26.404 -138.505)"
-                      >
-                        <g id="Group_109" data-name="Group 109">
-                          <path
-                            id="Path_276"
-                            data-name="Path 276"
-                            d="M41.793,139.683l2.082,6.408a1.705,1.705,0,0,0,1.621,1.178h6.738a1.7,1.7,0,0,1,1,3.082l-5.451,3.961a1.7,1.7,0,0,0-.619,1.9l2.082,6.408a1.7,1.7,0,0,1-2.622,1.9l-5.451-3.96a1.7,1.7,0,0,0-2,0l-5.451,3.96a1.7,1.7,0,0,1-2.623-1.9l2.082-6.408a1.7,1.7,0,0,0-.619-1.9l-5.451-3.961a1.7,1.7,0,0,1,1-3.082h6.738a1.706,1.706,0,0,0,1.621-1.178l2.082-6.408a1.7,1.7,0,0,1,3.241,0"
-                            fill="#ff335a"
-                          />
-                        </g>
+                      <g id="Group_109" data-name="Group 109">
+                        <path
+                          id="Path_276"
+                          data-name="Path 276"
+                          d="M41.793,139.683l2.082,6.408a1.705,1.705,0,0,0,1.621,1.178h6.738a1.7,1.7,0,0,1,1,3.082l-5.451,3.961a1.7,1.7,0,0,0-.619,1.9l2.082,6.408a1.7,1.7,0,0,1-2.622,1.9l-5.451-3.96a1.7,1.7,0,0,0-2,0l-5.451,3.96a1.7,1.7,0,0,1-2.623-1.9l2.082-6.408a1.7,1.7,0,0,0-.619-1.9l-5.451-3.961a1.7,1.7,0,0,1,1-3.082h6.738a1.706,1.706,0,0,0,1.621-1.178l2.082-6.408a1.7,1.7,0,0,1,3.241,0"
+                          fill="#ff335a"
+                        />
                       </g>
-                    </svg>
-                    {item.title}
-                  </h6>
-                  <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-2">
-                    {item.description}
-                  </p>
-                </section>
-              ))}
+                    </g>
+                  </svg>
+                  {item.title}
+                </h6>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-2">
+                  {item.description}
+                </p>
+              </section>
+            ))}
           </div>
         </div>
         {/* SECTION END */}

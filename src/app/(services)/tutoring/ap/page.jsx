@@ -6,53 +6,41 @@ import AnimationProvider from '@/components/common/AnimationProvider';
 
 const AP = () => {
   const characteristics = [
-    `The majority of exams last between two and three hours`,
-    `Multiple-choice questions typically make up the first half of a test`,
-    `For paper and pencil exams, you will select one of four to five response options for each question and use a pencil to bubble in your selection on your AP answer sheet`,
-    `For AP Chinese and AP Japanese Language and Culture Exams, you’ll enter your answers in the exam application’’`,
-    `Only the number of questions answered correctly determines your total exam score in the multiple-choice part. 
-		Incorrect or unanswered questions will not result in points being awarded or deducted.`,
-    `Free-response questions, which require you to construct your own responses, usually make up the second section of the exam. Your comments may take the shape of an essay, a problem-solving solution, or a spoken response, 
-		depending on the exam.`,
-    `In most cases, you’ll be writing your response in pen in the 
-		free-response exam booklet for paper and pencil exams.`,
-    `You’ll type your responses in the exam application for the AP Chinese and AP Japanese Language and Culture Exams.`,
+    `Eligibility Criteria: Students should complete the corresponding AP courses before applying for AP exams. These exams must be registered through the students' respective high schools. The registration process includes payment of fees.`,
+    `Exam Format: AP exams include a multiple choice portion that makes up the first half of the exam. This portion requires students to choose the correct option from four or five answers. The second half of the exam comprises free-response questions. This portion consists of open-ended questions and essays. It allows students to display their expertise in a given subject. `,
+    `Exam duration: Most exams have a time limit of 2 to 3 hours.`,
+    `Policy on negative marking: There is no negative marking on a student's score in AP exams. You will be awarded points for your correct answers. Incorrect answers will not result in points being deducted from your total score.`,
+    `Scoring: As mentioned before, exams are scored on a scale of 1 to 5, with 5 being the highest score.`
   ];
   const data = [
     {
-      title: 'The first factor is the subject',
-      description: `Consider the subject and honestly assess your ability with the material while devising a study approach. You should spend more time on the AP subject(s) that you struggle with and less time on the subjects that you excel at.
-      While your strengths and interests may differ, some areas, such as AP Music Theory and AP Psychology, tend to test easier. Exams for AP Physics 1 and AP Chemistry, on the other hand, are more difficult for many students. As a result, these tests may necessitate greater focus and planning.`,
+      title: 'Factor # 1: Time Allocation and Planning',
+      description: `Knowing your strengths and weaknesses is important for achieving your desired scores. Assess your abilities and skills in the subjects you are taking and proceed accordingly. It is recommended that you invest more time and energy into gaining a grip on your weaker subjects rather than subjects you find easier to handle. AP exam preparation requires strategic focus and planning.`,
       image: '/assets/ap/images/1.png',
     },
     {
-      title: 'Target Score is the second factor to consider',
-      description: `AP tests are assessed on a 5-point scale, with students striving for a score of 3 or better – a mark that shows a student’s eligibility for college credit. Learners aiming for a 5 in a topic will usually need to study more than those aiming for a 3.
-      Furthermore, not all universities have the same attitude toward test scores. Some schools will give credit for a 3 on an AP exam, while others will require a 4 or 5 depending on the subject. Consult your desired schools to find out what grades you should aim for.`,
+      title: 'Factor # 2: Know Your Target Score',
+      description: `Consult the colleges you want to apply to and gather detailed information on the required scores to be eligible for college credit. As mentioned before, AP exams are scored on a 5-point scale. Once you have a target score in mind, plan your timetable accordingly.`,
       image: '/assets/ap/images/2.png',
     },
     {
-      title: 'The third factor is Specialised Interests',
-      description: `While some students find it beneficial to simply retrace their steps and review AP course content in the same way they did in class, it is also beneficial to consider areas that may require additional focus. 
-      Spend additional time on the areas of the curriculum that you struggle with to ensure you have a well-rounded comprehension of the material. Examining previous homework assignments, quizzes, and tests might help you identify potential problem areas.`,
+      title: 'Factor # 3: Identify Your Problem Areas',
+      description: `Before you start studying, identify the areas in which you fall short. Go through your old test scores, assignments, homework, and projects. Have in-depth discussions with your respective subject teachers and your assigned tutors to help you in the process. Doing so will help ensure that you know which parts of the curriculum you need to spend extra time on. `,
       image: '/assets/ap/images/3.png',
     },
     {
-      title: 'Achieve Targets',
-      description: `The first step to gain entry into your dream university is to achieve the ‘target score!’ Our AP tutors make certain that you achieve the ‘target score’ by channelizing your efforts in the right way. They use innovative approaches to develop exam skills and ensure that no stone is left unturned to maximise your marks.
-      Our tutors are hand-picked from among our most experienced and in-demand tutors. Each of them has spent thousands of hours tutoring students and, more importantly, has helped them considerably improve their grades.`,
+      title: 'Comprehensive Resources and Study Materials',
+      description: `Our comprehensive question paper bank has been collected and curated by some of the most expert teachers worldwide. Practice questions are handed out daily to students to ensure they achieve top-notch practice. Choosing Rostrumedu means unlocking a wealth of practice resources to help you excel in your AP exams.`,
       image: '/assets/ap/images/4.png',
     },
     {
-      title: 'Flexible Learning',
-      description: `We realise that you are juggling a hundred tasks at a time. Hence, we offer you options to learn at your convenience. Our tutors have worked with a wide range of students from various backgrounds and with varying requirements.
-      They tailor every program specifically for you. You may choose a tutor to teach you in-person or online.`,
+      title: 'Flexible Learning Plans According to Your Requirements',
+      description: `Each student is different in the subjects they choose to study and the time required for each subject. Some students excel in mathematics, while others find it easier to concentrate on the arts. Not only this, but by this stage in a student’s academic career, they are juggling extra-curricular and various other things. Our tutors have the expertise to customize an academic schedule that accommodates all your needs so you can maximize your study hours.`,
       image: '/assets/ap/images/5.png',
     },
     {
-      title: 'Rostrum Community',
-      description: `The Rostrum Community is a global network of successful alumni and students from leading universities across the globe. The members of the community welcome queries and are ready to part with their knowledge to help you achieve success.
-      Being a part of the community gives you an opportunity to learn from their experience and plan your future. Join our team of students from all over the world including India and the UAE.`,
+      title: 'Expert Tutors Dedicated To Your Success',
+      description: `Rostrumedu is best known for its team of experienced subject specialists who specialize in AP exam preparation. Our educators strive to make the course material easier to understand and instill the best possible guidelines in our students. Our tutors are dedicated to equipping you with the knowledge and skills you need to pass your AP exams with flying colors.`,
       image: '/assets/ap/images/6.png',
     },
   ];
@@ -71,8 +59,8 @@ const AP = () => {
               “
             </span>
             <h6 className='text-[22px] md:text-[28px] text-primary text-center font-semibold leading-tight mt-4 md:mt-auto'>
-              75% of our students score a 5/5 on their AP’s. Practise questions
-              handed out on a daily basis for thorough readiness.
+            “75% of our students, based in the UAE and India, score a perfect 5/5 on their AP exams.”
+
               <span className='text-secondary text-[128px] -translate-y-10 md:-translate-y-16 translate-x-0 md:translate-x-6 self-end leading-none absolute rotate-180'>
                 “
               </span>
@@ -82,17 +70,11 @@ const AP = () => {
           <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
             <section className='mt-auto md:mt-18'>
               <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4'>
-                WHAT IS THE AP TEST?
+              What Are AP Tests?
               </h3>
               <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                Advanced Placement (AP) is a programme that provides high school
-                students with college-level curricula and examinations in order
-                to demonstrate their ability in specific areas prior to
-                enrolling in college. A student who achieves a high score on
-                their AP exam may be granted course credit and placement. Simply
-                put, by taking an AP course, you are demonstrating to colleges
-                and institutions that you have what it takes to excel in
-                specific undergraduate topics.
+              Advanced Placement Exams (AP Exams) are standardized tests conducted by the College Board. They are common in the USA, Australia, Canada, the United Kingdom, and more. The AP courses are much more challenging and rigorous than regular high-school courses. We know that the corresponding exams are just as tough.
+
               </p>
               <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
                 Students seeking to pursue undergraduate education in Australia,
@@ -101,15 +83,10 @@ const AP = () => {
                 their AP Exam scores reviewed during the admissions process.
               </p>
               <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                Advanced Placement examinations offered by the College Board are
-                taken each May by students. These tests are a culmination of
-                year-long Advanced Placements courses. AP exams (with few
-                exceptions) have a multiple-choice section and a free-response
-                section.
+              The College Board administers AP exams once a year in May. The exam consists of a multiple-choice section and a free-response section. Depending on the subject, the duration varies between 2 and 3 hours. AP exams are scored on a scale of 1 to 5. Different universities and colleges have various standards for AP scores for placement awards. However, to demonstrate one’s expertise, one must at least score a 3/5. 
               </p>
               <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                To demonstrate mastery in the chosen courses, a student must
-                take the AP exam (a pencil and paper MCQ based exam) and get
+              Most of our students (75%) score a perfect 5 in their AP exams. The scoring system is as follows:
               </p>
             </section>
             <section className='flex flex-col items-center'>
@@ -120,21 +97,6 @@ const AP = () => {
                 alt='WHAT IS THE AP TEST?'
                 // objectFit='containe'
               />
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                at least 3/5.A student must be under the age of 21 in order to
-                take the AP exam. As a result, taking the exam in grade 11, 12
-                or even 10 would be excellent.
-              </p>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                AP tests cover a range of subjects from Biology to European
-                History to Music Theory. There are currently over 38 AP test
-                options. Following are the subject groups from which a student
-                can choose subjects of his/her choice from each subject group:
-              </p>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                Following are the subject groups from which a student can choose
-                subjects of his/her choice from each subject group:
-              </p>
             </section>
           </div>
           {/* SECTION END */}
@@ -146,15 +108,15 @@ const AP = () => {
                 History and <br className='hidden md:block' /> Social Sciences
               </h6>
               <ul className='text-[16px] md:text-[20px] text-primary font-normal ms-8 mt-2'>
-                <li>Comparative Government and Politics</li>
-                <li>European History</li>
-                <li>Human Geography</li>
-                <li>Macroeconomics</li>
-                <li>Microeconomics</li>
-                <li>Psychology</li>
+                <li>Politics and Comparative Government</li>
                 <li>United States Government and Politics</li>
-                <li>United States History</li>
-                <li>World History</li>
+                <li>Human Geography                </li>
+                <li>World History                </li>
+                <li>European History                </li>
+                <li>Macroeconomics                </li>
+                <li>Microeconomics                </li>
+                <li>Psychology</li>
+                <li>United States History                </li>
               </ul>
             </section>
             <section>
@@ -165,10 +127,10 @@ const AP = () => {
                 Computer Science
               </h6>
               <ul className='text-[16px] md:text-[20px] text-primary font-normal ms-8 mt-2'>
-                <li>Calculus AB</li>
-                <li>Calculus BEHENCHOODH</li>
                 <li>Computer Science A</li>
                 <li>Statistics</li>
+                <li>Calculus AB</li>
+                <li>Calculus BC</li>
                 <li>Computer Science Principles</li>
               </ul>
             </section>
@@ -221,40 +183,25 @@ const AP = () => {
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
-          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-2'>
+          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-1 gap-6 mt-2'>
             <section>
+            <h6 className='text-[22px] md:text-[28px] text-primary text-left font-bold leading-tight flex items-start'>
+            Why Apply for AP Exams?
+            </h6>
               <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                Clearly AP’s have wide ranging subjects. AP tests are scored on
-                a scale of 1–5. While every college is different, most schools
-                won’t accept AP scores for credit unless you score at least a 4.
-                75% of our students from all over the world , including India
-                and the UAE, score a perfect score of 5 in their APs.
+              The key aspects of AP exams include:
               </p>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                Good AP scores help you earn college credit. This allows
-                students to avoid some beginners level college courses, allowing
-                them to graduate sooner, add a second major, or take more
-                advanced courses. Although it varies from college to college and
-                university to university. Some may not accept credit unless you
-                score a 5. Some may not accept it at all. A student can also
-                save money on college expenses such as tuition and textbooks by
-                passing an AP Exam.
-              </p>
-            </section>
-            <section>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                While earning college credit is one benefit of taking an AP
-                course for a year, it should not be considered the primary
-                benefit of taking these challenging programmes.
-              </p>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                Students who take AP classes are exposed to a degree of
-                intellectual rigour that is more comparable to what they would
-                encounter in college. Whether the student’s AP exam result
-                reflects their hard work or they had a bad testing day and
-                didn’t attain the desired score, the effort put forth in an AP
-                class will pay off in college and beyond.
-              </p>
+              <ul>
+                <li className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4' >
+                - Eligibility for college credit or advanced placement in the adjacent/corresponding college courses. Some AP courses also help make students eligible to skip certain introductory courses. You may jump straight to advanced courses in that subject.
+                </li>
+                <li className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4' >
+                - Remarkable grades in AP courses provide an edge on a student’s college application. They are evidence that a student understands concepts at the university level and can handle the required workload.
+                </li>
+                <li className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4' >
+                 -  AP courses and exams also help students develop critical thinking and time management skills. These help tremendously in university and higher education.
+                </li>
+              </ul>
             </section>
           </div>
           {/* SECTION END */}
@@ -262,21 +209,10 @@ const AP = () => {
           <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10'>
             <section className='mt-auto'>
               <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4'>
-                EXAM FORMATS FOR AP EXAMS IN 2022
+              Exam Formats for AP Exams (2024)
               </h3>
               <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                The College Board dramatically changed its AP testing procedures
-                in 2020 and 2021 by delivering digital versions of tests. This
-                year, though, most tests will use the classic pen-and-paper
-                method once again.
-              </p>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                This implies that all exams must be taken by hand, with the
-                exception of the AP Chinese and AP Japanese language and culture
-                assessments, which have always been administered on a computer.
-                Students who have been granted special testing accommodations
-                that allow for the use of technology are exempt from this
-                restriction.
+              Advanced Placement exams for 2024 are conducted in schools via pen-and-paper. Apart from Chinese and Japanese, all exams will be handwritten and submitted as such. As usual, AP Chinese and Japanese Language and Culture exams are held on computers. Of course, students granted special accommodations are exempt from this restriction.
               </p>
             </section>
             <section className='flex flex-col items-center'>
@@ -293,9 +229,8 @@ const AP = () => {
           <br />
           <br />
           <h6 className=' text-[22px] md:text-[28px] text-primary text-center md:text-left font-semibold leading-tight'>
-            Each of the 38 tests has its own set of requirements,{' '}
-            <br className='hidden md:block' /> however they all have the
-            following characteristics:
+          Requirements for AP Exams (2024)
+
           </h6>
           <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-8'>
             {characteristics.map((item, i) => (
@@ -311,12 +246,11 @@ const AP = () => {
           {/* SECTION START */}
           <div className='w-full h-auto relative mt-14'>
             <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2'>
-              HOW TO PREPARE FOR AP AN EXAM?
+            Preparation Strategies for AP Exams
             </h3>
             <p className='text-[16px] md:text-[20px] text-primary leading-tight font-normal text-center md:text-left mt-2'>
-              The three elements listed below can help you figure out how much
-              <br className='hidden md:block' />
-              studying you’ll need to accomplish before your AP exam (s).
+            At Rostrum Education, we employ the most qualified, informed, and credible tutors. They provide our students with the most effective one-on-one tutoring experience. Our exclusive and expertly designed curriculum and course material help our students. They can achieve their personal best scores in their AP exams. Last but not least, our digitized education system has smart classes and interactive whiteboards. It helps keep our students engaged in the course materials. Exam preparation, even for AP exams, need not be dull.  
+
             </p>
 
             <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-8 mt-8'>
@@ -342,7 +276,7 @@ const AP = () => {
           </div>
           <div className='w-full h-auto relative mt-14'>
             <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2'>
-              Here’s how you’d find us to be different:
+            Why You Should Pick Rostum Education
             </h3>
             <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-8 mt-4'>
               {data.slice(3,).map((item, i) => {

@@ -56,19 +56,21 @@ const IGCSE = () => {
 
   const data = [
     {
-      title: "Assessment Support:",
-      description: `The IGCSE assesses students based on their oral skills, coursework and practical assessments. Our team of expert IGCSE tutors provide extraordinary support in accomplishing the assessment objectives.`,
+      title: "Support for Assessments",
+      description: `The IGCSE evaluates students through oral skills, coursework, and practical assessments. Our proficient IGCSE tutors offer exceptional assistance in achieving the assessment objectives.`,
       image: "/assets/igcse/images/1.png",
     },
     {
-      title: "Maximize Scores:",
-      description: `The chances of entering your dream university are determined by the grades that you achieve in both, the pre-university programme and the IGCSE. Our IGCSE tutors prepare you in every way for your boards and help you optimise your potential.`,
+      title: "Achieve Top Scores",
+      description: `Securing admission to your desired university depends on your grades in the pre-university program and the IGCSE. 
+Our dedicated IGCSE tutors help you prepare thoroughly for your exams, maximizing your chances of getting into your dream undergraduate program.
+`,
       image: "/assets/igcse/images/2.png",
     },
     {
-      title: "Strategic Learning:",
-      description: `We offer tutoring services not just at the centres in India and UAE but also online for students worldwide for all  course subjects of the IGCSE (Core and Extended) such as IGCSE Math, IGCSE Economics, IGCSE Physics, IGCSE Chemistry etc.`,
-      description_2: `Our IGCSE tutors help you outline your areas of strengths and improvement in a subject. Our personalized care ensures that you overcome your difficulties and achieve an A* in IGCSE exams.`,
+      title: "Targeted Learning",
+      description: `Our tutoring services extend beyond our centers in India and UAE to reach students worldwide. We support all IGCSE course subjects, including IGCSE Math, IGCSE Economics, IGCSE Physics, IGCSE Chemistry, and more. `,
+      description_2: `Our IGCSE tutors help you in figuring your strengths and weaknesses in each subject. With personalized guidance, we ensure you overcome challenges and strive for top grades in IGCSE exams.`,
       image: "/assets/igcse/images/3.png",
     },
   ];
@@ -88,10 +90,8 @@ const IGCSE = () => {
               “
             </span>
             <h6 className=" text-[22px] md:text-[28px] text-primary text-center font-semibold leading-tight mt-4">
-              Each subject under IGCSE is taught by the most experienced tutors,
-              and this experience has been generating results with a 90%
-              acceptance rate in universities. Our team of experienced tutors
-              help students all over the world including India and UAE.
+            At Rostrum, each IGCSE subject is taught by our carefully chosen expert tutors. Their efforts drive our high university acceptance rates for students across UAE, India, UK, and more.
+
               <span className="text-secondary text-[128px] -translate-y-12  translate-x-0 md:translate-x-6 self-end leading-none absolute rotate-180">
                 “
               </span>
@@ -109,32 +109,37 @@ const IGCSE = () => {
             </section>
             <section>
               <h4 className="uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-                What exactly is IGSCE?
+              What is IGCSE?
+
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                IGCSE is an acronym for International General Certificate of
-                Secondary Education. It was created by Cambridge International
-                Examinations at the University of Cambridge. Any student who
-                successfully completes an IGCSE course earns an internationally
-                recognised credential. The exam boards Edexcel and Oxford AQA
-                both provide their own versions of the International GCSEs.
+              Cambridge International General Certificate of Secondary Education (IGCSE) is globally recognized. It is an educational program that helps students learn and apply many key concepts. It teaches them to understand numbers, patterns, and how things relate to each other. Students learn to think critically, solve problems, and use their knowledge in real-life situations.
+              <br/>
+              <br/>
+              Designed for countries across the world, the curriculum introduces students to a wide range of global issues and cultures. This expands a student's view of the world, helping them appreciate different ways of life.
+<br/>
+<br/>
+IGCSE exams try to be fair to everyone. The questions are written so anyone can understand them, regardless of where they come from. They may also use multiple-choice questions instead of questions with written answers. This helps people who are still learning the language.
+
+<br/>
+<br/>
+Many universities value this program because it gives students a strong academic foundation. It helps them learn to think critically and apply what they learn.
+
               </p>
             </section>
           </div>
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section>
               <h4 className="uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-                Who can pursue IGSCE?
+              Who Can Pursue IGCSE?
+
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Students normally begin studying for the IGCSE course when they
-                are ten years old and take the exam when they are eleven years
-                old. Some foreign schools, on the other hand, allow pupils to
-                begin studying the IGCSE course at the age of nine and take the
-                exams as early as the ninth grade. It is a flexible programme
-                designed for 14-16 year olds. It aims at “preparing school
-                students for life, helping them develop an informed curiosity
-                and a lasting passion for learning.”
+              Although the IGCSE is ideal for students aged 14-16, any age group can give the exam if they have the aptitude. Students usually start the IGCSE course at age ten and take the exams at eleven. Some international schools allow students to begin as early as nine and sit the exams in the ninth grade. 
+              <br/>
+              <br/>
+              Part of the Cambridge Secondary 2 stage, the IGCSE is trusted by schools and worldwide. Our teachers at Rostrum are experts in helping kids excel in this program. Their many years of experience with the IGCSE enables them to share an incredible wealth of knowledge effectively. This ensures students receive the best possible guidance and support. 
+
               </p>
             </section>
             <section className="h-full flex flex-col items-center justify-center">
@@ -154,8 +159,8 @@ const IGCSE = () => {
                 IGCSE Subjects
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-2">
-                There are over 70 subjects to choose from in Cambridge IGCSE.
-                These subjects can be broadly classified into:
+              Cambridge IGCSE offers a wide selection of over 70 subjects, which are categorized into:
+
               </p>
             </section>
             <section>
@@ -168,6 +173,10 @@ const IGCSE = () => {
               <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-2">
                 Creative & Professional
               </p>
+              <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-2">
+              Business Studies
+              </p>
+
             </section>
             <section>
               <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-2">
@@ -179,11 +188,14 @@ const IGCSE = () => {
               <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-2">
                 Languages
               </p>
+              <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-2">
+              Economics
+              </p>
             </section>
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
-          <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
+          {/* <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
             {subjects.map((item, i) => (
               <section key={i}>
                 <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase mb-4">
@@ -197,9 +209,9 @@ const IGCSE = () => {
                 </p>
               </section>
             ))}
-          </div>
+          </div> */}
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
-            <section className="w-full relative mt-4">
+            {/* <section className="w-full relative mt-4">
               <span className="absolute top-1 w-4 h-4 rounded-full bg-secondary block"></span>
               <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-left ps-6">
                 Students are required to take at least 5 subjects, but not more
@@ -214,27 +226,21 @@ const IGCSE = () => {
                 assessment can include written, oral, coursework and practical
                 assessments.
               </p>
-            </section>
+            </section> */}
             <section className="w-full relative mt-4">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
-                THE ROSTRUM EDGE:
+              THE ROSTRUM ADVANTAGE
+
               </h3>
             </section>
             <section className="w-full relative mt-4">
               <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-left ps-6">
-                Our IGCSE online tutoring classes are personalised to each
-                student and fit into any family’s busy schedule. With grades now
-                being closely related to life chances and professional
-                advancements, it’s more crucial than ever to accommodate each
-                student’s learning capacity and flexibility.
+              Our IGCSE online classes are tailored to suit each student and cater to any schedule. Your grades greatly impact future opportunities. This is why adapting to each student's learning style and flexibility is essential.
+
               </p>
               <br />
               <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-left ps-6">
-                For efficient coaching of young kids across geographical
-                borders, we use a variety of interactive tools and strategies.
-                IGCSE tutoring lessons are held with the understanding that each
-                student is different in terms of learning and comprehension
-                abilities.
+              We employ various interactive tools and strategies to coach students worldwide. IGCSE tutoring sessions are designed with the knowledge that every student is unique. Everyone has different learning and comprehension capabilities. At Rostrum we not only understand that, but value your uniqueness at every step.
               </p>
             </section>
           </div>

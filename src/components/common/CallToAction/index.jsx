@@ -6,11 +6,12 @@ import AnimationProvider from "@/components/common/AnimationProvider";
 import { getAssetUrl } from "@/utils/getAssetUrl";
 
 const CallToAction = ({ data, image }) => {
-  const title = data?.title ? data?.title : "Join the Rostrum Community";
-  const headline = data?.headline ? data?.headline : "contact us today";
+  const title = data?.title
+    ? data?.title
+    : "Become A Part Of Rostrum Community";
+  const headline = data?.headline ? data?.headline : "Get In Touch Today!";
   const bgimage = data?.image ? getAssetUrl(data?.image) : image;
 
-  
   return (
     <div className="w-ful h-full md:h-[467px] relative mt-10 md:mt-auto py-8  md:p-0">
       <Image

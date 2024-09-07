@@ -8,7 +8,7 @@ const MedicalSchool = () => {
     <main className='relative w-full h-auto'>
       <HeaderBanner
         align='left'
-        title={'PURSUING MEDICINE FROM THE UK- HOW TO GO ABOUT IT?'}
+        title={'How To Apply for the Best UK Medical Schools'}
         image={'/assets/header-banner/medical.png'}
       />
       <div className='w-ful h-full relative mt-10 mb-10'>
@@ -16,16 +16,11 @@ const MedicalSchool = () => {
           {/* SECTION START */}
           <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-4'>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left '>
-              The importance of public health and the medical profession has
-              come to the forefront during the COVID-19 pandemic, as primary
-              healthcare workers came out as warriors on the frontline, fighting
-              the deadly disease out at large. As many sought out to add to the
+            Are you considering a career in medicine? UK medical education provides unique learning opportunities and career paths. The application process is competitive, as thousands of students apply yearly for limited slots. All medical schools have unique application processes, and it's up to the students to research how to apply to each one. Here is where Rostrum Education helps you prepare for entry exams, write personal statements, and ace interview rounds. 
             </p>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left'>
-              existing medical workforce, university applications to medical
-              programme saw a huge surge world over. But where do you start,
-              especially if you want to apply to some of the top medical schools
-              in the UK? We have you covered!
+            It doesn't matter how you want to serve the community in healthcare. You can choose to become a nurse, researcher, caregiver, surgeon, or any other career! Studying medicine in the UK can lead you to a promising and rewarding career.
+
             </p>
           </div>
           {/* SECTION END */}
@@ -33,38 +28,15 @@ const MedicalSchool = () => {
           <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
             <section>
               <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-4'>
-                Why study in the UK?
+              Why Study Medicine In The UK?
               </h3>
               <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-auto md:mt-4'>
-                The UK is a top destination for higher education, especially for
-                international students, owing to the high quality of education
-                and research opportunities.
+              The UK is considered one of the best countries for medical education. They have top-notch universities that provide performance and research. Universities such as Oxford and Cambridge are always ranked among the best in the world in terms of quality education and knowledge.
+
               </p>
               <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                According to QS News Ranking 2022, 43 of the top UK universities
-                are in the top 650 medical universities in the world.
-              </p>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                The average income of a Doctor/ Physician in the UK is 67
-                percent more than that of other health and medical jobs.
-              </p>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                For the past six years, the pay grade of doctors/physicians has
-                been steadily rising. The average annual salary has risen from
-                245,000 GBP in 2016 to 318,000 GBP in 2021.
-              </p>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                Academic institutions and universities in the UK are leaders in
-                medical research, with The University of Oxford and The
-                University of Cambridge consistently ranking as the best
-                universities to pursue medicine.
-              </p>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                Studying in the UK will open you up to experiences and
-                opportunities that are unparalleled, as you’ll get to work with
-                not only the best medical professional (often led by NHS
-                education providers), but also highly increase your
-                employability.
+              The UK is a top choice for international students seeking higher education. It offers high-quality teaching and research opportunities. It boasts 43 universities in the top 650 for medical education worldwide. Doctors in the UK earn significantly more than other health professionals, with salaries rising steadily from £245,000 in 2016 to £318,000 in 2021. Indian MBBS graduates from UK universities are exempt from the Foreign Medical Graduate Examination too. Compared to the US, studying MBBS in the UK takes 5 to 6 years, making it a faster path to a medical degree.
+
               </p>
             </section>
             <section>
@@ -75,7 +47,7 @@ const MedicalSchool = () => {
                 alt='Why study in the UK?'
                 // objectFit='containe'
               />
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+              {/* <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
                 To practise medicine in India, MBBS graduates from UK
                 universities are not required to take the Foreign Medical
                 Graduate Examination.
@@ -89,12 +61,12 @@ const MedicalSchool = () => {
                 Queen Mary University, University of Glasgow, University College
                 London, among others, are some universities that are globally
                 recognised as one of the best.
-              </p>
+              </p> */}
             </section>
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
-          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
+          {/* <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
             <section>
               <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-4'>
                 Where do I start?
@@ -163,7 +135,7 @@ const MedicalSchool = () => {
                 dentistry, biomedical, and veterinary degree programmes.
               </p>
             </section>
-          </div>
+          </div> */}
           {/* SECTION END */}
         </div>
       </div>
@@ -175,37 +147,24 @@ const MedicalSchool = () => {
         <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
           <section>
             <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
-              Fee structure in UK Universities
+            Fee Structure in UK Universities
+
             </h4>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              The key motive for applying is the low cost of MBBS in the United
-              Kingdom for Indian aspirants.
+            The UK stands out for its international education system and renowned medical training. Many students worldwide, especially from India, are drawn to its MBBS programs. The main reason is the comparatively affordable cost.
+
             </p>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              The cost of an MBBS in the United Kingdom for an Indian student
-              ranges from $130,000 to $340,000 depending on the school to which
-              you apply, including tuition fees and other expenditures. Before
-              applying, candidates can review the precise cost structures of the
-              country’s most popular institutions and colleges.
+            For Indian aspirants, the expenses for an MBBS in the UK typically range from $130,000 to $340,000, covering tuition and other fees. Candidates should thoroughly research the cost structures of various institutions before applying. This ensures they make an informed decision about their education abroad.
+
             </p>
           </section>
           <section>
             <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
-              TOEFL Entrance Exam
+            TOEFL
             </h4>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              The Test of English as a Foreign Language (TOEFL) is a
-              standardised test used to assess non-native English speakers’
-              abilities for enrollment in English-speaking universities. More
-              than 11,000 universities and other organisations in over 190
-              countries and territories accept the test.
-            </p>
-            <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              For BMAT, UCAT, IELTS/TOEFL, or any other test preparation, we are
-              here to help you! Please feel free to contact our Tutoring Team.
-              We provide tutoring for students all over the world including
-              India and UAE.
-            </p>
+            Non-native English speakers may need to take the TOEFL. Meanwhile, gaining relevant work experience in healthcare or service roles boosts your application.            </p>
           </section>
         </div>
         {/* SECTION END */}
@@ -214,39 +173,32 @@ const MedicalSchool = () => {
         <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
           <section>
             <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
-              What about work experience (UCAS)?
+            Work Experience
             </h4>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              There are two key sections of this application: Work Experience
-              and the personal statement essay.
+            Your work experience and personal statement matter most when applying to medical school. "Work Experience" includes any paid or voluntary roles you've had two years before applying. This could be in hospitals, the community, or elsewhere. Healthcare-related and general service roles count too!
+
             </p>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              For the purposes of applying to medical school, “Work Experience”
-              refers to any work done, volunteer or paid, in the 2 years prior
-              to applying to medical school. This experience can be gained
-              through a hospital or in the community, and both
-              healthcare-related service and general service positions are
-              relevant to your application.
+            There are two types of work experience medical schools looks for:
             </p>
+            <ul className='list-disc' >
+              <li className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4' >
+              Caring or Service Role: This involves working directly with people. Preference is given to those who work with ill, disabled, or disadvantaged people. It shows your compassion and teamwork skills.
+              </li>
+              <li className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+              Healthcare Observation: This means watching healthcare professionals at work to understand the field better.
+              </li>
+            </ul>
           </section>
           <section>
             <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'></h4>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              There are 2 categories of work experience in the UCAS: Working
-              with people in a caring or service role Direct observation of
-              healthcare
+            Even if your job isn't in healthcare, roles like customer service are still relevant. They demonstrate skills like teamwork and empathy, which are crucial in medicine. Reviewers want to see how you've helped others and developed key interpersonal skills essential for a medical career.
+
             </p>
-            <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              If at all possible, applicants should take part in a caring or
-              service job, particularly with persons who are ill, disabled, or
-              underprivileged. While such encounters can occur in a healthcare
-              setting, it is not required. Reviewers want to see you putting
-              yourself in the service of others, and they want to know about
-              your collegiality, teamwork skills, and general interpersonal
-              skills. In that sense, a customer service career would be
-              appropriate, as all of these skills are essential to success in
-              this industry.
-            </p>
+            {/* <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+            </p> */}
           </section>
         </div>
         {/* SECTION END */}
@@ -255,32 +207,27 @@ const MedicalSchool = () => {
         <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
           <section>
             <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
-              Other important factors
+            Stand Out With Your Personal Statements
+
             </h4>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              The rest of the process, apart from the medical tests, essentially
-              remains the same as any other UK application. Oxbridge would still
-              require you to take the test and submit the application before 15
-              October. Your personal statement and school grades are imperative
-              and can make or break your application.
+            Your personal statement and academic achievements are the most important part of the application. Customize your application to highlight your passion for medicine and tell them exactly why you’re the best choice for their program.
             </p>
           </section>
           <section>
             <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
-              MED School Admissions
+            Medical School Admissions: Interview Process
+
             </h4>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              As for interviews, most medical schools follow the ‘Multiple
-              Mini-Interviews’ (MMI), which are multiple 10-minute interviews.
-              Before each interview, you’re given a scenario and given time to
-              prepare for each. These may then entail an interviewer asking you
-              questions, or you might have to engage in a role-playing scenario.
+            Prepare for multiple mini-interviews (MMI), a common format many medical schools use. Rostrum Education offers comprehensive support to ensure preparation for these important interviews.
+
             </p>
-            <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+            {/* <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
               Rostrum has a robust system and experienced staff in place to
               completely prepare you for these nerve-wracking interviews. We
               make sure you enter each interview as confident as ever.
-            </p>
+            </p> */}
           </section>
         </div>
         {/* SECTION END */}
@@ -289,25 +236,15 @@ const MedicalSchool = () => {
         <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
           <section className='order-2 md:order-1' >
             <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-4'>
-              How can Rostrum Education help?
+            How Does Rostrum Education Help With Applications? 
             </h3>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              We at Rostrum Education help students with their med-school
-              preparation to get into some of the top universities in the world.
-              Our network consists of specialised tutors and medical
-              professionals from some of the best universities in the world, and
-              our mentors have been helping students with Oxbridge prep and UK
-              admissions for years. Our process is highly personalised and
-              bespoke and catered to your strengths and needs. We follow a
-              highly specialised 8-step process that focuses on each aspect of
-              your application - from the course and university shortlisting,
-              test preparation, personal statement, and interview preparation,
-              to finally accepting your admissions offer.
+            At Rostrum Education, students are provided with a step-by-step roadmap and support in preparation for medical school. Our expert tutors and mentors offer tailored approaches to enhance your chances of admission into the best medical schools in the UK.
+
             </p>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              Interested in pursuing medicine from the top universities in the
-              UK? Find out more about our process. Book your free consultation
-              with us today.
+            Ready to pursue UK medical education? Schedule your free consultation with Rostrum Education today and take the first step towards your future in medicine.
+
             </p>
           </section>
           <section className='order-1 md:order-2' >

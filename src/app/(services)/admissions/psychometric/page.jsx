@@ -1,195 +1,173 @@
-import React from 'react';
-import Image from 'next/image';
-import HeaderBanner from '@/components/common/HeaderBanner';
-import CallToAction from '@/components/common/CallToAction';
-import AnimationProvider from '@/components/common/AnimationProvider';
+import React from "react";
+import Image from "next/image";
+import HeaderBanner from "@/components/common/HeaderBanner";
+import CallToAction from "@/components/common/CallToAction";
+import AnimationProvider from "@/components/common/AnimationProvider";
 
 const Psychometric = () => {
   return (
-    <main className='relative w-full h-auto'>
-      <HeaderBanner align='left' title={'PSYCHOMETRIC TEST & ASSESSMENT'} 
-            image={'/assets/header-banner/psycho.png'}
-
+    <main className="relative w-full h-auto">
+      <HeaderBanner
+        align="left"
+        title={"PSYCHOMETRIC TEST & ASSESSMENT"}
+        image={"/assets/header-banner/psycho.png"}
       />
-      <div className='w-ful h-full relative mt-10 mb-10'>
-        <div className='max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto'>
+      <div className="w-ful h-full relative mt-10 mb-10">
+        <div className="max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto">
           {/* SECTION START */}
-          <h3 className='text-center text-[40px] md:text-[55px] text-primary font-bold leading-tight mt-2 mb-4'>
-            WHY DO WE NEED PSYCHOMETRIC TESTS?
+          <h3 className="text-center text-[40px] md:text-[55px] text-primary font-bold leading-tight mt-2 mb-4">
+          Why Do We Need Psychometric Tests? 
+
           </h3>
-          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-4'>
-            <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left '>
-              Rostrum looks to gain a holistic and nuanced understanding of a
-              student’s intellectual potential. Applications to the top U.K.,
-              European and American Ivy League universities are equally
-              dependent on mindset and memory. The ability to communicate
-              effectively both academically and personally is critical in
-              extended applications which dissect candidates
+          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+            <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left ">
+            Psychometric tests are objective measurement tools. They help evaluate a candidate's talent and potential. They are useful for career planning, especially for grades 8-12 students. Most teenagers' career planning is influenced by their peers, which can lead to ill-informed choices. Hence, psychometric tests can help them better understand potential career paths. 
+
             </p>
-            <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left'>
-              via video and live interview in addition to statements of purpose,
-              short and long Essays and of course, academic success. Candidates
-              need to demonstrate self-awareness, Self-reflection and the
-              ability to generate original thinking in the cross-disciplinary
-              world. We assess, evaluate and guide all our students on all the
-              parameters mentioned above.
+            <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
+            Here at Rostrum, we work on understanding the student as a whole. Applying to top universities such as Ivy Leagues is challenging. These institutions look for more than good grades. Students need to be all-rounders, and we guide them so they can excel in all areas. 
+            <br/>
+            <br/>
+            Our psychometric coaching results are tried and tested. Many of our students have been admitted to top universities such as Harvard and MIT due to our efforts. 
+
             </p>
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
-          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
-            <section className='mt-auto md:mt-18'>
-              <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-4'>
-                WHAT IS A PSYCHOMETRIC TEST, AND HOW CAN IT HELP YOU?
+          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
+            <section className="mt-auto md:mt-18">
+              <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-4">
+              What is a Psychometric Test, and How Can It Help You? 
+
               </h3>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                A psychometric test is any activity or evaluation used to
-                evaluate a candidate’s performance, including but not limited to
-                skills, knowledge, talents, personality traits, attitudes, and
-                job/academic potential.
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+              A psychometric assessment is a scientific method for evaluating performance. It uses small activities or exercises to highlight your strengths. It helps students explore their interests and skills and understand which careers suit them. 
               </p>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                There are three basic aspects to psychometric assessment types
-                and forms: aptitude exams, behavioural tests, and assessment
-                centres.
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+              Through psychometric coaching, Rostrum Education helps students understand these tests. It allows them to perform to the best of their abilities.
+
               </p>
             </section>
-            <section className='flex flex-col items-center'>
+            <section className="flex flex-col items-center">
               <Image
-                src='/assets/psycho/banner-1.png'
+                src="/assets/psycho/banner-1.png"
                 width={471}
                 height={471}
-                alt='WHAT IS A PSYCHOMETRIC TEST, AND HOW CAN IT HELP YOU?'
+                alt="WHAT IS A PSYCHOMETRIC TEST, AND HOW CAN IT HELP YOU?"
                 // objectFit='containe'
-                className='md:self-end'
+                className="md:self-end"
               />
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+              {/* <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                 These exams are frequently used to assess cognitive abilities
                 such as aptitude, psychological traits such as personality,
                 developmental progress such as IQ. People are frequently
                 perplexed about what a psychometric exam is and which one is
                 appropriate. At Rostrum, students are enabled to quickly explore
                 and choose the ideal tool for their needs.
-              </p>
+              </p> */}
             </section>
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
-          <div className='w-ful h-full relative mt-14 mb-10'>
-            <h3 className='text-center text-[40px] md:text-[55px] text-primary font-bold leading-tight mt-2 mb-4'>
-              3 Types of Psychometric Assessment
+          <div className="w-ful h-full relative mt-14 mb-10">
+            <h3 className="text-center text-[40px] md:text-[55px] text-primary font-bold leading-tight mt-2 mb-4">
+            Three Types of Psychometric Tests
+
             </h3>
-            <p className='text-[16px] md:text-[20px] text-primary font-normal text-center mt-4'>
-              Aptitude tests and assessment day activities operate with time
-              limits, allowing applicants to be judged on their ability to work
-              under pressure. With all of this in mind, it’s no surprise that
-              preparing for your evaluations ahead of time is critical to your
-              success. The three types of Psychometric assessment are as follows
+            <p className="text-[16px] md:text-[20px] text-primary font-normal text-center mt-4">
+            Let's explore the three types of psychometric tests. 
             </p>
-            <section className='w-full h-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-8'>
-              <div className='flex flex-col items-center justify-start'>
-                <h6 className='text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2'>
-                  Aptitude Tests
+            <section className="w-full h-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+              <div className="flex flex-col items-center justify-start">
+                <h6 className="text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2">
+                Aptitude Tests
+
                 </h6>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center mt-2'>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center mt-2">
                   These tests are used to evaluate a variety of cognitive
                   talents. There are a variety of aptitude tests available. A
                   comprehensive test would include many of these types.
                 </p>
               </div>
-              <div className='flex flex-col items-center justify-start'>
-                <h6 className='text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2'>
+              <div className="flex flex-col items-center justify-start">
+                <h6 className="text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2">
                   Numerical
                 </h6>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center mt-2'>
-                  As the name implies, numerical psychometric exams will examine
-                  a candidate’s ability to work with numbers swiftly and easily.
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center mt-2">
+                Numerical tests assess a person’s ability to work with numbers and data well.
+
                 </p>
               </div>
-              <div className='flex flex-col items-center justify-start'>
-                <h6 className='text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2'>
+              <div className="flex flex-col items-center justify-start">
+                <h6 className="text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2">
                   Verbal
                 </h6>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center mt-2'>
-                  Written excerpts, usually with a multiple-choice answer
-                  format, are used in verbal psychometric exams to examine a
-                  candidate’s understanding and comprehension skills.
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center mt-2">
+                Candidates answer questions assessing their vocabulary, grammar, writing skills, and reading comprehension. Questions are presented in a multiple-choice format. The results showcase how effectively a candidate can communicate.
+
                 </p>
               </div>
-              <div className='flex flex-col items-center justify-start'>
-                <h6 className='text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2'>
+              <div className="flex flex-col items-center justify-start">
+                <h6 className="text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2">
                   Diagrammatic
                 </h6>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center mt-2'>
-                  These tests will look into a candidate’s problem-solving
-                  abilities. Candidates will typically have a minute to respond
-                  to each question.
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center mt-2">
+                Diagrammatic tests gauge a candidate's problem-solving skills. They will analyze patterns or shapes, usually with only a minute to answer each question. 
                 </p>
               </div>
-              <div className='flex flex-col items-center justify-start'>
-                <h6 className='text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2'>
+              <div className="flex flex-col items-center justify-start">
+                <h6 className="text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2">
                   Error checking
                 </h6>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center mt-2'>
-                  This assesses a candidate’s ability to spot errors in the
-                  information given to them.
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center mt-2">
+                As the name indicates, candidates will identify errors in the data provided to them in this test. 
+
                 </p>
               </div>
-              <div className='flex flex-col items-center justify-start'>
-                <h6 className='text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2'>
+              <div className="flex flex-col items-center justify-start">
+                <h6 className="text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2">
                   Inductive
                 </h6>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center mt-2'>
-                  This psychometric tool assesses a candidate’s ability to think
-                  systematically and logically, usually through the use of
-                  visual sequences.
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center mt-2">
+                This type of psychometric test measures how well a person can think methodically through the use of graphic sequences.
+
                 </p>
               </div>
             </section>
-            <section className='w-full md:w-3/5 mx-auto h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-8'>
-              <div className='flex flex-col items-center justify-start'>
-                <h6 className='text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2'>
-                  Behavioural Tests
+            <section className="w-full md:w-3/5 mx-auto h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+              <div className="flex flex-col items-center justify-start">
+                <h6 className="text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2">
+                Behavioral Tests
                 </h6>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center mt-2'>
-                  These assessments are used to identify certain personality
-                  traits that may suggest fit for different occupations. We may
-                  learn about a candidate’s preferred method of communication,
-                  how they deal with losses by assessing and understanding their
-                  behavioural style.
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center mt-2">
+                Psychometric behavioral tests identify a candidate's personality traits. It helps to determine who best fits what occupation. They are especially important as they indicate how well a candidate will fit in an organization and what role they’ll play.
+
                 </p>
               </div>
-              <div className='flex flex-col items-center justify-start'>
-                <h6 className='text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2'>
+              <div className="flex flex-col items-center justify-start">
+                <h6 className="text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2">
                   Logical
                 </h6>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center mt-2'>
-                  As you might expect, these tests are used to assess a person’s
-                  ability to think logically. These tests are comparable to
-                  diagrammatic testing, however they do not require the usage of
-                  diagrams.
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center mt-2">
+                Logical assessment tests help examine a candidate's ability to think logically.
+
                 </p>
               </div>
             </section>
-            <section className='w-full md:w-1/2 mx-auto h-auto grid grid-cols-1 gap-8 mt-8'>
-              <div className='flex flex-col items-center justify-start'>
-                <h6 className='text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2'>
-                  Assessment Centres
+            <section className="w-full md:w-1/2 mx-auto h-auto grid grid-cols-1 gap-8 mt-8">
+              <div className="flex flex-col items-center justify-start">
+                <h6 className="text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2">
+                Assessment Centers 
+
                 </h6>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center mt-2'>
-                  Psychologists frequently conduct activities that make use of
-                  job-specific skills and simulations. The candidate is invited
-                  to participate in a range of activities, tests, and exercises
-                  with other candidates. The emphasis is on how one reacts to
-                  situations, one’s cognitive processes, and how well someone
-                  meets the predetermined criteria. Some or all of the following
-                  will usually be included in this criteria:
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center mt-2">
+                Assessment Centers are the most complicated form of testing. They use selection exercises and practices to assess the individual. A combination of both activities and tests are used. There is no fixed duration for these tests; they can range from hours to days. 
+
                   <br />
-                  Teamwork abilities, leadership abilities, creativity
-                  abilities, decision-making abilities Listening abilities,
-                  Problem-solving abilities, Negotiation abilities, Organisation
-                  abilities Timekeeping, Levels of motivation, written and
-                  verbal communication skills
+                  Why is it Vital For Students to Take Psychometric Tests? Often, parents think their children should pursue a career simply because they perform well in a certain subject. However, psychometric testing experts believe otherwise. Excelling in a subject may be one valid factor, but several others determine how suitable someone might be for a career. One important factor besides the Intelligence Quotient (IQ) is the Emotional Quotient (EQ). This is useful in understanding how much stress a student can handle and what work environment would suit them best. 
+                  <br />
+                  Understanding their unique strengths will help students make informed career choices. Psychometric tests can also provide information about a student’s personality. They can help determine someone's emotional intelligence. They also highlight how they would handle high-pressure situations. Since students know there is no right or wrong answer, they can also answer freely, without any outside pressure. The nature of the tests discourages cheating, so the results are reliable and accurate.
+
                 </p>
               </div>
             </section>
@@ -197,164 +175,142 @@ const Psychometric = () => {
           {/* SECTION END */}
 
           {/* SECTION START */}
-          <div className='w-full h-auto relative my-10'>
-            <h3 className='text-center text-[40px] md:text-[55px] text-primary font-bold leading-tight mt-2 mb-4'>
+          {/* <div className="w-full h-auto relative my-10">
+            <h3 className="text-center text-[40px] md:text-[55px] text-primary font-bold leading-tight mt-2 mb-4">
               WHY IS IT VITAL FOR STUDENTS
-              <br className='hidden md:block' />
+              <br className="hidden md:block" />
               TO TAKE PSYCHOMETRIC TESTS?
             </h3>
-            <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
-              <section className='mt-auto md:mt-18 order-2 md:order-1'>
-                <h6 className='text-[20px] md:text-[24px] text-primary text-center md:text-left font-bold leading-tight mt-4 md:mt-2'>
+            <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
+              <section className="mt-auto md:mt-18 order-2 md:order-1">
+                <h6 className="text-[20px] md:text-[24px] text-primary text-center md:text-left font-bold leading-tight mt-4 md:mt-2">
                   WHAT IS A PSYCHOMETRIC TEST, AND HOW CAN IT HELP YOU?
                 </h6>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                   They are beneficial for students in grades 8 through 12 to
                   choose their careers wisely. This is the stage when youngsters
                   form their fundamental viewpoints and attitudes about the
                   subjects they are studying.
                 </p>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                   Psychometric tests are particularly helpful for students
                   entering grades 11 and 12, unsure of what stream of education
                   they should choose.
                 </p>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                   Psychometric assessments play a tremendous role in assisting
                   grade 12 students with selecting their undergrad programs and
                   field of study.
                 </p>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                   Psychometric tests provide information on a student’s
                   personality, such as whether they are an introvert or an
                   extrovert, their level of emotional intelligence, and other
                   attributes that cannot be determined from a profile or even an
                   interview.
                 </p>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                   Psychometric tests provide useful information about a person’s
                   interests and talents without being biased because they are
                   completed by students who answer questions based on their own
                   judgments.
                 </p>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                   There are no right or wrong answers, there is no chance of
                   cheating or copying from others, like there is in other exams.
                   As a result, in the vast majority of cases the results are
                   reliable and accurate.
                 </p>
               </section>
-              <section className='flex flex-col items-center justify-center order-1 md:order-2'>
+              <section className="flex flex-col items-center justify-center order-1 md:order-2">
                 <Image
-                  src='/assets/psycho/banner-2.png'
+                  src="/assets/psycho/banner-2.png"
                   width={568}
                   height={568}
-                  alt='WHAT IS A PSYCHOMETRIC TEST, AND HOW CAN IT HELP YOU?'
+                  alt="WHAT IS A PSYCHOMETRIC TEST, AND HOW CAN IT HELP YOU?"
                   // objectFit='containe'
                 />
               </section>
             </div>
-          </div>
+          </div> */}
           {/* SECTION END */}
           {/* SECTION START */}
-          <div className='w-full h-auto grid grid-cols-12 gap-6 mt-14'>
-            <section className='col-span-12 md:col-span-5'>
+          <div className="w-full h-auto grid grid-cols-12 gap-6 mt-14">
+            <section className="col-span-12 md:col-span-5">
               <Image
-                src='/assets/psycho/banner-3.png'
+                src="/assets/psycho/banner-3.png"
                 width={568}
                 height={568}
-                alt='How can Psychometric tests help you choose a career?'
-                className='mx-auto'
+                alt="How can Psychometric tests help you choose a career?"
+                className="mx-auto"
               />
             </section>
-            <section className='col-span-12 md:col-span-7'>
-              <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight  mb-2'>
-                How can Psychometric tests help you choose a career?
+            <section className="col-span-12 md:col-span-7">
+              <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight  mb-2">
+              How Can Psychometric Tests Help You Choose a Career? 
+
               </h3>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                Academic career advisers will examine the answers submitted by
-                the students and recommend the appropriate course for them. As a
-                result, parents will be able to choose the best professional
-                route for their child. Candidates will gain a better
-                understanding of their interests, aptitude, and personality
-                after taking the psychometric test for students, allowing them
-                to make the best career decision possible.
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+              It can be exhausting to understand what exactly you aspire to be. That’s completely fine! The ocean of choices would make anyone confused. One step you can take to help you get through this phase is signing up for psychometric tests. 
+<br/>
+Unlike school exams, these tests will reveal different answers for every student based on their personal traits. You can judge your aptitude in several careers and choose accordingly. 
+
               </p>
             </section>
           </div>
-          <div className='w-full h-auto grid grid-cols-12 gap-6 mt-14'>
-          <section className='col-span-12 md:col-span-7  mt-auto md:mt-10'>
-              <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight  mb-2'>
-                When is the right time to take a Psychometric test?
+          <div className="w-full h-auto grid grid-cols-12 gap-6 mt-14">
+            <section className="col-span-12 md:col-span-7  mt-auto md:mt-10">
+              <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight  mb-2">
+              When is the Right Time to Take a Psychometric Test? 
+
               </h3>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                To make a difference, psychometric exams should be administered
-                at critical points in their lives. The tests should ideally be
-                completed in the middle of the school year. This would have
-                allowed kids to mature to the point where they could have
-                developed adult-like behavioural habits.
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+              A student’s physical and mental capacities change constantly during their teens. Hence, psychometric counselors advise students to take the test once they have reached a stable level of development. 
+              <br/>
+              <br/>
+              The initial test can be taken in 10th grade since students typically choose their subject combinations during this time. Even if you’re happy with your career choice, a psychometric assessment can make narrowing down a specific niche easier. There is no right time to take these tests- you can take them at any stage in your life. However, the recommended age is 14-15 years old.
+
               </p>
             </section>
-            <section className='col-span-12 md:col-span-5'>
+            <section className="col-span-12 md:col-span-5">
               <Image
-                src='/assets/psycho/banner-4.png'
+                src="/assets/psycho/banner-4.png"
                 width={468}
                 height={468}
-                alt='When is the right time to take a Psychometric test?'
-                className='mx-auto'
+                alt="When is the right time to take a Psychometric test?"
+                className="mx-auto"
               />
             </section>
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
-          <div className='w-full h-auto mt-10 mb-10'>
-            <h3 className='text-center text-[40px] md:text-[55px] text-primary font-bold leading-tight mt-2 mb-4'>
-              HOW ROSTRUM EDUCATION PLAYS A ROLE IN TAKING PSYCHOMETRIC TESTS
-              FOR STUDENTS?
+          <div className="w-full h-auto mt-10 mb-10">
+            <h3 className="text-center text-[40px] md:text-[55px] text-primary font-bold leading-tight mt-2 mb-4">
+            How Can Rostrum Education Help?
+
             </h3>
-            <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10'>
+            <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
               <section>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                  Intellectual DNA is Rostrum’s proprietary tool, it serves as a
-                  psychometric test but it isn’t designed typically like one.
-                  Rostrum believes that testing should be holistic and has thus
-                  developed a bespoke and customised solution. The Intellectual
-                  DNA test is centred around qualitative data analysis to guide
-                  students to the areas of their aptitude.
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+                Rostrum Education’s Intellectual DNA test stands out from other assessments. It promotes good communication and critical thinking skills among students. This is in sharp contrast to the one-right-answer method used by other quantitative assessments. 
+
                 </p>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                  Our mentors physically analyse each student’s style of writing
-                  and way of thinking. The test is followed up with one-on-one
-                  meetings and follow-ups where the mentors recommend courses,
-                  universities and job prospects to their students. These
-                  meetings should be taken within 7 days of submitting the
-                  written paper.
-                </p>
+
               </section>
               <section>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                  There are no right or wrong answers, which in itself can be
-                  disorienting for students and parents used to black/white
-                  learning and testing. This test challenges the students’
-                  critical thinking skills and the ability to structure and
-                  communicate their thoughts in a persuasive and balanced
-                  manner.
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+                Rostrum Education’s collaboration with the Institute of Psychometric Coaching brings a new era of qualitative psychometric testing. With an emphasis on instructional technology and cutting-edge digital solutions, Rostrum Education is on a mission to make education accessible worldwide. 
+
                 </p>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-                  The meetings are conducted by our expert mentor, Mr Gwyn Day,
-                  a Member of Mensa (with an IQ in the top 0.05%). A Fellow of
-                  the Royal Society of Arts and former banking Head Trader. Gwyn
-                  has been involved in the financial and education markets for
-                  over 30 years.
-                </p>
+
               </section>
             </div>
-            <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10'>
+            {/* <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
               <section>
-                <h6 className='text-[20px] md:text-[24px] text-primary text-center md:text-left uppercase font-bold leading-tight mt-4 md:mt-2'>
+                <h6 className="text-[20px] md:text-[24px] text-primary text-center md:text-left uppercase font-bold leading-tight mt-4 md:mt-2">
                   MORE ABOUT GWYN
                 </h6>
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                   A specialist in Neurolinguistics for the last 20 years he has
                   been coaching high potential students into top global
                   universities (Oxford, Cambridge, Imperial and LSE, Ivy League,
@@ -367,7 +323,7 @@ const Psychometric = () => {
               </section>
               <section>
                 <br />
-                <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                   At Rostrum, we have been making use of education technology
                   right from the inception of our organisation. The Covid-19
                   pandemic has only strengthened our endeavour to digitise
@@ -377,7 +333,7 @@ const Psychometric = () => {
                   true calling.
                 </p>
               </section>
-            </div>
+            </div> */}
           </div>
           {/* SECTION END */}
         </div>

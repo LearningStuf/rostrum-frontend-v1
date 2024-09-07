@@ -18,34 +18,32 @@ const BMAT = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
             <section className="">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
-                BMAT PREP
+              BMAT PREPARATION WITH ROSTRUM EDUCATION
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                If you want to study medicine, you may have to take the
-                BioMedical Admissions Test (BMAT). Applicants to various
-                medicine programmes at certain universities take this
-                subject-specific entrance test. You’ll find important
-                information regarding the test in the sections below.
+              BMAT (BioMedical Admissions Test) is a prerequisite entrance exam to apply to medical universities. Rostrum Education provides the finest and most competent services to help you achieve your goal. 
+              <br/>
+              <br/>
+              Resources and information are given below.
+
               </p>
               <br />
               <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
-                What exactly is the BMAT?
+              What Is BMAT?
+
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The BMAT is a two-hour admissions test that measures aptitude
-                and knowledge. The BMAT assesses a wide range of abilities in
-                three sections:
+              BMAT is a test that measures aptitude and knowledge. It consists of 3 sections and must be completed in 2 hours. 
+
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The first section assesses your problem-solving, argument
-                comprehension, and data analysis and inference abilities. In 60
-                minutes, you’ll have to complete 32 multiple-choice questions.
+              The first section aims to assess your problem-solving, critical thinking, and inference skills. It consists of 32 multiple-choice questions that must be completed within 60 minutes.
+
+
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The following section assesses your ability to apply scientific
-                knowledge learned in school to science and mathematics by the
-                age of sixteen. In 30 minutes, you’ll have to complete 27
-                multiple-choice questions.
+              The second section is about scientific knowledge and its applications. It consists of 27 multiple-choice questions based on biology, chemistry, physics, and mathematics. It should be completed in 30 minutes.
+
               </p>
             </section>
             <section className="">
@@ -56,25 +54,20 @@ const BMAT = () => {
                 alt="BMAT PREP"
                 className="mx-auto"
               />
+
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The capacity to select, develop, and organise ideas, as well as
-                present them simply and effectively in writing, is assessed in
-                Section 3. You’ll write an essay on one of three questions you
-                select, and you’ll have 30 minutes to complete it.
-              </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The BMAT is a difficult exam to pass because you can’t use a
-                calculator or dictionary, there’s a lot of time pressure, and it
-                assesses a wide variety of abilities. Many scientifically
-                oriented students are particularly concerned about the
-                essay-writing portion.
+              The last section is a writing task in which the applicant must choose one topic out of three to write an essay on. The section evaluates your ability to articulate, critically assess, and communicate your ideas.
+<br/>
+<br/>
+Some students prefer to focus on the UCAT. However, taking the BMAT exam expands your potential list of medical schools to which you may want to apply in the future.
+
               </p>
             </section>
           </div>
           {/* SECTION END */}
 
           {/* SECTION START */}
-          <div className="w-full h-auto mt-14">
+          {/* <div className="w-full h-auto mt-14">
             <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
               What is the BMAT test’s scoring system?
             </h4>
@@ -99,27 +92,18 @@ const BMAT = () => {
                 of the Cambridge Assessment team.
               </p>
             </div>
-          </div>
+          </div> */}
           {/* SECTION END */}
 
           {/* SECTION START */}
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
             <section className="">
               <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
-                Who Should Take The BMAT?
+              How Important Is The BMAT Exam?
+
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                This exam is required if you wish to apply to a BMAT university.
-                If you do not take the BMAT, you will only be able to apply to
-                UCAT universities and will not be considered by this limited
-                group of medical schools.
-              </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Some students avoid applying to BMAT universities because they
-                wish to focus solely on the UCAT, but others recognise that
-                taking the BMAT allows you to apply to a wider range of medical
-                schools, allowing you to be more selective with your UCAS
-                choices.
+              Some students choose not to take the BMAT exam and instead focus on the UCAT. However, a limited group of highly reputable medical schools accept BMAT as their entrance exam. It is known for its thorough aptitude testing. Preparing well and clearing the BMAT opens up many medical schools to apply to. The BMAT is conducted several times a year. One must take the BMAT in November to apply to a UK university.
               </p>
             </section>
             <section className="">
@@ -139,47 +123,48 @@ const BMAT = () => {
 
           <div className="w-full h-auto mt-14">
             <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
-              Which Universities Require The BMAT?
+            Which Universities Require The BMAT Exam
+
             </h4>
             <div className="w-full h-auto grid grid-cols-1 md:grid-cols-3 gap-6">
               <section>
                 <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
-                  University of Cambridge
+                University of Cambridge
                 </p>
                 <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
-                  University of Leeds
+                University of Oxford
                 </p>
                 <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
-                  University of Oxford
+                University College London
                 </p>
                 <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
-                  Universidad de Navarra
-                </p>
-              </section>
-              <section>
-                <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
-                  Lancaster University
-                </p>
-                <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
-                  Nazarbayev University School of Medicine
-                </p>
-                <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
-                  University College London
+                University of Leeds
                 </p>
               </section>
               <section>
                 <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
-                  Brighton and Sussex Medical School
+                Lancaster University
                 </p>
                 <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
-                  Imperial College London
+                Brighton and Sussex Medical School
                 </p>
                 <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
-                  Keele University
+                Universidad de Navarra
+                </p>
+              </section>
+              <section>
+                <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
+                Nazarbayev University School of Medicine
+                </p>
+                <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
+                Imperial College London
+                </p>
+                <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
+                Keele University
                 </p>
               </section>
             </div>
-            <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
+            {/* <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
               <section>
                 <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
                   Why is the BMAT used by some universities?
@@ -200,7 +185,7 @@ const BMAT = () => {
                   test in November if you are applying to a UK university.
                 </p>
               </section>
-            </div>
+            </div> */}
           </div>
           {/* SECTION END */}
 
@@ -208,7 +193,8 @@ const BMAT = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="mt-10">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
-                Here are a few tips to help you as you start your prep:
+              Tips On Excellent Preparation For BMAT
+
               </h3>
             </section>
             <section>
@@ -224,112 +210,64 @@ const BMAT = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-14">
             <section>
               <section className='mb-6 md:mb-auto' >
-                <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
+                {/* <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
                   1. Prioritise
-                </h6>
+                </h6> */}
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  Take a look at a few questions from each section to see what
-                  kind of thinking is required. Before you begin, make sure you
-                  have a thorough idea of what each section entails.
+                1- Familiarize Yourself With the Test Structure: The BMAT has a specific testing approach and contents. Preparation requires a focused approach. First, you must understand the test structure. Use official sources for practice tests and past papers and plan your preparation accordingly.
                 </p>
-                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  By doing so, you’ll likely discover that Section 1 is the most
-                  like the UCAT; Section 2 is the one you’ll be most familiar
-                  with (and thus the easiest to revise for), and Section 3 is
-                  potentially more dependent on communication and wider reading.
-                  <br />
-                  You’ll be able to see which ones need the most attention and
-                  devote more effort to them. Don’t waste time on portions that
-                  you’re already familiar with.
-                </p>
+              
               </section>
               <section className='mb-6 md:mb-auto' >                
-              <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
+              {/* <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
                   2. Previous years’ papers
-                </h6>
+                </h6> */}
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  One of the best things about the BMAT is that it is (in
-                  general) easier to prepare for than the UCAT. It’s only a pen
-                  and paper test, which is more like the usual test we’re all
-                  used to, so your nerves should be a little less stressed!
-                </p>
-                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  Take advantage of the BMAT website’s archive of former papers,
-                  which are all available for free. They will undoubtedly assist
-                  you in identifying your skills and shortcomings, as well as
-                  familiarising you with the test’s structure.
+                2- Master Time Management: Go through multiple practice tests to improve on the test. Focus on completing the questions within their allocated periods. Simulate test conditions to familiarize yourself with the pacing.
                 </p>
               </section>
               <section className='mb-6 md:mb-auto' >               
-               <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
+               {/* <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
                   3. Complex problems vs. Time
-                </h6>
+                </h6> */}
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  One difference between the BMAT and the UCAT is that the BMAT
-                  is not designed to be as time-pressured, which means that the
-                  questions you’ll be asked will frequently be multi-step. The
-                  UCAT tests your ability to work fast, and those of you who
-                  have taken it before will be aware of the limited time you
-                  have to complete each question.
+               3-  Work on Problem Areas: Assess your strengths and weaknesses and divide and prioritize your time accordingly.
                 </p>
-                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  However, don’t use the informed guessing strategy that’s
-                  typically advocated for the UCAT while answering BMAT
-                  questions; instead, be prepared to meticulously work your way
-                  through it in a logical manner.
-                </p>
+
               </section>
             </section>
             <section>
             <section className='mb-6 md:mb-auto' >                
-            <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
+            {/* <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
                   4. Treat Section 1 as if it were the UCAT
-                </h6>
+                </h6> */}
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  In terms of section-specific advice, try not to get too worked
-                  up in this one. Those of you who have taken the UCAT will
-                  recognize the similarities with Verbal Reasoning and will
-                  benefit from following a similar but more cautious approach.
-                </p>
-                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  Read the question, consider the answer alternatives, and then
-                  eliminate it with zeal. Look for small trick words that can be
-                  used to entirely invert the meaning of some statements. You’ll
-                  do well if you don’t make any assumptions or draw any
-                  inferences that aren’t explicitly stated in the passage.
+               4 -  Section 1, Problem Solving: The first BMAT section consists of questions to test problem-solving skills. Stay calm under pressure and approach the questions logically. Break down the problem and use logical reasoning to eliminate answers. Practice makes perfect!
                 </p>
               </section>
               <section className='mb-6 md:mb-auto' >
-                <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
+                {/* <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
                   5. Maintain your confidence in Section 2
-                </h6>
+                </h6> */}
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  Section 2 is labelled as GCSE level Science, but due to the
-                  many criteria, it actually ends up being significantly higher
-                  than GCSE level. Examine the official guide on the BMAT
-                  website to ensure that you have all of the necessary
-                  information.
+                5- Section 2, Scientific Knowledge: The BMAT tests your scientific knowledge. It ensures you have a strong grasp of your key concepts in biology, chemistry, physics, and mathematics.
                 </p>
+
+              </section>
+              <section>
+                {/* <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
+                  6. Section 3 requires a great deal of clarity
+                </h6> */}
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  Use this guide as a checklist for reviewing all of the topics
-                  included on the BMAT. Don’t be discouraged if the questions
-                  you tackle appear to be much more difficult than the guide’s
-                  level of knowledge – keep in mind that the subject will be
-                  used in a variety of ways. Prepare yourself so that you can
-                  step up and meet the challenge!
+               6-  Section 3, Critical Skills and Writing: Now, practice your critical analysis and comprehension skills. Read scientific articles and summarize key points every day to improve these skills.
                 </p>
               </section>
               <section>
-                <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
+                {/* <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
                   6. Section 3 requires a great deal of clarity
-                </h6>
+                </h6> */}
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  Rambling is a big no-no for your essay — the BMAT wants short,
-                  well-presented, and well-argued topics. Your grade will be
-                  determined not just by your writing style, but also by the
-                  points you make. Make an effort to avoid creating flimsy
-                  arguments. If a comparable scenario arises, a broader
-                  understanding of current ethical dilemmas will aid you.
+                7- Seek Feedback: And last but not least, review your performance with peers and teachers!
                 </p>
               </section>
             </section>
@@ -340,18 +278,16 @@ const BMAT = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
             <section className="">
               <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
-                THE ROSTRUM EDGE
+              Perks And Merits Of Rostrum Education
+
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                We are professionals at increasing your BMAT score and
-                increasing your chances of getting into medical school. How?
-                Through One-On-One Tuition, Intensive BMAT Courses, and Mock
-                Papers and Practice Questions, our BMAT Tutors help you enhance
-                your BMAT Score quickly. Our tutors are themselves graduates
-                from top med schools in the UK. their first hand experience aids
-                in an all round preparation. Based on the time until your test,
-                your BMAT results, and your weak areas, your instructor will
-                create a personalised BMAT lesson plan for you.
+              At Rostrum Education, we specialize in helping you improve your BMAT score. We help enhance your admission prospects to top medical schools. 
+
+<br/>
+<br/>
+Our tutors are professionals who have graduated from top medical universities. They provide invaluable firsthand experience to help you prepare. Each tutor excels in creating personalized lesson plans. They also focus on your test timelines, previous scores, strengths, and weaknesses.
+
               </p>
             </section>
             <section className="">
@@ -369,65 +305,44 @@ const BMAT = () => {
           {/* SECTION START */}
           <div className="w-full h-auto relative mt-14">
             <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
-              Our BMAT Program will provide you with the following valuable
-              resources:
-            </h4>
-            <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
-              <section>
-                <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                  Intensive Courses:
-                </h6>
-                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  Highly effective, comprehensive courses are a great way to
-                  learn a lot in a brief period of time.
-                </p>
-              </section>
-              <section>
-                <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                  Tried and tested strategies:
-                </h6>
-                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  You could be answering 1000s of questions but not becoming any
-                  better. Our instructors will help you improve your BMAT
-                  technique.
-                </p>
-              </section>
-              <section>
-                <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                  Comprehensive materials:
-                </h6>
-                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  We provide fine-tuned tools in a variety of formats to assist
-                  you in practising and learning.
-                </p>
-              </section>
-              <section>
-                <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                  Supervision for Enrichment:
-                </h6>
-                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  We engage with students to help them learn beyond the
-                  curriculum to gain a better understanding of the subject.
-                </p>
-              </section>
+            Valuable Resources Provided At Rostrum
 
+            </h4>
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
               <section>
                 <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                  Personalised Programmes:
+                ONE-ON-ONE TUTORING
                 </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  Personalised Programmes: Every student can get the most out of
-                  what they learn with Rostrum thanks to the customizable
-                  programme.
+                Personalized class plans and programs ensure each student makes the most out of their Rostrum experience.
                 </p>
               </section>
               <section>
                 <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                  Regular Progress Reports:
+                Tried and tested strategies:
                 </h6>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                  With regular progress updates, BMAT revision recommendations,
-                  and homework plans, we keep parents and students informed.
+          
+Comprehensive test materials comprising of targetted mock papers and practice questions.
+
+                </p>
+              </section>
+              <section>
+                <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
+                BMAT COURSES
+                </h6>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+           
+Intensive and highly effective BMAT courses that include valuable preparation curriculum and methodology.
+
+                </p>
+              </section>
+              <section>
+                <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
+                SUPERVISION AND FEEDBACK
+                </h6>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+                Regular supervision is needed to ensure that students thoroughly understand the course materials. Feedback is shared with both students and parents.
                 </p>
               </section>
             </div>

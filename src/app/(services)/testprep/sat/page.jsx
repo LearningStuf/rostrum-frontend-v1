@@ -7,9 +7,10 @@ import AnimationProvider from "@/components/common/AnimationProvider";
 const SAT = () => {
   return (
     <main className="relative w-full h-auto">
-      <HeaderBanner align="center" title={"SAT"} 
-            image={'/assets/header-banner/sat.png'}
-
+      <HeaderBanner
+        align="center"
+        title={"SCHOLASTIC APTITUDE EXAM (SAT)"}
+        image={"/assets/header-banner/sat.png"}
       />
       <div className="w-ful h-full relative mt-10 mb-10">
         <div className="max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto">
@@ -17,15 +18,14 @@ const SAT = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
             <section className="">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
-                What is the SAT?
+              What is the SAT? 
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The Scholastic Aptitude Test is a college entrance test that
-                most colleges and universities utilise to determine admittance.
-                The SAT is a multiple-choice, paper-and-pencil examination. SAT
-                scores are a key component of your college applications. This
-                entrance exam is used by universities to make admission
-                decisions.
+              The SAT is a popular test that many colleges use to see if students are ready for university. It's a timed test with multiple-choice questions that helps schools compare different applicants.
+              <br/>
+              <br/>
+              Rostrum Education’s students regularly get top scores of 1600 on their SATs. Our tutors have a combined experience of over 75 years. They help students from places like India and the UAE achieve great results.
+
               </p>
             </section>
             <section className="">
@@ -44,29 +44,23 @@ const SAT = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
             <section>
               <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
-                Sections of the ACT test overview
+Why Do We Need the SAT? 
+
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The SAT helps mark a student’s readiness for college. This also
-                makes it easier for colleges to have one common test that can be
-                used to weigh all applicants. College admissions officers of
-                universities review the standardised test scores alongside your
-                High School GPA, letters of recommendation from mentors,
-                extracurricular activities, admissions interviews, and personal
-                essays. The relevance of SAT scores varies from college to
-                college and university to university.
+              The SAT is an important part of getting into college. It's a common yardstick colleges use to compare applicants. Colleges look at your grades, recommendations, activities, interviews, essays, and SAT score to help them decide if you will be a good fit. Some schools give it more weightage than others. But, a higher SAT score improves your chances of getting into your dream college.
+
               </p>
             </section>
 
             <section>
               <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
-                Where is the SAT valid?
+              Where is the SAT Valid?
+
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                The SAT Exam is approved by many institutions throughout the
-                world. In the United States and Canada, it is most commonly used
-                in undergraduate courses. Some universities in the United
-                Kingdom and Australia recognise it as well.
+              The SAT is accepted by many institutions worldwide. It is often used for undergraduate admissions in the United States and Canada. Some universities in the United Kingdom and Australia also recognize SAT scores.
+
               </p>
             </section>
           </div>
@@ -81,24 +75,20 @@ const SAT = () => {
               <section className="w-full relative my-4 md:my-8">
                 <span className="absolute top-1 w-4 h-4 rounded-full bg-secondary block"></span>
                 <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-left ps-6">
-                  Candidates who do well on the SAT are likely to be skilled
-                  readers with a large vocabulary. They can also handle the
-                  stress of completing questions in a shorter amount of time
-                  since the test has many portions.
+                Extensive study help: In-depth tutoring to help you aim for the best test scores and strengthen college applications.
                 </p>
               </section>
               <section className="w-full relative my-4 md:my-8">
                 <span className="absolute top-1 w-4 h-4 rounded-full bg-secondary block"></span>
                 <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-left ps-6">
-                  To stay on track with your self-study program, you’ll need
-                  drive and self-discipline.
+                Customization: Tailored programs that strengthen weak areas with personalized tutoring for each student.
                 </p>
               </section>
               <section className="w-full relative my-0 md:my-8">
                 <span className="absolute top-1 w-4 h-4 rounded-full bg-secondary block"></span>
                 <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-left ps-6">
-                  Attending coaching classes, is not a bad idea if you believe
-                  you learn best in a classroom setting.
+                Individualized Coaching: Personal attention through one-on-one tutoring sessions tailored to your needs
+
                 </p>
               </section>
             </section>
@@ -113,11 +103,7 @@ const SAT = () => {
               <section className="w-full relative my-0 md:my-8">
                 <span className="absolute top-1 w-4 h-4 rounded-full bg-secondary block"></span>
                 <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-left ps-6">
-                  Rostrum has a great team of tutors who can help you excel in
-                  the exam and get you selected in your dream institution with
-                  brilliant scores. Use of various resources such as SAT
-                  practice tests, previous year papers, taking SAT mock tests
-                  and various strategies will be applied.
+                Digital Learning: Modern educational approach that uses smart classrooms and interactive whiteboards.
                 </p>
               </section>
             </section>
@@ -128,15 +114,14 @@ const SAT = () => {
           <div className="w-full h-auto mt-14">
             <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 border-b-2 border-[#F5B646] pb-4 mb-4">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase">
-                Eligibility for SAT 2022
+              Eligibility for SAT 
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-center md:text-left">
-                The College Board, which administers the SAT, has not
-                established any precise SAT qualifying criteria for students who
-                wish to take the exam. But here the few basic guidelines:
+              The SAT, overseen by the College Board, does not establish specific qualifications. There's also no age limit for taking the SAT, and you can take it as many times as you want.
+
               </p>
             </section>
-            <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 border-b-2 border-[#F5B646] pb-4 mb-4">
+            {/* <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 border-b-2 border-[#F5B646] pb-4 mb-4">
               <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
                 1. Minimum age to take the SAT
               </h6>
@@ -165,7 +150,7 @@ const SAT = () => {
                 The College Board has not established any explicit qualifying
                 requirements.
               </p>
-            </section>
+            </section> */}
           </div>
           <br />
           {/* SECTION END */}
@@ -173,14 +158,10 @@ const SAT = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="mt-auto">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase">
-                How to register for SAT?
+              How to Register for the SAT?
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Students can register for the SAT using either the traditional
-                mail-in technique or the more convenient online alternative.
-                Candidates using the online approach must first create a login
-                ID on the official SAT website before proceeding with the
-                registration procedure.
+
               </p>
             </section>
             <section className="">
@@ -199,44 +180,34 @@ const SAT = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section>
               <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                Online SAT Registration (Steps):
+              Steps for Online SAT Enrollment
               </h6>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                1. Go to the official College Board website
+                1. Visit the official College Board website. 
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                2. Register for an account
+                2. Create an account. 
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                3. Fill out all of the relevant fields
+                3. Fill in the necessary fields. 
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                4. Decide the exam you want to take and where you want to take
-                it
+                4. Select your test date and venue.  
+                
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                5. Take a clear snapshot and upload it
+                5. Upload a clear photograph.
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                6. Make the payment
+                6. Complete the payment.
               </p>
             </section>
             <section>
               <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                Scholarships for the SAT
+              Scholarship for the SAT
               </h6>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                One of the most significant disadvantages of studying abroad is
-                having to pay tuition in a foreign currency while also dealing
-                with hefty living costs. Because of these factors, many students
-                are unable to travel overseas and must settle for other options.
-              </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                Scholarships, as well as other fellowships and scholarships, are
-                often offered to outstanding students and may be found on each
-                college’s official website. For studying abroad, students can
-                also take out education loans from financial organizations,
-                banks, and individual organisations.
+              Many institutions provide scholarships based on SAT scores. Students can also explore loans and financial aid options from banks and organizations.
               </p>
             </section>
           </div>
@@ -244,75 +215,36 @@ const SAT = () => {
           {/* SECTION START */}
           <div className="w-full h-auto mt-14">
             <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase">
-              SAT MYTHS BUSTED
+            SAT Myths Busted
+
             </h3>
             <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
               <section>
                 <div className="mb-8">
                   <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                    The SAT is a high-level conceptual
+                  Regarding college admissions, the SAT surpasses the ACT
                   </h6>
                   <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                    The SAT is a test that assesses a student’s reasoning and
-                    analytical abilities. It doesn’t put a student’s knowledge
-                    of the most difficult concepts to the test, which are only
-                    taught in advanced classes. Instead, basic knowledge
-                    questions are used to assess the ability to apply and
-                    reason.
+                  Colleges equally recognize both exams. Opt for the one that aligns most with your strengths. 
                   </p>
                 </div>
                 <div className="mb-8">
                   <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                    In terms of college admissions, the SAT is a better option
-                    than the ACT
+                  Taking both the SAT and ACT enhances admission prospects. 
                   </h6>
                   <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                    The SAT and ACT are equivalent in terms of college
-                    admissions. Both the SAT and the ACT are internationally
-                    conducted standardised tests and bear the same weightage.
+                  Concentrating on an exam that you have the skills for is a better idea.
                   </p>
                 </div>
-                <div className="mb-8">
-                  <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                    The SAT English section is a difficult one
-                  </h6>
-                  <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                    If you are an avid reader, the SAT English section should be
-                    a breeze for you. All you need to do now is brush up on your
-                    vocabulary and improve your text-analysis skills.
-                  </p>
-                </div>
+
               </section>
               <section>
-                <div className="mb-8">
+              <div className="mb-8">
                   <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                    Avoid attempting the SAT Essay section
+                  The SAT English section is challenging. 
                   </h6>
                   <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                    The SAT essay, though optional, should be taken by a student
-                    because some universities place a premium on essay scores.
-                    Above all, a high essay score improves your chances of
-                    getting into college.
-                  </p>
-                </div>
-                <div className="mb-8">
-                  <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                    I’ll have more alternatives for admission if I take both the
-                    SAT and the ACT
-                  </h6>
-                  <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-                    Students take both tests in order to improve their chances
-                    of getting into a good college. Taking both of these
-                    examinations is not advised. This is because most
-                    institutions accept scores from either the ACT or the SAT
-                    and do not have a preference between the two tests. The ACT
-                    and SAT test patterns are not identical. Both demand a
-                    unique approach to preparation and skill set. It might be
-                    scary and tough to prepare for both.
-                    <br />A better alternative would be to take one of the two
-                    tests, choosing one based on the subject’s competencies, the
-                    set of skills that best matches your skills, and the testing
-                    style with which you are most familiar.
+                  Don’t worry. It can be managed through consistent reading and vocabulary enhancement. 
                   </p>
                 </div>
               </section>
@@ -324,8 +256,11 @@ const SAT = () => {
           <div className="w-full grid grid-cols-12 gap-8 mt-4">
             <section className="col-span-12 md:col-span-7 flex flex-col items-start justify-end">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
-                What makes Rostrum’s instructors unique?
+              What Makes Rostrum’s Instructors Unique?
               </h3>
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+              Rostrum Education offers: 
+              </p>
             </section>
             <section className="col-span-12 md:col-span-5">
               <Image
@@ -340,59 +275,43 @@ const SAT = () => {
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
             <section>
               <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                Perfect Foundation:
+              A Solid Foundation:
               </h6>
               <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-center md:text-left">
-                We help you construct a good foundation of concepts by equipping
-                you with resources such as SAT practice tests, SAT mock tests,
-                and tutoring systematically. We also undertake classroom
-                exercises and employ various techniques such as passage mapping
-                and answer elimination, to aid you in formulating a unique test
-                taking strategy.
+              Build a strong base with practice tests, mock exams, and personalized tutoring.
               </p>
             </section>
             <section>
               <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                Subject Test Guidance:
+              Personalized Programs:
               </h6>
               <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-center md:text-left">
-                SAT Subject Tests give your application an advantage. Our SAT
-                prep covers all three SAT subsections (Reading, Writing and
-                Language, and Math) and the essay. Rostrum offers you coaching
-                for all the 20 SAT Subject Tests. We assist you in choosing the
-                right subjects which will help you showcase your strengths.
+              Customized learning plans catering to individual needs. 
+
               </p>
             </section>
             <section>
               <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                Essay Skills:
+              Subject Test Guidance
               </h6>
               <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-center md:text-left">
-                If you are taking the SAT with Essay then you need to develop
-                necessary language, writing, critical thinking and analytical
-                skills to attempt the essay. We understand that you can’t
-                develop them overnight. Our tutors help you build essay skills
-                using comprehensive methods.
+              Coaching for all 20 SAT Subject Tests to highlight strengths.
               </p>
             </section>
             <section>
               <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
-                Personalised Programmes:
+              Essay Proficiency
               </h6>
               <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-center md:text-left">
-                We’ll help you identify what works for you and take it from
-                there. The customisable programme allows every student to make
-                the most out of what they learn with Rostrum.
+              Enhance critical writing skills through comprehensive tutoring.
+
               </p>
             </section>
           </div>
           {/* SECTION END */}
         </div>
       </div>
-      <CallToAction
-              image={'/assets/call-action/about.png'}
-
-      />
+      <CallToAction image={"/assets/call-action/about.png"} />
     </main>
   );
 };
