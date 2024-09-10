@@ -122,6 +122,10 @@ const resources = [
     title: 'Blogs',
     link:'/blogs'
   },
+  {
+    title: 'Events',
+    link:'/events'
+  },
 ];
 
 const Navbar = () => {
