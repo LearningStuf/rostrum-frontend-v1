@@ -128,6 +128,17 @@ const resources = [
   },
 ];
 
+const contries = [
+  {
+    title: 'USA',
+    link:'/regions/usa'
+  },
+  {
+    title: 'IND',
+    link:'/regions/india'
+  },
+];
+
 const Navbar = () => {
   return (
     <nav className='bg-white w-ful h-[80px] md:h-auto relative shadow-md md:shadow-none transition-all'>
@@ -184,7 +195,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <DropDown isLeft={true} name='Ind' items={services} />
+              <DropDown isLeft={true} name='REGIONS' items={contries} />
             </li>
           </ul>
         </section>

@@ -6,6 +6,7 @@ import UniList from "@/components/common/UniList";
 import Stats from "@/components/Home/Stats";
 import CallToAction from "@/components/common/CallToAction";
 import Fallback from "@/components/common/Fallback";
+import Faq from "@/components/common/Faq";
 import { CONTACT_PAGE, HOME_PAGE } from "@/quries";
 import { URL } from "@/utils/SERVER_URL";
 import { getAssetUrl } from "@/utils/getAssetUrl";
@@ -203,6 +204,7 @@ const Contact = async () => {
               ))}
           </div>
           <Featured />
+          <Faq/>
         </div>
         <CallToAction image={"/assets/call-action/about.png"} />
       </main>
