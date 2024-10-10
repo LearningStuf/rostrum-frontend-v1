@@ -250,8 +250,8 @@ const Region = async ({ params }) => {
               {data?.featuredSection?.title}
             </h3>
             <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
-              {data?.featuredSection?.features.map((item) => (
-                <section>
+              {data?.featuredSection?.features.map((item , i) => (
+                <section key={i} >
                   <div className="w-full relative mt-4">
                     <span className="absolute top-1 w-4 h-4 rounded-full bg-secondary block"></span>
                     <h6 className="text-[20px] md:text-[24px] text-primary text-left font-bold leading-tight mt-4 md:mt-2 ps-6">
