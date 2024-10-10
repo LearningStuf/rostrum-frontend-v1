@@ -12,11 +12,11 @@ const Scholarship = ({ data }) => {
     <div className="w-full h-auto relative mt-10">
       <div className="max-w-full md:max-w-screen-xl h-auto mx-2 p-3 md:p-6 md:mx-auto">
         <h4 className="uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-          Scholarship AVAILABILITY
+          {data?.title}
         </h4>
       </div>
       <div className="max-w-full md:max-w-screen-xl h-auto mx-2 md:mx-auto p-3 md:p-6">
-        {data.map((item, index) => (
+        {data?.faq?.map((item, index) => (
           <div key={index} className="mb-4">
             <button
               onClick={() => toggleQuestion(index)}

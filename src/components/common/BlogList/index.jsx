@@ -16,11 +16,10 @@ const BlogList = async () => {
     body: JSON.stringify({
       query: ALL_BLOGS,
     }),
-    next: { revalidate: 60 },
+    // next: { revalidate: 60 },
   });
   const { data } = await response.json();
   const blogs = data?.blogs?.data;
-  console.log(blogs);
 
   return (
     <div className="w-ful h-full relative mt-10 mb-10">
@@ -45,7 +44,7 @@ const BlogList = async () => {
                   {item?.attributes?.description}
                 </p>
                 <Link
-                  href="/"
+                  href={`/blogs/${item?.id}`}
                   className="text-secondary mt-2 block text-center md:text-left"
                 >
                   Read more

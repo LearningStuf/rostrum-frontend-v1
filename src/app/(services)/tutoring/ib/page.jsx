@@ -93,7 +93,7 @@ const IB = () => {
           </div>
           {/* SECTION END */}
 
-          {/* SECTION START */}
+          {/* SECTION START */}text-left ps-6
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="mt-auto md:mt-18">
               <h4 className="uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
@@ -106,7 +106,7 @@ const IB = () => {
               </h4> */}
               <section className="w-full relative mt-4">
                 <span className="absolute top-1 w-4 h-4 rounded-full bg-secondary block"></span>
-                <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal text-left ps-6">
+                <p className="text-[16px] md:text-[20px] text-primary leading-tight font-normal ">
                   Theory of Knowledge (TOK): Encourages critical thinking about
                   knowledge across disciplines.
                 </p>

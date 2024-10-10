@@ -4,7 +4,6 @@ import Button from '@/components/common/Button';
 import Link from 'next/link';
 
 const HeaderBanner = ({ title, align , image}) => {
-  console.log(image , "IMAGE...")
   return (
     <div className='w-ful h-[400px] md:h-[537px] relative'>
       <Image

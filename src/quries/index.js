@@ -372,17 +372,185 @@ query Blogs {
   }
 `;
 
-export const CONTACT_PAGE = `
-query ContactPage {
-  contactPage {
+export const ALL_EVENTS = `
+query Blogs {
+  events {
     data {
       attributes {
-        address
-        contact
+        banner {
+          data {
+            attributes {
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+  }
+`;
+
+export const LIST_COUNTRIES = `
+query Contries {
+  countries {
+    data {
+      id
+      attributes {
+        name
+        route
+        
+      }
+    }
+  }
+}
+
+`;
+
+export const SINGLE_BLOGS = `
+query Blog($id: ID!) {
+  blogs(filters: { id: { eq: $id } }) {
+    data {
+      attributes {
+        createdAt
         description
-        timing
+        slug
+        title
+        content
+        image {
+          data {
+            attributes {
+              url
+            }
+          }
+        }
+      }
+      id
+    }
+  }
+}
+`;
+
+export const SINGLE_COUNTRY = `
+query Country($id: ID!) {
+  countries(filters: { id: { eq: $id } }) {
+    data {
+      id
+            attributes {
+        name
+        route
+        title
+        description
+        statsSection {
+          description1
+          description2
+          description3
+          heading1
+          heading2
+          heading3
+          id
+          title
+          image {
+            data {
+              attributes {
+                url
+              }
+            }
+          }
+        }
+        successSection {
+          description1
+          description2
+          description3
+          description4
+          id
+          text1
+          text2
+          text3
+          text4
+          title
+          image {
+            data {
+              attributes {
+                url
+              }
+            }
+          }
+        }
+        requirementSection {
+          title
+          description
+          id
+          image {
+            data {
+              attributes {
+                url
+              }
+            }
+          }
+        }
+        faqSection {
+          title
+          id
+          faq {
+            question
+            answer
+            id
+          }
+        }
+        processSection {
+          description1
+          description2
+          description3
+          description4
+          id
+          text1
+          text2
+          text3
+          text4
+          title
+          image {
+            data {
+              attributes {
+                url
+              }
+            }
+          }
+        }
+        featuredSection {
+          title
+          id
+          features {
+            title
+            description
+            id
+          }
+        }
       }
     }
   }
 }
 `;
+
+
+
+export const CONTACT_PAGE = `
+query ContactPage {
+  contactPage {
+    data {
+      attributes {
+        faq {
+          question
+          answer
+        }
+        location {
+          address
+          email
+          title
+          phone
+        }
+      }
+    }
+  }
+}
+`;
+
