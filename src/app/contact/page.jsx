@@ -61,11 +61,11 @@ const Contact = async () => {
         <div className="w-full h-full relative mt-10 mb-10">
           <Stats data={statsSection} />
           <div className="max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
-            <ContactForm/>
+            <ContactForm />
             <div className="flex flex-col items-center justify-center">
-              <h4 className="text-[28px] md:text-[40px] text-primary font-bold leading-none mt-2 uppercase">
+              {/* <h4 className="text-[28px] md:text-[40px] text-primary font-bold leading-none mt-2 uppercase">
                 BOOK A FREE SESSION
-              </h4>
+              </h4> */}
               <Image
                 src="/assets/contact-us.png"
                 alt="Contact Us"
