@@ -423,6 +423,18 @@ query Blog($id: ID!) {
             }
           }
         }
+        SEO {
+          title
+          metaDescription
+          focusKeywords
+          image {
+            data {
+              attributes {
+                url
+              }
+            }
+          }
+        }
       }
       id
     }
