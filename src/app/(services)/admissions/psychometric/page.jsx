@@ -71,13 +71,12 @@ const Psychometric = () => {
           {/* SECTION START */}
           <div className="w-ful h-full relative mt-14 mb-10">
             <h3 className="text-center text-[40px] md:text-[55px] text-primary font-bold leading-tight mt-2 mb-4">
-            Three Types of Psychometric Tests
-
+            WE ENSURE STUDENTS STAND OU
             </h3>
             <p className="text-[16px] md:text-[20px] text-primary font-normal text-center mt-4">
-            Let's explore the three types of psychometric tests. 
+            Assisting with the application process for boarding schools. We increase understanding the admissions standards and procedures for competitive institutions. Helping parents and kids find the best-fitting schools. We offer choices based on their abilities, interests, personality traits, and natural talents. Offering comprehensive support for students' academic and career development.
             </p>
-            <section className="w-full h-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+            {/* <section className="w-full h-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
               <div className="flex flex-col items-center justify-start">
                 <h6 className="text-[20px] md:text-[24px] text-primary text-center font-bold leading-tight mt-4 md:mt-2">
                 Aptitude Tests
@@ -170,7 +169,7 @@ const Psychometric = () => {
 
                 </p>
               </div>
-            </section>
+            </section> */}
           </div>
           {/* SECTION END */}
 

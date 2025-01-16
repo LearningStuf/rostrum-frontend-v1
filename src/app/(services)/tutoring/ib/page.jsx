@@ -81,19 +81,19 @@ const IB = () => {
                 broad and balanced learning experience.
               </p>
             </section>
-            <section className="flex flex-col items-start">
+            <section className="w-full h-full flex flex-col items-center justify-center">
               <Image
                 src="/assets/ib/banner-1.png"
                 width={350}
                 height={350}
                 alt="What exactly is IB?"
-                className="mx-auto mb-4 md:mb-auto"
+                className="mx-auto"
               />
             </section>
           </div>
           {/* SECTION END */}
 
-          {/* SECTION START */}text-left ps-6
+          {/* SECTION START */}
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="mt-auto md:mt-18">
               <h4 className="uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
@@ -126,7 +126,20 @@ const IB = () => {
                   sphere.
                 </p>
               </section>
-              <h4 className="mt-6 uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
+            </section>
+            <section className="w-full h-full flex flex-col items-start justify-end">
+              <Image
+                src="/assets/ib/banner-2.png"
+                width={400}
+                height={400}
+                alt="What exactly is IB?"
+                className="mx-auto mb-4"
+              />
+            </section>
+          </div>
+          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
+            <section>
+            <h4 className="mt-6 uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
                 Key Features of the IB Diploma Program
               </h4>
               <section className="w-full relative mt-4">
@@ -158,15 +171,8 @@ const IB = () => {
                 </p>
               </section>
             </section>
-            <section className="w-full h-full flex flex-col items-start justify-end">
-              <Image
-                src="/assets/ib/banner-2.png"
-                width={400}
-                height={400}
-                alt="What exactly is IB?"
-                className="mx-auto mb-4"
-              />
-              <h4 className="mt-6 uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
+            <section>
+            <h4 className="mt-6 uppercase text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
                 Academic Benefits
               </h4>
               <section className="w-full relative mt-4">

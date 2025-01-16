@@ -89,7 +89,7 @@ const AP = () => {
               Most of our students (75%) score a perfect 5 in their AP exams. The scoring system is as follows:
               </p>
             </section>
-            <section className='flex flex-col items-center'>
+            <section className='flex flex-col items-center justify-center'>
               <Image
                 src='/assets/ap/banner-1.png'
                 width={771}
@@ -218,8 +218,8 @@ const AP = () => {
             <section className='flex flex-col items-center'>
               <Image
                 src='/assets/ap/banner-2.png'
-                width={429.11}
-                height={579.57}
+                width={300}
+                height={400}
                 alt='EXAM FORMATS FOR AP EXAMS IN 2022'
               />
             </section>

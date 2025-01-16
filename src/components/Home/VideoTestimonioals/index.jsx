@@ -11,14 +11,14 @@ const VideoTestimonials = ({ data }) => {
             <section
               key={i}
               role="button"
-              className={`relative w-full h-[467px] md:h-full flex flex-col items-start justify-end ps-6 pb-4`}
+              className={`relative w-full h-[467px] md:h-full flex flex-col items-start justify-end ps-6 pb-4 `}
             >
               <Image
                 src={getAssetUrl(item?.attributes?.thumbnail)}
                 alt="Testimonial"
                 fill
                 style={{ objectFit: "cover" }}
-                className="-z-1"
+                className="-z-1 rounded-tl-[100px] rounded-br-[100px]"
               />
               <button className="relative z-10 transition-all  duration-300 hover:scale-105">
                 <svg

@@ -200,14 +200,14 @@ Some students prefer to focus on the UCAT. However, taking the BMAT exam expands
             <section>
               <Image
                 src="/assets/bmat/banner-3.png"
-                width={441}
-                height={441}
+                width={320}
+                height={320}
                 alt="Here are a few tips to help you as you start your prep:"
                 className="mx-auto"
               />
             </section>
           </div>
-          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-14">
+          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 ">
             <section>
               <section className='mb-6 md:mb-auto' >
                 {/* <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">

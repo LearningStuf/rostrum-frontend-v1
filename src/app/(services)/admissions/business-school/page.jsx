@@ -107,7 +107,7 @@ const BusinessSchool = () => {
                 {/* </section> */}
               </AnimationProvider>
               <AnimationProvider
-                className={`w-full h-auto relative p-2 order-1
+                className={`w-full h-auto relative p-2 order-1 flex items-center justify-center
             ${i % 2 === 0 ? "order-1 md:order-2" : "order-1 md:order-1"}
             `}
                 animationType="slide-up"

@@ -21,20 +21,17 @@ const ReviewsList = ({data}) => {
               duration={0.4}
               style={{ boxShadow: '0px 3px 10px #00000029' }}
             >
-              {/* <div
-                key={i}
 
-                
-              > */}
               <Image
                 src={getAssetUrl(item?.image)}
                 alt='Team'
                 width={170}
                 height={240}
-                className={`rounded-full transition-all duration-500 hover:scale-105 
+                className={`rounded-full transition-all duration-500 hover:scale-105 bg-primary
                 ${i % 2 === 0 ? 'md:-translate-x-28' : 'md:translate-x-28'}`}
                 role='button'
               />
+              
               <section>
                 <h6 className='text-[22px] md:text-[28px] text-primary text-center md:text-left font-semibold leading-none mt-6 md:mt-2'>
                 {item?.name}

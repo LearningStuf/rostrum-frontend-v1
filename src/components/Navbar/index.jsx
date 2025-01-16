@@ -10,35 +10,35 @@ const services = [
     title: "Admissions",
     routes: [
       {
-        title: "Services - admissions - boarding school",
+        title: "Boarding School",
         link: "/admissions/bording-school",
       },
       {
-        title: "Services - admissions -Business school prep",
+        title: "Business School",
         link: "/admissions/business-school",
       },
       {
-        title: "Services - admissions -fashion & design school",
+        title: "Fashion & Design School",
         link: "/admissions/fasion-school",
       },
       {
-        title: "Services - admissions -IVY school",
+        title: "IVY School",
         link: "/admissions/ivy-school",
       },
       {
-        title: "Services - admissions -Med School",
+        title: "Med School",
         link: "/admissions/medical-school",
       },
       {
-        title: "Services - admissions -OX bridge prep",
+        title: "OX Bridge Prep",
         link: "/admissions/oxbridge-prep",
       },
       {
-        title: "Services - admissions -Psychometric test",
+        title: "Psychometric Test",
         link: "/admissions/psychometric",
       },
       {
-        title: "Services - admissions _ Universities",
+        title: "Top UK US Universities",
         link: "/admissions/top-uk-us-universities",
       },
     ],
@@ -47,19 +47,19 @@ const services = [
     title: "Tutoring",
     routes: [
       {
-        title: "Services -  tutoring - A level",
+        title: "A Level",
         link: "/tutoring/a-level",
       },
       {
-        title: "Services -  tutoring - AP",
+        title: "AP",
         link: "/tutoring/ap",
       },
       {
-        title: "Services -  tutoring - IB",
+        title: "IB",
         link: "/tutoring/ib",
       },
       {
-        title: "Services -  tutoring - IGCSE",
+        title: "IGCSE",
         link: "/tutoring/igcse",
       },
     ],
@@ -68,35 +68,35 @@ const services = [
     title: "Test Prep",
     routes: [
       {
-        title: "Test Prep - LNAT",
+        title: "LNAT",
         link: "/testprep/lnat",
       },
       {
-        title: "Test Prep - Oxford University Entrance Exam",
+        title: "Oxford University Entrance Exam",
         link: "/testprep/oxford-uni-exam",
       },
       {
-        title: "Test Prep - GMAT",
+        title: "GMAT",
         link: "/testprep/gmat",
       },
       {
-        title: "Test Prep - UCAT",
+        title: "UCAT",
         link: "/testprep/ucat",
       },
       {
-        title: "Test Prep - GRE",
+        title: "GRE",
         link: "/testprep/gre",
       },
       {
-        title: "Test Prep - ACT",
+        title: "ACT",
         link: "/testprep/act",
       },
       {
-        title: "Test Prep - SAT",
+        title: "SAT",
         link: "/testprep/sat",
       },
       {
-        title: "Test Prep - BMAT",
+        title: "BMAT",
         link: "/testprep/bmat",
       },
     ],

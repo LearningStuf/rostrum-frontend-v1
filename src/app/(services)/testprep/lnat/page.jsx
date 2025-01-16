@@ -193,7 +193,22 @@ const LNAT = () => {
                 seniors or support from fellow applicants.
               </p>
 
-              <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-4">
+             
+            </section>
+            <section className="">
+              <Image
+                src="/assets/lnat/banner-3.png"
+                width={480}
+                height={480}
+                alt="Why do I need to give LNAT?"
+                className="mx-auto"
+              />
+
+            </section>
+          </div>
+          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
+            <section className="">
+            <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-4">
                 WHO CAN TAKE THE EXAM?
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
@@ -223,6 +238,7 @@ const LNAT = () => {
                 alt="Why do I need to give LNAT?"
                 className="mx-auto"
               />
+
             </section>
           </div>
           {/* SECTION END */}
