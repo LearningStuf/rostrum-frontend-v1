@@ -40,7 +40,7 @@ export default async function Home() {
       body: JSON.stringify({
         query: HOME_TESTIMONIALS,
       }),
-      next: { revalidate: 86400 },
+      next: { revalidate: 60 },
     });
 
     if (!testimonialsResponse.ok) {
@@ -55,7 +55,7 @@ export default async function Home() {
       body: JSON.stringify({
         query: HOME_VIDEO_TESTIMONIALS,
       }),
-      next: { revalidate: 86400 },
+      next: { revalidate: 60 },
     });
 
     if (!videoTestimonialsResponse.ok) {

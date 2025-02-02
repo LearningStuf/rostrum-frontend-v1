@@ -71,7 +71,7 @@ const Psychometric = () => {
           {/* SECTION START */}
           <div className="w-ful h-full relative mt-14 mb-10">
             <h3 className="text-center text-[40px] md:text-[55px] text-primary font-bold leading-tight mt-2 mb-4">
-            WE ENSURE STUDENTS STAND OU
+            WE ENSURE STUDENTS STAND OUT
             </h3>
             <p className="text-[16px] md:text-[20px] text-primary font-normal text-center mt-4">
             Assisting with the application process for boarding schools. We increase understanding the admissions standards and procedures for competitive institutions. Helping parents and kids find the best-fitting schools. We offer choices based on their abilities, interests, personality traits, and natural talents. Offering comprehensive support for students' academic and career development.

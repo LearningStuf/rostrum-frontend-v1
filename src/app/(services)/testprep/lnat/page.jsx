@@ -232,7 +232,7 @@ const LNAT = () => {
             </section>
             <section className="">
               <Image
-                src="/assets/lnat/banner-3.png"
+                src="/assets/lnat/banner-4.png"
                 width={480}
                 height={480}
                 alt="Why do I need to give LNAT?"

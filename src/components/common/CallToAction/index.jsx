@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Button from "@/components/common/Button";
 import AnimationProvider from "@/components/common/AnimationProvider";
+import Link from "next/link"; 
 import { getAssetUrl } from "@/utils/getAssetUrl";
 
 const CallToAction = ({ data, image }) => {
@@ -35,12 +36,14 @@ const CallToAction = ({ data, image }) => {
           </AnimationProvider>
         </section>
         <section className="w-full h-full flex flex-col items-center justify-center">
+        <Link href='/contact' >
           <Button
             // onClick={() => alert('hello')}
             size="lg"
             type="secondary"
             text="Speak with an advisor"
           />
+        </Link>
         </section>
       </div>
     </div>

@@ -22,7 +22,7 @@ const Featured = async () => {
     <div className="w-ful h-auto relative mt-10">
       <div className="max-w-full md:max-w-screen-xl h-auto mx-2 p-3 md:p-6 md:mx-auto">
         <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 uppercase">
-          We have been featured at
+          We have been featured in
         </h3>
       </div>
       <div className="max-w-full md:max-w-screen-xl h-auto mx-2 md:mx-auto p-3 md:p-6 flex flex-row flex-nowrap md:flex-wrap items-center justify-between overflow-x-auto">
@@ -37,7 +37,7 @@ const Featured = async () => {
                   src={getAssetUrl(item?.attributes?.image)}
                   width={251}
                   height={139}
-                  alt="We have been featured at"
+                  alt="We have been featured in"
                 />
               </div>
             </AnimationProvider>
