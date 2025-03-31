@@ -10,6 +10,7 @@ const VideoTestimonials = ({ data }) => {
     const [videoId, setVideoId] = useState(null); // To track the clicked video
 
     const handleThumbnailClick = (id) => {
+      // Split | sign to get the video id --> change introduced for youtube video player
       const [universityName, videoId] = id.split('|').map(part => part.trim());
       console.log("This is the video id being passed: " , videoId)
       console.log("This is the universtiyName id being passed: " , universityName)

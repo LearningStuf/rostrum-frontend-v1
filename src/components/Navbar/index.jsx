@@ -5,6 +5,8 @@ import DropDown from "@/components/common/Dropdown";
 import Contries from "@/components/common/Contries";
 import MobileNav from "./MobileNav";
 
+// TODO links with MobileNav need to send the appropriate links as constants
+
 const services = [
   {
     title: "Admissions",

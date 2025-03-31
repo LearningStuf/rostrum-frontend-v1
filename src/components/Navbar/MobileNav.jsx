@@ -4,7 +4,9 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import DropDown from '@/components/common/Dropdown';
 
-const MobileNav = ({resources, services,whoWeAre}) => {
+// TODO Need to check why IND is here and fix this in the hamburger menu
+
+const MobileNav = ({ resources, services, whoWeAre }) => {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -12,9 +14,9 @@ const MobileNav = ({resources, services,whoWeAre}) => {
     setIsOpen(!isOpen);
   };
 
-  useEffect(()=>{
+  useEffect(() => {
     setIsOpen(false)
-  },[pathname])
+  }, [pathname])
 
   return (
     <div className='block md:hidden relative'>
@@ -28,14 +30,13 @@ const MobileNav = ({resources, services,whoWeAre}) => {
 
       {/* Drawer */}
       <div
-        className={`fixed inset-y-0 right-0 z-20 w-full bg-white shadow-lg transform transition-transform duration-300 ${
-          isOpen ? 'translate-x-0' : 'translate-x-full'
-        }`}
+        className={`fixed inset-y-0 right-0 z-20 w-full bg-white shadow-lg transform transition-transform duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-full'
+          }`}
       >
         {/* Header Section */}
         <div className='w-full flex items-center justify-between p-4'>
           <p className='block py-2 px-3 text-[24px] font-bold text-primary-dark uppercase'>
-            ROSTUM
+            ROSTRUM
           </p>
           <button onClick={toggleDrawer} className=''>
             <svg
@@ -65,23 +66,25 @@ const MobileNav = ({resources, services,whoWeAre}) => {
           </li>
           <li className='mb-3'>
             <Link
-              href='/'
+              href='/contact'
               className='block py-2 px-3 text-[20px] font-semibold text-primary-dark uppercase'
             >
               Contact us
             </Link>
           </li>
-          <li className='mb-3'>
+          {/* <li className='mb-3'>
             <Link
               href='/'
               className='block py-2 px-3 text-[20px] font-semibold text-primary-dark uppercase'
             >
               +91 98654 98654
             </Link>
-          </li>
-          <li className='mb-3'>
-            <DropDown name='Ind' items={services} />
-          </li>
+          </li> */}
+          {/* <li className='mb-3'>
+            <label className='block py-2 px-3 text-[20px] font-semibold text-primary-dark uppercase'>
+              India
+            </label>
+          </li> */}
         </ul>
       </div>
 
