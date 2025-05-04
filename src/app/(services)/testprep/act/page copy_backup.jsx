@@ -31,18 +31,18 @@ const ACT = () => {
       description_2: ``,
       image: "/assets/act/process/4.png",
     },
-    // {
-    //   title: `Be ready and prepared for the final day`,
-    //   description: `So get plenty of rest the night before, have a well-balanced, protein-rich breakfast, and make sure you have pencils and an acceptable calculator in your luggage!`,
-    //   description_2: ``,
-    //   image: "",
-    // },
-    // {
-    //   title: `Improve Your Time-Management Techniques`,
-    //   description: `The easiest strategy to manage your time on the ACT is to estimate how much time you can devote to each question. You’ll have more time per question in some parts than others. For example, in the English portion, you’ll have about 36 seconds each question, while in the Math section, you’ll have a whole minute.`,
-    //   description_2: ``,
-    //   image: "",
-    // },
+    {
+      title: `Be ready and prepared for the final day`,
+      description: `So get plenty of rest the night before, have a well-balanced, protein-rich breakfast, and make sure you have pencils and an acceptable calculator in your luggage!`,
+      description_2: ``,
+      image: "",
+    },
+    {
+      title: `Improve Your Time-Management Techniques`,
+      description: `The easiest strategy to manage your time on the ACT is to estimate how much time you can devote to each question. You’ll have more time per question in some parts than others. For example, in the English portion, you’ll have about 36 seconds each question, while in the Math section, you’ll have a whole minute.`,
+      description_2: ``,
+      image: "",
+    },
   ];
   return (
     <main className="relative w-full h-auto">
@@ -209,7 +209,7 @@ const ACT = () => {
               {/* <br />
                 Eligibility criteria
                 <br /> */}
-              <br />
+              <br/>
               <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight uppercase">
                 Eligibility criteria
               </h4>
@@ -252,32 +252,91 @@ const ACT = () => {
             </h4>
             <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
               {process.map((item, i) => (
-                <section key={i} className="w-full flex flex-col gap-4 md:gap-6">
-                  <div className="flex items-start gap-4">
-                    {item.image && (
-                      <div className="min-w-[100px] max-w-[120px]">
-                        <Image
-                          src={item.image}
-                          width={120}
-                          height={120}
-                          alt={item.title}
-                          className="object-contain"
-                        />
-                      </div>
-                    )}
-                    <h6 className="text-[22px] md:text-[28px] text-primary font-bold leading-tight">
+                <section key={i} className="w-full relative">
+                  <div className="flex items-center justify-start">
+                    <h6 className="relative w-full text-[22px] md:text-[28px] text-primary text-left font-bold leading-tight flex self-end">
                       {item.title}
                     </h6>
+                    {item.image && (
+                      <Image
+                        src={item.image}
+                        width={300}
+                        height={300}
+                        alt={item.title}
+                      />
+                    )}
                   </div>
-                  <div className="text-[20px] text-primary font-normal text-left space-y-3">
-                    <p>{item.description}</p>
-                    <p>{item.description_2}</p>
-                  </div>
+                  <p className="text-[20px] text-primary font-normal mt-3 text-left">
+                    {item.description}
+                  </p>
+                  <p className="text-[20px] text-primary font-normal mt-3 text-left">
+                    {item.description_2}
+                  </p>
                 </section>
               ))}
+              {/* <section>
+                <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
+                  English
+                </p>
+                <ul className="list-outside list-disc text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+                  <li>Concisely write your answer.</li>
+                  <li>
+                    Read the passage thoroughly and mark important information.
+                  </li>
+                  <li>
+                    Choose the “No Change” answers carefully - they can be
+                    tricky!
+                  </li>
+                </ul>
+              </section> */}
+              {/* <section>
+                <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
+                  Math
+                </p>
+                <ul className="list-outside list-disc text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+                  <li>Analyze diagrams carefully.</li>
+                  <li>
+                    To solve with ‘x,’ put an answer choice into the original
+                    equation to check it
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
+                  Reading
+                </p>
+                <ul className="list-outside list-disc text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+                  <li>
+                    Skim the excerpts - read each paragraph's introduction,
+                    conclusion, and first sentence.
+                  </li>
+                  <li>
+                    Start the passages which are of interest. This may include
+                    humanities, literary narrative, social science, or natural
+                    science
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
+                  Science
+                </p>
+                <ul className="list-outside list-disc text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+                  <li>Leave the conflicting viewpoints part for the end</li>
+                  <li>Pay attention to the visual aids (graphs)</li>
+                </ul>
+              </section>
+              <section>
+                <p className="text-[16px] md:text-[20px] text-primary font-bold text-center md:text-left mt-4">
+                  Essay
+                </p>
+                <ul className="list-outside list-disc text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+                  <li>Write solid examples based on facts.</li>
+                  <li>Focus on a compelling intro and a good conclusion.</li>
+                </ul>
+              </section> */}
             </div>
           </div>
-
           {/* SECTION END */}
 
           {/* SECTION START */}

@@ -69,12 +69,12 @@ const GMAT = () => {
       />
       <div className="w-ful h-full relative mt-10 mb-10">
         <div className="max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto">
-        <div className="relative w-full md:w-11/12  mx-auto flex items-start">
+          <div className="relative w-full md:w-11/12  mx-auto flex items-start">
             <span className="text-secondary text-[128px] font-semibold -translate-y-20 md:-translate-y-12 absolute -left-0 md:-left-12">
               “
             </span>
             <h6 className=" text-[22px] md:text-[28px] text-primary text-center font-semibold leading-tight mt-4">
-            "At Rostrum, we are dedicated to helping ambitious candidates achieve the scores they deserve that will help them excel and succeed in their goals. Out of the 200,000 yearly applications, our students have been amongst those scoring above 700.”
+              "At Rostrum, we are dedicated to helping ambitious candidates achieve the scores they deserve that will help them excel and succeed in their goals. Out of the 200,000 yearly applications, our students have been amongst those scoring above 700.”
 
               <span className="text-secondary text-[128px] -translate-y-12  -translate-x-8 md:translate-x-6 self-end leading-none absolute rotate-180 mt-2 md:mt-auto">
                 “
@@ -88,11 +88,11 @@ const GMAT = () => {
                 What is the GMAT?
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-              The Graduate Management Admissions Test (GMAT) is a standardized, computer-based exam for admission to graduate business programs like MBA and Finance. It assesses analytical writing, quantitative reasoning, and integrated reasoning skills and aims to evaluate an applicant's capabilities and potential for success in graduate management education.
+                The Graduate Management Admissions Test (GMAT) is a standardized, computer-based exam for admission to graduate business programs like MBA and Finance. It assesses analytical writing, quantitative reasoning, and integrated reasoning skills and aims to evaluate an applicant's capabilities and potential for success in graduate management education.
 
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-              With over 2,500 schools worldwide accepting GMAT scores for admission, a well-defined study and preparation plan is crucial for achieving a strong score.
+                With over 2,500 schools worldwide accepting GMAT scores for admission, a well-defined study and preparation plan is crucial for achieving a strong score.
 
               </p>
             </section>
@@ -135,14 +135,14 @@ const GMAT = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="mt-auto md:mt-14">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
-              WHY IS IT A GOOD IDEA TO TAKE THE GMAT?
+                WHY TAKE THE GMAT?
 
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-              Are you dreaming of launching a stellar business or climbing the corporate ladder? The GMAT is your key to unlocking a world of possibilities. Recognized by over 7,000 business schools globally, this test gives you the flexibility to pursue the graduate program that perfectly aligns with your ambitious future plans – the GMAT is the gateway to the tomorrow of your dreams!
-              <br/>
-              <br/>
-              Usually a major requirement of top business schools worldwide, the GMAT is one of the most important tests you can take to secure admission and display your competence and talents in this field. A strong GMAT score provides a competitive advantage and enhances your application, making you a better candidate.
+                Are you dreaming of launching a stellar business or climbing the corporate ladder? The GMAT is your key to unlocking a world of possibilities. Recognized by over 7,000 business schools globally, this test gives you the flexibility to pursue the graduate program that perfectly aligns with your ambitious future plans – the GMAT is the gateway to the tomorrow of your dreams!
+                <br />
+                {/* <br/>
+              Usually a major requirement of top business schools worldwide, the GMAT is one of the most important tests you can take to secure admission and display your competence and talents in this field. A strong GMAT score provides a competitive advantage and enhances your application, making you a better candidate. */}
 
               </p>
             </section>
@@ -161,15 +161,15 @@ const GMAT = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
             <section className="mt-auto md:mt-14">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
-              GMAT EXAM SYLLABUS
+                GMAT EXAM SYLLABUS
 
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-              The GMAT exam has recently been upgraded. The older version lasted approximately 3 hours and 7 minutes, excluding two optional breaks. The exam itself consisted of four components with different allocated time slots.
+                The GMAT exam has recently been upgraded. The older version lasted approximately 3 hours and 7 minutes, excluding two optional breaks. The exam itself consisted of four components with different allocated time slots.
 
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-              The updated version of the GMAT is called Focus Edition. The shortened duration is 2 hours and 15 minutes, and the test consists of 3 sections:
+                The updated version of the GMAT is called Focus Edition. The shortened duration is 2 hours and 15 minutes, and the test consists of 3 sections:
 
               </p>
             </section>
@@ -209,10 +209,10 @@ const GMAT = () => {
               </span>
               <div>
                 <p className="text-[16px] md:text-[20px] text-primary font-bold text-left ms-4">
-                Section 1: Quantitative Reasoning
+                  Section 1: Quantitative Reasoning
                 </p>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-left">
-                This section consists of 21 questions that assess a candidate's mathematical ability. Through questions related to arithmetic, algebra, and numerical problems, the student is evaluated on their problem-solving and data-interpretation skills, which are necessary in fields like management, accounting, and finance.
+                  This section consists of 21 questions that assess a candidate's mathematical ability. Through questions related to arithmetic, algebra, and numerical problems, the student is evaluated on their problem-solving and data-interpretation skills, which are necessary in fields like management, accounting, and finance.
 
                 </p>
               </div>
@@ -242,14 +242,27 @@ const GMAT = () => {
                 </svg>
               </span>
               <div>
-                <p className="text-[16px] md:text-[20px] text-primary font-bold text-left ms-4">
+                {/* <p className="text-[16px] md:text-[20px] text-primary font-bold text-left ms-4">
                 Section 2: Verbal Reasoning
 
                 </p>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-left">
                 This section gives 23 reading comprehension and critical reasoning questions. It assesses your ability to understand statements, words, and relationships between concepts. 
 
+                </p> */}
+
+                <p className="text-[16px] md:text-[20px] text-primary font-bold text-left ms-4">
+                  Section 3: Data Insights
+
                 </p>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-left">
+                This section tests the candidate’s ability to analyze and evaluate information presented in different formats, such as tables and graphs. It includes various question formats, such as Table Analysis, Graphics Interpretation, and Two-Part Analysis.
+                  {/* <br />
+                  <br />
+                  The GMAT Official Guide 2024-25 is available now. It includes 800+ practice questions and more to help you prepare effectively for the GMAT Focus. */}
+                  
+                </p>
+                
               </div>
             </div>
             <div className="flex items-start justify-start">
@@ -277,16 +290,23 @@ const GMAT = () => {
                 </svg>
               </span>
               <div>
-                <p className="text-[16px] md:text-[20px] text-primary font-bold text-left ms-4">
-                Section 3: Data Insights
+                {/* <p className="text-[16px] md:text-[20px] text-primary font-bold text-left ms-4">
+                  Section 3: Data Insights
 
                 </p>
                 <p className="text-[16px] md:text-[20px] text-primary font-normal text-left">
-                This section tests the candidate’s ability to analyze and evaluate information presented in different formats, such as tables and graphs. It includes various question formats, such as Table Analysis, Graphics Interpretation, and Two-Part Analysis.
-                <br/>
-                <br/>
-                The GMAT Official Guide 2024-25 is available now. It includes 800+ practice questions and more to help you prepare effectively for the GMAT Focus.
+                  This section tests the candidate’s ability to analyze and evaluate information presented in different formats, such as tables and graphs. It includes various question formats, such as Table Analysis, Graphics Interpretation, and Two-Part Analysis.
+                  <br />
+                  <br />
+                  The GMAT Official Guide 2024-25 is available now. It includes 800+ practice questions and more to help you prepare effectively for the GMAT Focus.
 
+                </p> */}
+                <p className="text-[16px] md:text-[20px] text-primary font-bold text-left ms-4">
+                  Section 2: Verbal Reasoning
+
+                </p>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-left">
+                  This section gives 23 reading comprehension and critical reasoning questions. It assesses your ability to understand statements, words, and relationships between concepts. 
                 </p>
               </div>
             </div>
@@ -329,19 +349,19 @@ const GMAT = () => {
           <div className="w-full h-auto grid grid-cols-12 gap-8 mt-14">
             <section className="col-span-12 md:col-span-8">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2 mb-8 md:mb-4">
-              ONLINE COACHING, ITS BENEFITS, AND ROSTRUM
+                ONLINE COACHING, ITS BENEFITS, AND ROSTRUM
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-              You may opt for online coaching to effectively prepare for the GMAT. Online coaching eliminates travel time and allows you to study with the same study and coaching material in the comfort of your room.
+                You may opt for online coaching to effectively prepare for the GMAT. Online coaching eliminates travel time and allows you to study with the same study and coaching material in the comfort of your room.
 
                 <br />
                 We at Rostrum Education have worked tirelessly to develop an effective online coaching regimen to help you study and score well on your GMAT exam!
-                <br/>
+                <br />
                 At Rostrum, we are dedicated to helping ambitious candidates achieve the scores they deserve, which will help them excel and succeed in their goals. Our GMAT Practice Test Series has been proven to improve many successful GMAT test takers' skills and scores. Our excellent educators are some of the most experienced in their field. Their effective and tried-and-tested techniques have brought forth tremendous results!
               </p>
             </section>
             <section className="col-span-12 md:col-span-4">
-            <Image
+              <Image
                 src="/assets/gmat/banner-5.png"
                 width={451}
                 height={451}
@@ -355,14 +375,14 @@ const GMAT = () => {
           <div className="w-full h-auto grid grid-cols-12 gap-8 mt-14">
             <section className="col-span-12 md:col-span-8">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-tight uppercase mt-2  mb-0 md:mb-4">
-              WHY ROSTRUM IS UNIQUE
+                WHY ROSTRUM IS UNIQUE
 
               </h3>
             </section>
             <section className="col-span-12 md:col-span-4">
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-0 md:mt-4">
 
-              Here are just a few of the many reasons why we at Rostrum Education are confident in our services:
+                Here are just a few of the many reasons why we at Rostrum Education are confident in our services:
 
               </p>
             </section>

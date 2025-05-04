@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import HeaderBanner from "@/components/common/HeaderBanner";
-import CallToAction from "@/components/common/CallToAction";
+import HeaderBanner from "@/components/common/HeaderBanner/Fashion";
+import CallToAction from "@/components/common/CallToAction/fashion";
 import AnimationProvider from "@/components/common/AnimationProvider";
 
 const FasionSchool = () => {
@@ -111,37 +111,61 @@ const FasionSchool = () => {
                 How To Choose The Best Fashion & Design Schools For You
               </h3>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-6">
-                Fashion and design schools globally dedicate themselves to
-                students. They help equip you with skills needed to succeed in
-                this cut-throat industry. Different programs offer unique
-                courses. Often, they cover design principles, fashion history,
-                merchandising, marketing, and business. You will need true
-                passion for fashion to get into top fashion and design schools.
-                Plus, a strong portfolio and sometimes strong SAT or ACT test
-                scores.
+                The curriculum and methodology of fashion and design schools
+                differ, but most provide instruction in design concepts and
+                fashion history. Many fashion and design colleges also offer
+                merchandising, marketing, and business courses to equip
+                students with the necessary business skills to thrive in the
+                industry. Applicants must have a good portfolio and a passion for
+                fashion in order to get accepted into the finest fashion and
+                design schools in the world.
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-6">
-                Leading cities in fashion are Paris and Milan, so their schools
-                are definitely a great choice. You can also look into top
-                fashion and design schools in places like New York and Los
-                Angeles. There are also many amazing options in China and India.
+                Many institutions additionally demand that students take an
+                admission exam like the SAT or ACT. Admission to the world’s
+                leading fashion and design colleges is extremely difficult, and
+                students’ portfolios and test results are frequently used to
+                determine acceptance. Students must also have a good
+                foundation in art and design to get admitted to the most
+                competitive colleges.
               </p>
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-6">
-                Degrees range from bachelor’s to master’s, often taking two to
-                four years. Look for schools accredited by the National
-                Association of Colleges of Art and Design (NASAD). It can ensure
-                a high-quality education.
-              </p>
+              {/* <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-6">
+                The world’s greatest fashion and design schools are found in
+                major cities such as New York, London, Paris, and Milan. Many
+                fashion and design colleges have locations in various countries,
+                including China and India.
+              </p> */}
             </section>
             <section>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-6">
-                Breaking into the fashion industry can feel daunting. Most
-                people aim for careers in engineering, medicine, or law, so
-                there isn't much guidance on top fashion schools.
+                The world’s greatest fashion and design schools are found in
+                major cities such as New York, London, Paris, and Milan. Many
+                fashion and design colleges have locations in various countries,
+                including China and India.
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-6">
-                But don't worry - our specialists are here to guide you every
-                step of the way!
+                Bachelor’s and master’s degrees are available at the world’s
+                leading fashion and design colleges. Degrees normally take four
+                years, while some colleges offer two-year expedited programs.
+              </p>
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-6">
+                The National Association of Colleges of Art and Design accredits
+                the greatest fashion and design schools in the world (NASAD).
+                Accreditation guarantees that a school’s curriculum fulfils the
+                most stringent requirements. These institutions’ graduates
+                frequently go on to work as fashion designers, merchandisers, or
+                buyers. Many of them also work in the industries of advertising
+                and public relations.
+              </p>
+              <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-6">
+                The greatest fashion and design schools in the world provide
+                financial help in the form of scholarships and grants. Students
+                should research the financial aid options accessible at each
+                college they are considering attending. Major cities throughout
+                the world, such as New York, London, Paris, and Milan, are home
+                to the greatest fashion and design schools in the world. Several
+                fashion and design colleges have campuses in various countries,
+                including China and India."
               </p>
             </section>
           </div>

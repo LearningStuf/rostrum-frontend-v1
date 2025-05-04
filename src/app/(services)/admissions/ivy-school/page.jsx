@@ -90,7 +90,6 @@ const IVY = () => {
   return (
     <main className="relative w-full h-auto">
       <HeaderBanner
-        align="left"
         title={"Ivy League Schools & Colleges Consultant"}
         image={"/assets/header-banner/ivy.png"}
       />
@@ -180,7 +179,7 @@ const IVY = () => {
                 // height={item.height}
                 alt="Goals and Character Qualities"
                 fill={true}
-                objectFit="containe"
+                objectFit="contain"
               />
             </section>
             <section>
@@ -202,14 +201,14 @@ const IVY = () => {
               Ivy League institutions value your extracurricular involvement. Show commitment, leadership, and growth from your experiences. Focus on meaningful activities rather than spreading yourself too thin—quality over quantity matters. Share how your involvement impacted a cause, team, or community and how it shaped your life.
               </p>
             </section>
-            <section className="order-1 md:order-2 relative w-full h-[300px] md:h-full mx-auto">
+            <section className="order-1 md:order-2 relative w-full h-auto md:h-full mx-auto">
               <Image
                 src="/assets/ivy-schools/right.png"
                 // width={item.width}
                 // height={item.height}
                 alt="Goals and Character Qualities"
                 fill={true}
-                objectFit="containe"
+                objectFit="contain"
               />
             </section>
           </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import HeaderBanner from '@/components/common/HeaderBanner';
+import HeaderBanner from '@/components/common/HeaderBanner/Fashion';
 import CallToAction from '@/components/common/CallToAction';
 import AnimationProvider from '@/components/common/AnimationProvider';
 
@@ -99,14 +99,14 @@ const TopUni = () => {
           </div>
           {/* SECTION START */}
           <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
-            <section className='mt-auto md:mt-18'>
+            <section className='mt-0'>
               <h3 className='text-center md:text-left text-[35px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-4'>
               UNDERGRADUATE ADMISSIONS
               </h3>
-              <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+              {/* <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
               It's no secret that getting into university is becoming increasingly difficult. Every year, more and more students apply to foreign universities, and acceptance rates decrease. Rostrum Education is aware of this and has custom-made strategies. It helps students deal with university applications from around the globe.
 
-              </p>
+              </p> */}
               <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
               Whether you're applying for a degree in the US or the UK, we have unique tips and insider advice on whichever university you wish to apply to. Other consulting firms may improve a student's grades and academic profile. We at Rostrum review your entire application and proceed with a tailor-made plan curated just for you. Your applications are in trusted hands!
 
@@ -122,14 +122,15 @@ const TopUni = () => {
                 height={771}
                 alt='UNDERGRADUATE'
                 // objectFit='containe'
-                className='my-auto md:my-12'
+                className='my-4'
               />
             </section>
+            <br />
           </div>
           {/* SECTION END */}
           {/* SECTION START */}
           <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6'>
-            <section className='mt-auto md:mt-18'>
+            <section className='mt-0'>
               <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-4'>
               MASTERS ADMISSIONS 
 
@@ -154,7 +155,8 @@ const TopUni = () => {
 
               </ul>
               <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              At Rostrum, we can help streamline this process and allow you to focus on the key aspects of the research you wish to conduct. We conduct in-depth reviews of a student's profile. It helps us create custom plans based on your work experience and interview process. Making this process hassle-free is no easy task, but our testimonials can confirm that we manage to pull it off every time!
+              At Rostrum, we can help streamline this process and allow you to focus on the key aspects of the research you wish to conduct. We conduct in-depth reviews of a student's profile. It helps us create custom plans based on your work experience and interview process. 
+              {/* Making this process hassle-free is no easy task, but our testimonials can confirm that we manage to pull it off every time! */}
 
               </p>
             </section>
@@ -165,8 +167,12 @@ const TopUni = () => {
                 height={771}
                 alt='MASTERS'
                 // objectFit='containe'
-                className='my-auto md:my-12'
+                className='my-4'
               />
+                    {/* <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+              At Rostrum, we can help streamline this process and allow you to focus on the key aspects of the research you wish to conduct. We conduct in-depth reviews of a student's profile. It helps us create custom plans based on your work experience and interview process. Making this process hassle-free is no easy task, but our testimonials can confirm that we manage to pull it off every time!
+
+              </p> */}
             </section>
           </div>
           {/* SECTION END */}

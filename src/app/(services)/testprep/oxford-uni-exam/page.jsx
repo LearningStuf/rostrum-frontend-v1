@@ -285,7 +285,7 @@ const OxfordUniExam = () => {
                   </p>
                   <br />
                 </div>
-                {/* <div>
+                <div>
                   <h4 className="uppercase text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight mb-2">
                     BMAT
                   </h4>
@@ -316,13 +316,13 @@ const OxfordUniExam = () => {
                     The test consists of three sections and is taken in English.
                     Sections 1 and 2 are multiple-choice, and Section 3 is a
                     writing task.
-                    <a className="text-danger" href="#">
+                    {/* <a className="text-danger" href="#">
                       {" "}
                       Find more details here.
-                    </a>
+                    </a> */}
                   </p>
                   <br />
-                </div> */}
+                </div>
                 <div>
                   <h4 className="uppercase text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight mb-2">
                     ELAT
@@ -366,8 +366,15 @@ const OxfordUniExam = () => {
                     What is HAT?
                   </h6>
                   <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-2">
-                    The History Aptitude test is for candidates applying for
-                    history courses at Oxford University.
+                    The History Aptitude Test (HAT) is required by all candidates
+                    applying for degrees involving history at Oxford University.
+                    It aims to examine skills and potential required to study a
+                    degree in history. It does not test substantive historical
+                    knowledge and prior subject study is not required. It tests an
+                    ability to read carefully and critically, the adoption of an
+                    analytical approach, the ability to answer a question relevantly,
+                    precision in handling concepts, historical imagination,
+                    originality and clarity in writing.
                   </p>
                   <br />
                   <h6 className="text-[22px] md:text-[28px] text-primary text-left font-bold leading-tight">

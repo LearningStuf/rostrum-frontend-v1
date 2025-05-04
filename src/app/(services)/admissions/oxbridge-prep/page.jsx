@@ -48,11 +48,12 @@ const OxbridgePrep = () => {
               As the end of the year approaches, news on whether or not students
               have passed on to the interview stage will arrive shortly.
               Receiving an acceptance from a top-rated university can be
-              nerve-wracking. However, there is no need to worry about the
-              journey! Rostrum Education is here to provide customized plans for
-              each student to help them ace their interview!
+              nerve-wracking.
             </p>
             <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
+              However, there is no need to worry about the
+              journey! Rostrum Education is here to provide customized plans for
+              each student to help them ace their interview!
               Here are just a few tips you can practice in the days before and
               on the day of your interview!
             </p>

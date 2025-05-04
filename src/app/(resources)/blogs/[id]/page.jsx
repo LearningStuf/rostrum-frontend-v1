@@ -1,5 +1,7 @@
+
 import React from "react";
-import { BlocksRenderer } from '@strapi/blocks-react-renderer';
+//import { BlocksRenderer } from '@strapi/blocks-react-renderer';
+import BlogContentRenderer from "@/app/(resources)/blogs/BlogContentRenderer";
 import moment from "moment";
 import Image from "next/image";
 import Fallback from "@/components/common/Fallback";
@@ -74,7 +76,10 @@ const SingleBlog = async ({ params }) => {
 
     const { data } = await response.json();
     const blog = data?.blogs?.data[0];
+
     let content = blog?.attributes?.content;
+
+    console.log("This is the blog content: ", content)
 
     return (
       <main className="max-w-full md:max-w-screen-xl h-auto mx-auto py-10 px-4 md:px-20">
@@ -104,7 +109,9 @@ const SingleBlog = async ({ params }) => {
         <hr />
 
         {/* Blog Content */}
-        <BlocksRenderer content={content} />
+        {/* <BlocksRenderer  content={content}/> */}
+        <BlogContentRenderer content={content} />
+
       </main>
     );
   } catch (error) {

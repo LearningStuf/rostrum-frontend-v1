@@ -8,6 +8,9 @@ import { SINGLE_COUNTRY } from "@/quries";
 import { URL } from "@/utils/SERVER_URL";
 import { getAssetUrl } from "@/utils/getAssetUrl";
 
+
+//TODO 
+
 // const data = [
 //   {
 //     question: "What is Rostrum Education?",
@@ -164,14 +167,46 @@ const Region = async ({ params }) => {
                 </p>
               </div>
             </section>
-            <section className="flex items-center justify-center">
+            {/* <section className="flex items-center justify-center">
               <Image
                 src={getAssetUrl(data?.successSection?.image)}
                 width={471}
                 height={471}
                 alt="What is the GMAT?"
               />
+            </section> */}
+
+            {/* changes by hassan to test out 2 coloumns */}
+
+            <section className="grid grid-rows-2 gap-4">
+              {/* <div className="bg-gray-100 p-4"> */}
+              <Image
+                src={getAssetUrl(data?.successSection?.image)}
+                width={471}
+                height={471}
+                alt="What is the GMAT?"
+              />
+              {/* </div> */}
+              <div className="flex flex-col space-y-4">
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
+                  <b>{data?.successSection?.text4}</b>
+                  <br />
+                  {data?.successSection?.description4}
+                </p>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
+                  <b>{data?.successSection?.text4}</b>
+                  <br />
+                  {data?.successSection?.description4}
+                </p>
+                <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
+                  <b>{data?.successSection?.text6}</b>
+                  <br />
+                  {data?.successSection?.description6}
+                </p>
+              </div>
             </section>
+
+
           </div>
           {/* SECTION 3 */}
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-12 gap-10 mt-14">
@@ -250,7 +285,7 @@ const Region = async ({ params }) => {
               {data?.featuredSection?.title}
             </h3>
             <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
-              {data?.featuredSection?.features.map((item , i) => (
+              {data?.featuredSection?.features.map((item, i) => (
                 <section key={i} >
                   <div className="w-full relative mt-4">
                     <span className="absolute top-1 w-4 h-4 rounded-full bg-secondary block"></span>
@@ -265,6 +300,59 @@ const Region = async ({ params }) => {
               ))}
             </div>
           </div>
+
+          {/* Adding the code below just to test it out */}
+{/* 
+          <section className="w-full px-4 md:px-20 py-10 bg-white">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            
+              <div className="flex justify-start">
+                <div className="w-full h-[700px] max-w-[90%] bg-yellow-400 rounded-[100px] -ml-6 md:-ml-20"></div>
+              </div> */}
+
+              {/* Right Side: Content Blocks */}
+              {/* <div className="flex flex-col space-y-6 text-primary text-center md:text-left">
+                <div>
+                  <h3 className="font-bold text-[18px] md:text-[20px] uppercase">Comprehensive Test Preparation</h3>
+                  <p className="text-[16px] md:text-[18px] mt-1">
+                    Our intensive preparation for exams like SAT, ACT, GMAT, GRE, UCAT, LNAT, and Oxbridge Entrance sharpens your competitive edge.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-bold text-[18px] md:text-[20px] uppercase">Expert Guidance</h3>
+                  <p className="text-[16px] md:text-[18px] mt-1">
+                    Gain insights from mentors experienced in the nuances of Ivy League and Oxbridge admissions, tailored for international students applying to US and UK universities.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-bold text-[18px] md:text-[20px] uppercase">Progress Monitoring</h3>
+                  <p className="text-[16px] md:text-[18px] mt-1">
+                    Continuous assessments and feedback keep you on track towards your academic goals.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-bold text-[18px] md:text-[20px] uppercase">Customised Strategies</h3>
+                  <p className="text-[16px] md:text-[18px] mt-1">
+                    Develop personalised strategies for each university’s specific requirements, adapting to the distinctive needs of UK-based and international students.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-bold text-[18px] md:text-[20px] uppercase">Proven Track Record</h3>
+                  <p className="text-[16px] md:text-[18px] mt-1">
+                    Students from top UK schools, including the likes of Eton College and Harrow School, have successfully navigated complex admissions processes with Rostrum’s assistance, evidenced by numerous Ivy League and Oxbridge admissions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section> */}
+
+
+
+
         </div>
       </div>
       <CallToAction image={"/assets/call-action/about.png"} />

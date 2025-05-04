@@ -180,29 +180,31 @@ query ComparisonTables {
 
 export const FOOTER = `
 query Footer {
-    footer {
-      data {
-        attributes {
-          addressDelhi
-          addressDubai
-          description
-          email
-          phone1
-          phone2
-          phone3
-          phone4
-          website_routes {
-            data {
-              attributes {
-                name
-                url
-              }
+  footer {
+    data {
+      attributes {
+        Address {
+          Country
+          Address
+        }
+        Phone {
+          Country
+          Phone
+        }
+        email
+        website_routes {
+          data {
+            attributes {
+              url
+              name
             }
           }
         }
+        description
       }
     }
   }
+}
 `;
 
 export const ABOUT_PAGE = `
@@ -373,10 +375,11 @@ query Blogs {
 `;
 
 export const ALL_EVENTS = `
-query Blogs {
-  events {
+query Events {
+ events {
     data {
       attributes {
+        Link
         banner {
           data {
             attributes {

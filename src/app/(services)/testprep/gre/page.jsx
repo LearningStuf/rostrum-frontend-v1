@@ -180,7 +180,7 @@ const GRE = () => {
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                 <b> Analytical Writing Section (Time Duration: 30 minutes)</b>
-                <br />
+                {/* <br />
                 This section consists of 2 tasks. For the “Analyse an Issue”
                 task, candidates are asked to take a position on a given
                 statement and then defend their position. They should do this
@@ -189,21 +189,27 @@ const GRE = () => {
                 <br />
                 <br />
                 The other task is to “Analyse an argument”. Candidates are
-                presented with an argument and you must analyze and critique it.
+                presented with an argument and you must analyze and critique it. */}
+                <br />
+                Includes two tasks – Analyze an Issue (take a stance and defend it) and Analyze an Argument (critique a given argument).
               </p>
 
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                 <b>Verbal Reasoning Section (Time Duration: 60 minutes)</b>
-                <br />
+                {/* <br />
                 This section tests a candidate's hold on the English language.
                 The questions include comprehension paragraphs, sentence
-                completion, grammar, sentence equivalence, etc.
+                completion, grammar, sentence equivalence, etc. */}
+                <br />
+                Tests English skills through comprehension, sentence completion, grammar, and equivalence questions.
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
                 <b>Quantitative Reasoning (Time Duration: 70 minutes)</b>
-                <br />
+                {/* <br />
                 This section includes the basics of math such as algebra,
-                arithmetic, geometry, problem-solving, and data analysis.
+                arithmetic, geometry, problem-solving, and data analysis. */}
+                <br />
+                Covers basic math: algebra, arithmetic, geometry, problem-solving, and data analysis.
               </p>
             </section>
             <section className="">

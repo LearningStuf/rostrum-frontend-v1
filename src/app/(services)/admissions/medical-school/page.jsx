@@ -16,10 +16,10 @@ const MedicalSchool = () => {
           {/* SECTION START */}
           <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-4'>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left '>
-            Are you considering a career in medicine? UK medical education provides unique learning opportunities and career paths. The application process is competitive, as thousands of students apply yearly for limited slots. All medical schools have unique application processes, and it's up to the students to research how to apply to each one. Here is where Rostrum Education helps you prepare for entry exams, write personal statements, and ace interview rounds. 
+              Are you considering a career in medicine? UK medical education provides unique learning opportunities and career paths. The application process is competitive, as thousands of students apply yearly for limited slots. All medical schools have unique application processes, and it's up to the students to research how to apply to each one. Here is where Rostrum Education helps you prepare for entry exams, write personal statements, and ace interview rounds.
             </p>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left'>
-            It doesn't matter how you want to serve the community in healthcare. You can choose to become a nurse, researcher, caregiver, surgeon, or any other career! Studying medicine in the UK can lead you to a promising and rewarding career.
+              It doesn't matter how you want to serve the community in healthcare. You can choose to become a nurse, researcher, caregiver, surgeon, or any other career! Studying medicine in the UK can lead you to a promising and rewarding career.
 
             </p>
           </div>
@@ -28,14 +28,14 @@ const MedicalSchool = () => {
           <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
             <section>
               <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-4'>
-              Why Study Medicine In The UK?
+                Why Study Medicine In The UK?
               </h3>
               <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-auto md:mt-4'>
-              The UK is considered one of the best countries for medical education. They have top-notch universities that provide performance and research. Universities such as Oxford and Cambridge are always ranked among the best in the world in terms of quality education and knowledge.
+                The UK is considered one of the best countries for medical education. They have top-notch universities that provide performance and research. Universities such as Oxford and Cambridge are always ranked among the best in the world in terms of quality education and knowledge.
 
               </p>
               <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              The UK is a top choice for international students seeking higher education. It offers high-quality teaching and research opportunities. It boasts 43 universities in the top 650 for medical education worldwide. Doctors in the UK earn significantly more than other health professionals, with salaries rising steadily from £245,000 in 2016 to £318,000 in 2021. Indian MBBS graduates from UK universities are exempt from the Foreign Medical Graduate Examination too. Compared to the US, studying MBBS in the UK takes 5 to 6 years, making it a faster path to a medical degree.
+                The UK is a top choice for international students seeking higher education. It offers high-quality teaching and research opportunities. It boasts 43 universities in the top 650 for medical education worldwide. Doctors in the UK earn significantly more than other health professionals, with salaries rising steadily from £245,000 in 2016 to £318,000 in 2021. Indian MBBS graduates from UK universities are exempt from the Foreign Medical Graduate Examination too. Compared to the US, studying MBBS in the UK takes 5 to 6 years, making it a faster path to a medical degree.
 
               </p>
             </section>
@@ -45,7 +45,7 @@ const MedicalSchool = () => {
                 width={586}
                 height={586}
                 alt='Why study in the UK?'
-                // objectFit='containe'
+              // objectFit='containe'
               />
               {/* <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
                 To practise medicine in India, MBBS graduates from UK
@@ -139,32 +139,44 @@ const MedicalSchool = () => {
           {/* SECTION END */}
         </div>
       </div>
-      <CallToAction 
-              image={'/assets/call-action/home.png'}
+      <CallToAction
+        image={'/assets/call-action/home.png'}
       />
       <div className='max-w-full md:max-w-screen-xl h-full mx-2 p-3 md:p-6 md:mx-auto'>
         {/* SECTION START */}
         <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
           <section>
             <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
-            Fee Structure in UK Universities
+              Fee Structure in UK Universities
 
             </h4>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-            The UK stands out for its international education system and renowned medical training. Many students worldwide, especially from India, are drawn to its MBBS programs. The main reason is the comparatively affordable cost.
+              The UK stands out for its international education system and renowned medical training. Many students worldwide, especially from India, are drawn to its MBBS programs. The main reason is the comparatively affordable cost.
 
             </p>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-            For Indian aspirants, the expenses for an MBBS in the UK typically range from $130,000 to $340,000, covering tuition and other fees. Candidates should thoroughly research the cost structures of various institutions before applying. This ensures they make an informed decision about their education abroad.
+              For Indian aspirants, the expenses for an MBBS in the UK typically range from $130,000 to $340,000, covering tuition and other fees. Candidates should thoroughly research the cost structures of various institutions before applying. This ensures they make an informed decision about their education abroad.
 
             </p>
           </section>
           <section>
             <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
-            TOEFL
+              TOEFL
             </h4>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-            Non-native English speakers may need to take the TOEFL. Meanwhile, gaining relevant work experience in healthcare or service roles boosts your application.            </p>
+              The Test of English as a Foreign Language (TOEFL) is a
+              standardised test used to assess non-native English speakers’
+              abilities for enrollment in English-speaking universities. More
+              than 11,000 universities and other organisations in over 190
+              countries and territories accept the test.  </p>
+
+            <br />
+
+            <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
+              For BMAT, UCAT, IELTS/TOEFL, or any other test preparation,
+              we are here to help you! Please feel free to contact our
+              Tutoring Team. We provide tutoring for students all over the
+              world including India and UAE.  </p>
           </section>
         </div>
         {/* SECTION END */}
@@ -173,28 +185,28 @@ const MedicalSchool = () => {
         <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
           <section>
             <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
-            Work Experience
+              Work Experience
             </h4>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-            Your work experience and personal statement matter most when applying to medical school. "Work Experience" includes any paid or voluntary roles you've had two years before applying. This could be in hospitals, the community, or elsewhere. Healthcare-related and general service roles count too!
+              Your work experience and personal statement matter most when applying to medical school. "Work Experience" includes any paid or voluntary roles you've had two years before applying. This could be in hospitals, the community, or elsewhere. Healthcare-related and general service roles count too!
 
             </p>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-            There are two types of work experience medical schools looks for:
+              There are two types of work experience medical schools looks for:
             </p>
             <ul className='list-disc' >
               <li className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4' >
-              Caring or Service Role: This involves working directly with people. Preference is given to those who work with ill, disabled, or disadvantaged people. It shows your compassion and teamwork skills.
+                Caring or Service Role: This involves working directly with people. Preference is given to those who work with ill, disabled, or disadvantaged people. It shows your compassion and teamwork skills.
               </li>
               <li className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-              Healthcare Observation: This means watching healthcare professionals at work to understand the field better.
+                Healthcare Observation: This means watching healthcare professionals at work to understand the field better.
               </li>
             </ul>
           </section>
           <section>
             <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'></h4>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-            Even if your job isn't in healthcare, roles like customer service are still relevant. They demonstrate skills like teamwork and empathy, which are crucial in medicine. Reviewers want to see how you've helped others and developed key interpersonal skills essential for a medical career.
+              Even if your job isn't in healthcare, roles like customer service are still relevant. They demonstrate skills like teamwork and empathy, which are crucial in medicine. Reviewers want to see how you've helped others and developed key interpersonal skills essential for a medical career.
 
             </p>
             {/* <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
@@ -207,20 +219,20 @@ const MedicalSchool = () => {
         <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
           <section>
             <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
-            Stand Out With Your Personal Statements
+              Stand Out With Your Personal Statements
 
             </h4>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-            Your personal statement and academic achievements are the most important part of the application. Customize your application to highlight your passion for medicine and tell them exactly why you’re the best choice for their program.
+              Your personal statement and academic achievements are the most important part of the application. Customize your application to highlight your passion for medicine and tell them exactly why you’re the best choice for their program.
             </p>
           </section>
           <section>
             <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'>
-            Medical School Admissions: Interview Process
+              Medical School Admissions: Interview Process
 
             </h4>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-            Prepare for multiple mini-interviews (MMI), a common format many medical schools use. Rostrum Education offers comprehensive support to ensure preparation for these important interviews.
+              Prepare for multiple mini-interviews (MMI), a common format many medical schools use. Rostrum Education offers comprehensive support to ensure preparation for these important interviews.
 
             </p>
             {/* <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
@@ -232,36 +244,33 @@ const MedicalSchool = () => {
         </div>
         {/* SECTION END */}
         {/* SECTION START */}
-
-        <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14'>
-          <section className='order-2 md:order-1' >
-            <h3 className='text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-4'>
-            How Does Rostrum Education Help With Applications? 
+        <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14 items-start">
+          <section className="order-2 md:order-1 flex flex-col justify-start">
+            <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mb-6 md:mb-4">
+              How Does Rostrum Education Help With Applications?
             </h3>
-            <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-            At Rostrum Education, students are provided with a step-by-step roadmap and support in preparation for medical school. Our expert tutors and mentors offer tailored approaches to enhance your chances of admission into the best medical schools in the UK.
-
+            <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-2">
+              At Rostrum Education, students are provided with a step-by-step roadmap and support in preparation for medical school. Our expert tutors and mentors offer tailored approaches to enhance your chances of admission into the best medical schools in the UK.
             </p>
-            <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
-            Ready to pursue UK medical education? Schedule your free consultation with Rostrum Education today and take the first step towards your future in medicine.
-
+            <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
+              Ready to pursue UK medical education? Schedule your free consultation with Rostrum Education today and take the first step towards your future in medicine.
             </p>
           </section>
-          <section className='order-1 md:order-2' >
+
+          <section className="order-1 md:order-2 flex items-start -mt-12">
             <Image
-              src='/assets/medical-school/banner-3.png'
+              src="/assets/medical-school/banner-3.png"
               width={873}
               height={873}
-              alt='Where do I start?'
-              // objectFit='containe'
+              alt="Where do I start?"
+              className="object-contain max-w-full h-auto"
             />
           </section>
         </div>
+
+
         {/* SECTION END */}
       </div>
-	  <br/>
-	  <br/>
-	  <br/>
     </main>
   );
 };

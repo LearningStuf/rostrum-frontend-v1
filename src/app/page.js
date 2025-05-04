@@ -78,13 +78,15 @@ export default async function Home() {
     const videoTestimonials = videoTestimonialData?.data?.videoTestimonials?.data;
 
     if (!headerSection || !serviceSection || !statsSection || !callToAction || !services) {
-      throw new Error("Incomplete data received");
+      //throw new Error("Incomplete data received");
+      //  Hassan remember to turn this on please
     }
 
     return (
       <main className="relative w-full h-auto">
         <HeroHeader data={headerSection} />
         <Stats data={statsSection} />
+  
         <Services data={serviceSection} services={services} />
         <VideoTestimonials data={videoTestimonials} />
         {testimonials && <TestimonialCarousel testimonials={testimonials} />}

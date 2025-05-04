@@ -121,7 +121,7 @@ Why Do We Need the SAT?
 
               </p>
             </section>
-            {/* <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 border-b-2 border-[#F5B646] pb-4 mb-4">
+            <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 border-b-2 border-[#F5B646] pb-4 mb-4">
               <h6 className="text-[22px] md:text-[28px] text-primary  text-center md:text-left font-bold leading-tight ">
                 1. Minimum age to take the SAT
               </h6>
@@ -150,7 +150,7 @@ Why Do We Need the SAT?
                 The College Board has not established any explicit qualifying
                 requirements.
               </p>
-            </section> */}
+            </section>
           </div>
           <br />
           {/* SECTION END */}

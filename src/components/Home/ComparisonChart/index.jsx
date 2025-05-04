@@ -17,6 +17,8 @@ const ComparisonChart = async () => {
   const { data } = await response.json();
   const list = data?.comparisonTables?.data;
 
+  // console.log("List being received for comparision table, ",  response)
+
   return (
     <div className="w-ful h-auto relative mt-10 mb-10">
       <div className="max-w-full md:max-w-screen-xl h-auto mx-2 p-3 md:p-6 md:mx-auto">

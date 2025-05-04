@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import HeaderBanner from "@/components/common/HeaderBanner";
 import CallToAction from "@/components/common/CallToAction";
 import TopSchools from "@/components/common/TopSchools";
@@ -85,7 +86,24 @@ const BordingSchool = () => {
           </div>
           {/* Section End */}
 
-          <section className="w-full h-[323px] bg-semi-gray rounded-3xl mt-14"></section>
+          {/* TODO!!!
+          Issue regarding boarding school image issue
+          completed 
+
+           */}
+
+
+          <section className="w-full h-[323px] rounded-3xl mt-14 relative">
+            <Image
+              src="/assets/boarding-school/home.png"
+              alt="Description"
+              layout="responsive" // Makes the image responsive
+              width={1200} // Specify a width (aspect ratio)
+              height={800} // Specify a height (aspect ratio)
+              objectFit="cover" // Ensures the image covers the container
+              className="rounded-3xl"
+            />
+          </section>
 
           {/* Section Start */}
           <h3 className="text-center md:text-left text-[40px] md:text-[50px] text-primary font-bold leading-tight mt-14 mb-8 md:mb-auto uppercase">
@@ -159,8 +177,8 @@ const BordingSchool = () => {
                 `Monitor and assess your progress.`,
                 `Recommend schools that match your preferences and goals.`,
                 `Help you create a standout application.`,
-                `Boost your self-confidence, professionalism, and interview skills.`,
-                `Advise on requesting references and recommendation letters.`,
+                // `Boost your self-confidence, professionalism, and interview skills.`,
+                // `Advise on requesting references and recommendation letters.`,
               ].map((item, i) => {
                 return (
                   <div className="flex items-start justify-start my-8" key={i}>
@@ -193,10 +211,10 @@ const BordingSchool = () => {
                   </div>
                 );
               })}
-              <p className="text-[16px] md:text-[20px] text-primary font-normal text-left ms-4">
+              {/* <p className="text-[16px] md:text-[20px] text-primary font-normal text-left ms-4">
                 And we'll support you with anything else that comes up
                 throughout!
-              </p>
+              </p> */}
             </section>
           </div>
           {/* Section End */}
@@ -216,7 +234,7 @@ const BordingSchool = () => {
               They must meet high government standards for teaching quality,
               facilities, and student care.
               <br />
-              <br/>
+              <br />
               Many UK boarding schools feature beautiful, historic buildings
               alongside modern classrooms. These exceptional facilities enhance
               students' English proficiency and make learning enjoyable.
@@ -225,13 +243,13 @@ const BordingSchool = () => {
             <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
               Switching from Conventional Schools to Boarding Schools
               <br />
-              <br/>
+              <br />
               If you want your child fully immersed in an educational
               environment or have a busy career, boarding schools are worth
               considering. They provide unique benefits and experiences that
               conventional day schools can't match.
               <br />
-              <br/>
+              <br />
               Sign up for a complimentary session and start your child's journey
               to success!
             </p>

@@ -19,9 +19,9 @@ const BusinessSchool = () => {
     },
     {
       title: "Professional Profile Development: What Makes You Unique?",
-      description: `The top B-schools assess a person’s academic achievements. They shortlist based on the applicants and their activities outside academics. Hence, it’s important to curate your profile in a way that is striking to the admissions boards. `,
-      description_2: `To be a worthy candidate, one must present the most well-refined version of themselves. Showing good leadership, teamwork, dedication, and practical skills will enhance your application. Do make sure to highlight leadership roles in various clubs, entrepreneurial ventures, internships, volunteer work, research projects, etc.`,
-      description_3: `Our qualified mentors work closely with you to ensure your profile is presented in a way that highlights your most desirable skills. Not only this, but they also help you build your application in areas where it is lacking. To help your application stand out among the rest, we will help you develop a solid profile and application.`,
+      description: `Top B-schools look beyond academics, focusing on your overall profile, including extracurriculars, leadership, and real-world experience. To stand out, you need to showcase a well-rounded personality with strong leadership, teamwork, and practical skills through roles in clubs, internships, ventures, and volunteer work. `,
+      description_2: `Our expert tutors work with you to craft a compelling profile that highlights your strengths and fills any gaps in your application. We’re here to help you build a standout application that catches the attention of admissions boards.`,
+      // description_3: `Our qualified mentors work closely with you to ensure your profile is presented in a way that highlights your most desirable skills. Not only this, but they also help you build your application in areas where it is lacking. To help your application stand out among the rest, we will help you develop a solid profile and application.`,
       image: "/assets/business-school/3.svg",
     },
     {
