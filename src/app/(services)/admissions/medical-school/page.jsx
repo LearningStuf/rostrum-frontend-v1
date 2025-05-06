@@ -210,7 +210,7 @@ const MedicalSchool = () => {
             </p>
             <div className="w-full md:w-1flex justify-center md:justify-end items-center order-1 md:order-2 pl-8">
               <Image
-                src="/assets/medical-school/maze.png"
+                src="/assets/medical-school/maze-1.png"
                 width={500}
                 height={600}
                 alt="Where do I start?"
