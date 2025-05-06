@@ -207,8 +207,17 @@ const MedicalSchool = () => {
             <h4 className='text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight'></h4>
             <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
               Even if your job isn't in healthcare, roles like customer service are still relevant. They demonstrate skills like teamwork and empathy, which are crucial in medicine. Reviewers want to see how you've helped others and developed key interpersonal skills essential for a medical career.
-
             </p>
+            <div className="w-full md:w-1flex justify-center md:justify-end items-center order-1 md:order-2 pl-8">
+              <Image
+                src="/assets/medical-school/maze.png"
+                width={500}
+                height={600}
+                alt="Where do I start?"
+                className="object-contain max-w-full h-auto"
+              />
+            </div>
+
             {/* <p className='text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4'>
             </p> */}
           </section>

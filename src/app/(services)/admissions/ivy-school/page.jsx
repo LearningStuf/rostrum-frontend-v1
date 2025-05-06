@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import HeaderBanner from "@/components/common/HeaderBanner";
+import HeaderBanner from "@/components/common/HeaderBanner/Ivy";
 import CallToAction from "@/components/common/CallToAction";
 
 const IVY = () => {
@@ -58,10 +58,12 @@ const IVY = () => {
   const data = [
     {
       title: "Goal Alignment",
-      description: `At Rostrum, we ensure you stay on track with application deadlines and goal setting, which is essential for Ivy League applications. Rostrum ensures no more deadline stress!` },
+      description: `At Rostrum, we ensure you stay on track with application deadlines and goal setting, which is essential for Ivy League applications. Rostrum ensures no more deadline stress!`
+    },
     {
       title: "SAT/ACT Preparation",
-      description: ` Rostrum students are well-prepared to excel in standardized tests.`},
+      description: ` Rostrum students are well-prepared to excel in standardized tests.`
+    },
     {
       title: "Profile Building",
       description: `Our team of seasoned admissions officers helps you discover internships and competitions that enhance your profile and academic interests.`,
@@ -88,9 +90,11 @@ const IVY = () => {
     },
   ];
   return (
+
     <main className="relative w-full h-auto">
       <HeaderBanner
-        title={"Ivy League Schools & Colleges Consultant"}
+        // title={"Ivy \nLeague \nConsultants"}
+        align="right"
         image={"/assets/header-banner/ivy.png"}
       />
       <div className="w-ful h-full relative mt-10 mb-10">
@@ -133,40 +137,40 @@ const IVY = () => {
             </section>
             <section className="col-span-12 md:col-span-7">
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
-              Ivy League colleges are the most prestigious schools, noted for their selectivity, academic excellence, and career opportunities. Their alumni include people who later became presidents and Nobel Prize winners. These universities provide many students with renowned education, research grants, and financial assistance. 
+                Ivy League colleges are the most prestigious schools, noted for their selectivity, academic excellence, and career opportunities. Their alumni include people who later became presidents and Nobel Prize winners. These universities provide many students with renowned education, research grants, and financial assistance.
               </p>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
-              Join a group of high achievers and start your journey to success at an Ivy League school.
+                Join a group of high achievers and start your journey to success at an Ivy League school.
               </p>
             </section>
           </div>
           <div className="w-full h-auto grid grid-cols-12 gap-4 mt-14">
             <section className="col-span-12 md:col-span-5">
               <h3 className="text-center md:text-left text-[40px] md:text-[55px] text-primary font-bold leading-none mt-2 mb-8 md:mb-auto">
-              Focus On These Specific Areas To Stand Out
+                Focus On These Specific Areas To Stand Out
               </h3>
             </section>
             <section className="col-span-12 md:col-span-7">
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left">
-              The Ivy League universities look for students who are well-rounded and capable of bringing with them other skill sets. Although there is no foolproof technique, what you do in high school might help your chances of admission. Admissions officers assess your ability to impact and review your past achievements to gauge your potential. Concentrate on these four critical areas in high school to prepare for admission to these prestigious universities:
+                The Ivy League universities look for students who are well-rounded and capable of bringing with them other skill sets. Although there is no foolproof technique, what you do in high school might help your chances of admission. Admissions officers assess your ability to impact and review your past achievements to gauge your potential. Concentrate on these four critical areas in high school to prepare for admission to these prestigious universities:
               </p>
             </section>
           </div>
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section>
               <h4 className="text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-              Choose Your High School Courses Wisely
+                Choose Your High School Courses Wisely
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-              Ivy League universities look for students who take challenging classes aligned with their interests to demonstrate dedication. Plan your high school curriculum for academic opportunities. Admission isn't based on specific courses, but excelling in advanced placement and rigorous subjects prepares you for Ivy League education.
+                Ivy League universities look for students who take challenging classes aligned with their interests to demonstrate dedication. Plan your high school curriculum for academic opportunities. Admission isn't based on specific courses, but excelling in advanced placement and rigorous subjects prepares you for Ivy League education.
               </p>
             </section>
             <section>
               <h4 className="text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-              Make Meaningful Connections
+                Make Meaningful Connections
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-left mt-4">
-              Ivy League applications require two reference letters from teachers, counselors, coaches, or mentors. These letters provide insight into your academic success and demonstrate your potential role on campus. Develop strong relationships with your teachers and advisors in your senior year. Letters of recommendation reveal your intellectual vibrancy, personality, and life story, showcasing personal qualities beyond test scores and grades.
+                Ivy League applications require two reference letters from teachers, counselors, coaches, or mentors. These letters provide insight into your academic success and demonstrate your potential role on campus. Develop strong relationships with your teachers and advisors in your senior year. Letters of recommendation reveal your intellectual vibrancy, personality, and life story, showcasing personal qualities beyond test scores and grades.
               </p>
             </section>
           </div>
@@ -184,10 +188,10 @@ const IVY = () => {
             </section>
             <section>
               <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-              Goals And Character Qualities
+                Goals And Character Qualities
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-              Ivy League universities value individuality and initiative. Explore options by showing passion, dedication, and interest in your future pursuits. Take initiative to broaden your horizons and demonstrate energy and enthusiasm. High school is a chance to discover new interests and get involved in areas that intrigue you. What interests you? What sets you apart? How will you make a significant impact?
+                Ivy League universities value individuality and initiative. Explore options by showing passion, dedication, and interest in your future pursuits. Take initiative to broaden your horizons and demonstrate energy and enthusiasm. High school is a chance to discover new interests and get involved in areas that intrigue you. What interests you? What sets you apart? How will you make a significant impact?
 
               </p>
             </section>
@@ -195,10 +199,10 @@ const IVY = () => {
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
             <section className="order-2 md:order-1">
               <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-              Extracurricular Activities And Interests
+                Extracurricular Activities And Interests
               </h4>
               <p className="text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-4">
-              Ivy League institutions value your extracurricular involvement. Show commitment, leadership, and growth from your experiences. Focus on meaningful activities rather than spreading yourself too thin—quality over quantity matters. Share how your involvement impacted a cause, team, or community and how it shaped your life.
+                Ivy League institutions value your extracurricular involvement. Show commitment, leadership, and growth from your experiences. Focus on meaningful activities rather than spreading yourself too thin—quality over quantity matters. Share how your involvement impacted a cause, team, or community and how it shaped your life.
               </p>
             </section>
             <section className="order-1 md:order-2 relative w-full h-auto md:h-full mx-auto">
@@ -220,10 +224,10 @@ const IVY = () => {
         {/* SECTION START */}
         <div className="w-full h-auto relative mt-14">
           <h4 className="text-center md:text-left text-[28px] md:text-[40px] text-primary font-bold leading-tight">
-          How Will Rostrum Education Help You?
+            How Will Rostrum Education Help You?
           </h4>
           <p className="w-full md:w-[85%] text-[16px] md:text-[20px] text-primary font-normal text-center md:text-left mt-2">
-          Rostrum Education connects students with ex-admission officers and mentors from top US universities like Harvard and Stanford. With centers in India and the UAE, our structure effectively guides you through the admissions process; we provide comprehensive support throughout the application process.
+            Rostrum Education connects students with ex-admission officers and mentors from top US universities like Harvard and Stanford. With centers in India and the UAE, our structure effectively guides you through the admissions process; we provide comprehensive support throughout the application process.
 
           </p>
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">

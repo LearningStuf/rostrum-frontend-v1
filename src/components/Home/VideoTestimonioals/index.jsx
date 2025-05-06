@@ -12,14 +12,14 @@ const VideoTestimonials = ({ data }) => {
     const handleThumbnailClick = (id) => {
       // Split | sign to get the video id --> change introduced for youtube video player
       const [universityName, videoId] = id.split('|').map(part => part.trim());
-      console.log("This is the video id being passed: " , videoId)
-      console.log("This is the universtiyName id being passed: " , universityName)
+      // console.log("This is the video id being passed: " , videoId)
+      // console.log("This is the universtiyName id being passed: " , universityName)
       setVideoId(videoId); // Set the YouTube video ID when the thumbnail is clicked
     };
 
     const getUniName = (id) => {
       const [universityName, videoId] = id.split('|').map(part => part.trim());
-      console.log("This is the universtiyName id being passed: " , universityName)
+      // console.log("This is the universtiyName id being passed: " , universityName)
       return universityName;
     }
 
